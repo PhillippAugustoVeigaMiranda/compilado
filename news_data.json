@@ -1,6 +1,111 @@
 {
   "articles": [
     {
+      "id": "799eb45228cf",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "source": "The Pragmatic Engineer",
+      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
+      "fetched_at": "2026-06-20T21:24:09.440709+00:00",
+      "title": "Meta desmantelando sua engenharia: impacto da IA no mercado",
+      "summary": "A Meta está reestruturando sua organização de engenharia focada em IA, com implicações diretas no mercado de trabalho tech. Developers precisam entender como gigantes de tech estão reorganizando equipes e priorizando IA, sinalizando tendências de contratação e demanda de skills.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "mercado de trabalho",
+        "IA em empresas tech",
+        "reorganização de times"
+      ]
+    },
+    {
+      "id": "1b448300af8f",
+      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
+      "fetched_at": "2026-06-20T21:24:11.205718+00:00",
+      "title": "Novo modelo Fable da Anthropic e impacto no mercado de IA",
+      "summary": "O novo modelo Fable da Anthropic apresenta limitações que podem afastar usuários para concorrentes como Codex. O artigo discute tendências emergentes como smart model routing, que impactam como desenvolvedores escolhem e integram modelos de IA em seus projetos.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "Anthropic",
+        "modelos de IA",
+        "competição mercado",
+        "smart routing"
+      ]
+    },
+    {
+      "id": "f64df3ad1488",
+      "url": "https://dev.to/okeke_chukwudubem_5f3bf49/project-log-9-my-ai-agent-works-on-my-phone-but-what-about-yours-2mng",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 21:22:01 +0000",
+      "fetched_at": "2026-06-20T21:24:13.287192+00:00",
+      "title": "Agentes de IA em Mobile: Desafios de Compatibilidade Entre Dispositivos",
+      "summary": "Um desenvolvedor documenta os obstáculos ao portar um agente de IA de seu celular para outros dispositivos Android, explorando como variações de resolução, densidade de pixels e versões do SO afetam a confiabilidade da detecção de elementos. O artigo revela problemas práticos que devs enfrentam ao deployar soluções de IA em mobile.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "agentes-ia",
+        "mobile",
+        "android",
+        "compatibilidade",
+        "visao-computacional"
+      ]
+    },
+    {
+      "id": "1986c8c9b9a5",
+      "url": "https://dev.to/magopredator/securing-llm-agent-teams-inside-nrt-defense-v040-oh",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 21:19:36 +0000",
+      "fetched_at": "2026-06-20T21:24:15.337615+00:00",
+      "title": "NRT-Defense v0.4.0: Framework de Segurança para Agentes LLM",
+      "summary": "Novo framework open-source que protege agentes de IA autônomos contra ataques multi-turno, reduzindo vulnerabilidades de 8-12% para menos de 1%. Desenvolvedores que trabalham com sistemas críticos e LLM agents precisam conhecer essa solução de segurança.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "segurança",
+        "LLM agents",
+        "guardrails",
+        "defesa adaptativa"
+      ]
+    },
+    {
+      "id": "919475812d67",
+      "url": "https://dev.to/qawalah/3-things-nobody-tells-you-about-bdd-before-your-cucumber-suite-becomes-a-maintenance-nightmare-9c7",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 21:17:07 +0000",
+      "fetched_at": "2026-06-20T21:24:17.205877+00:00",
+      "title": "BDD com Cucumber: 3 armadilhas que ninguém avisa antes do caos",
+      "summary": "Artigo crítico sobre os desafios reais de manter suites de testes BDD com Cucumber, revelando por que a promessa de stakeholders lerem testes falha na prática e como evitar manutenção insustentável. Essencial para devs que trabalham com automação de testes e consideram adotar BDD.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "BDD",
+        "Cucumber",
+        "testes automatizados",
+        "manutenibilidade",
+        "boas práticas"
+      ]
+    },
+    {
+      "id": "d94def7afbd4",
+      "url": "https://dev.to/aws-builders/aws-waf-brought-back-402-payment-required-for-the-agent-economy-29a",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 21:15:57 +0000",
+      "fetched_at": "2026-06-20T21:24:19.084446+00:00",
+      "title": "AWS WAF permite cobrar bots de IA por acesso a conteúdo",
+      "summary": "AWS introduz monetização de tráfego de IA no WAF, permitindo que proprietários de conteúdo cobrem por acesso de bots em vez de apenas bloquear ou permitir. Isso muda a dinâmica de custos e viabilidade econômica para desenvolvedores que oferecem APIs e conteúdo consumido por agentes de IA.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "AWS",
+        "IA",
+        "APIs",
+        "monetização",
+        "WAF",
+        "mercado de trabalho"
+      ]
+    },
+    {
       "id": "285773f4818b",
       "url": "https://clickhouse.com/blog/postgresbench",
       "source": "Hacker News: Front Page",
@@ -422,115 +527,8 @@
         "context handling",
         "eficiência de IA"
       ]
-    },
-    {
-      "id": "cdfac4124bef",
-      "url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-17T17:12:41+00:00",
-      "fetched_at": "2026-06-20T11:53:54.592277+00:00",
-      "title": "IA torna código gratuito e instantâneo: como isso muda a engenharia",
-      "summary": "Charity Majors analisa como a IA inverteu a economia da produção de código em 2025, tornando-o barato e rápido de gerar. Isso exige que desenvolvedores repensem práticas de engenharia, focando em qualidade e disciplina em vez de quantidade de linhas de código.",
-      "category": "Mercado",
-      "relevance_score": 9,
-      "tags": [
-        "economia-ia",
-        "disciplina-engenharia",
-        "mercado-desenvolvimento",
-        "impacto-carreira"
-      ]
-    },
-    {
-      "id": "f7ae0ced5823",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
-      "source": "The Pragmatic Engineer",
-      "published": "Thu, 18 Jun 2026 17:11:03 GMT",
-      "fetched_at": "2026-06-20T11:53:56.473615+00:00",
-      "title": "EUA bane novo modelo Anthropic Fable; impactos para devs",
-      "summary": "Análise das implicações de restrições governamentais ao modelo Fable da Anthropic, afetando acesso a ferramentas de IA para desenvolvedores. Inclui movimentações no mercado como possível compra do Cursor pela SpaceX e mudanças na cultura de engenharia da Meta.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "Anthropic",
-        "regulação",
-        "ferramentas IA",
-        "Cursor",
-        "impacto mercado"
-      ]
-    },
-    {
-      "id": "6974e81c714c",
-      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
-      "source": "The Pragmatic Engineer",
-      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
-      "fetched_at": "2026-06-20T11:53:58.211531+00:00",
-      "title": "CI/CD Moderno: Kubernetes, GitOps e IA na Entrega de Software",
-      "summary": "Discussão sobre como IA está sendo integrada em pipelines CI/CD e práticas de progressive delivery. O artigo aborda ferramentas como Octopus Deploy e mostra como automação inteligente está transformando a forma como desenvolvedores fazem deployment e gerenciam infraestrutura.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "CI/CD",
-        "IA em DevOps",
-        "Kubernetes",
-        "GitOps",
-        "Progressive Delivery"
-      ]
-    },
-    {
-      "id": "e737d3d6de85",
-      "url": "https://dev.to/shrsv/multi-step-learning-rate-schedulers-in-llm-training-why-some-teams-are-moving-beyond-cosine-decay-3nef",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 11:42:42 +0000",
-      "fetched_at": "2026-06-20T11:53:59.897228+00:00",
-      "title": "Otimização de Learning Rate em Treinamento de LLMs",
-      "summary": "Artigo técnico sobre estratégias avançadas de ajuste de taxa de aprendizado no treinamento de modelos de linguagem, mostrando como pequenas otimizações podem reduzir significativamente custos de GPU. Relevante para devs que trabalham com fine-tuning ou treinamento próprio de LLMs.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "LLM",
-        "treinamento",
-        "otimização",
-        "learning-rate",
-        "deep-learning"
-      ]
-    },
-    {
-      "id": "bbea7a96d5b3",
-      "url": "https://dev.to/fouzi_oukacha/i-built-a-production-ai-pipeline-for-a-uk-fintech-heres-what-actually-happened-3gfg",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 11:39:35 +0000",
-      "fetched_at": "2026-06-20T11:54:01.660861+00:00",
-      "title": "Pipeline de IA em Produção: Caso Real de FinTech",
-      "summary": "Desenvolvedor compartilha experiência prática integrando IA em sistema de empréstimos de uma fintech britânica. Mostra desafios reais de implementação de IA em produção e como isso mudou sua abordagem como desenvolvedor.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "IA em produção",
-        "FinTech",
-        "Pipeline de IA",
-        "Estudo de caso",
-        "Integração de modelos"
-      ]
-    },
-    {
-      "id": "b3bae478dbef",
-      "url": "https://dev.to/anthonyhumphreys/anvil-20nk",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 11:37:18 +0000",
-      "fetched_at": "2026-06-20T11:54:04.787404+00:00",
-      "title": "Anvil: Stack de Ferramentas para Desenvolvimento com Agentes de IA",
-      "summary": "Anvil é um conjunto de três projetos independentes que funcionam juntos para permitir que desenvolvedores executem agentes de IA dentro de projetos reais, mantendo contexto e integração com fluxos de trabalho existentes. A ferramenta visa substituir interfaces de chat por um ambiente de desenvolvimento prático onde agentes IA compreendem o repositório e trabalham integrados às tarefas do desenvolvedor.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "agentes-ia",
-        "desenvolvimento",
-        "ferramentas-dev",
-        "coding-assistant",
-        "automação"
-      ]
     }
   ],
-  "last_updated": "2026-06-20T21:12:06.453918+00:00",
+  "last_updated": "2026-06-20T21:24:20.778368+00:00",
   "total": 30
 }
