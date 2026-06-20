@@ -2,54 +2,42 @@
 # GitHub Actions — Compilado News Agent
 # ─────────────────────────────────────────────────────────────────────────────
 # Roda o agente automaticamente a cada 4 horas.
-# A chave da API fica guardada nos Secrets do repositório (nunca no código).
+# As chaves ficam nos Secrets do repositório (nunca no código).
 # Quando o agente adiciona artigos, faz commit do news_data.json atualizado
 # e o Vercel publica o site automaticamente.
 # ─────────────────────────────────────────────────────────────────────────────
-
 name: Atualizar Notícias
 
 on:
-  # Roda a cada 4 horas (minuto 0 das horas 0, 4, 8, 12, 16, 20)
   schedule:
     - cron: '0 */4 * * *'
-
-  # Permite rodar manualmente pelo botão "Run workflow" no GitHub
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
-      # 1. Baixa o código do repositório
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. Configura o Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      # 3. Instala as dependências do agente
       - name: Instalar dependências
-        run: pip install anthropic feedparser
+        run: pip install anthropic feedparser requests
 
-      # 4. Roda o agente
-      #    A chave vem do Secret do repositório — nunca fica exposta
       - name: Rodar agente
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
         run: python agent.py
 
-      # 5. Se o agente atualizou o JSON, faz commit e push
-      #    O Vercel detecta o push e republica o site automaticamente
       - name: Commit e push do news_data.json
         run: |
           git config user.name "Compilado Bot"
           git config user.email "bot@compilado.dev"
           git add news_data.json
-          # Só faz commit se o arquivo mudou
           git diff --cached --quiet || git commit -m "bot: atualiza noticias [$(date '+%Y-%m-%d %H:%M')]"
           git push
