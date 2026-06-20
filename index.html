@@ -716,16 +716,43 @@
 
     <!-- Sidebar direita: lista de mais notícias + espaço para anúncios -->
     <aside class="right-sidebar">
-      <!-- Espaço reservado — no futuro pode virar um banner de anúncio -->
-      <div class="ad-placeholder">
-        <span>▭</span>
-        300 × 250 · publicidade
+
+      <!-- ── Newsletter Brevo ── -->
+      <div class="sidebar-block" style="overflow:hidden; margin-bottom:1.25rem;">
+        <div class="sidebar-block-title">📧 Receba por email</div>
+        <div style="padding:1rem;">
+          <p style="font-size:0.8rem;color:var(--text-muted);margin-bottom:0.75rem;line-height:1.5;">
+            As melhores notícias de IA para devs direto na sua caixa de entrada.
+          </p>
+          <form id="brevo-form" method="POST"
+            action="https://8517484f.sibforms.com/serve/MUIFAN0hnisHO2tmtN4KqYgDUmuAmDM-OcKcu-2-0GV2uOscSzA3QK4y5TiPBgCl3gN_u1po7CgUP6K4hHPa1dyLZ9k09-vYPnbLUQ90y_hROE0PLLv33F_fRqBhEeMUjS7GLYAZ7G5AxOeZc3fRgbpQsUG9du5iab1z5NbrCWz_crXOmKwwTCiQgyjzQwvjD6aKMqAH3eOzMJVO3A=="
+            target="_blank"
+            style="display:flex;flex-direction:column;gap:0.5rem;">
+            <input type="email" name="EMAIL" required placeholder="seu@email.com"
+              style="padding:0.6rem 0.75rem;background:var(--surface2);border:1px solid var(--border);
+                     color:var(--text);font-size:0.82rem;font-family:inherit;border-radius:3px;outline:none;width:100%;" />
+            <input type="hidden" name="locale" value="pt">
+            <input type="hidden" name="html_type" value="simple">
+            <button type="submit"
+              style="padding:0.6rem;background:var(--text);color:var(--bg);font-size:0.8rem;
+                     font-weight:700;border:none;border-radius:3px;cursor:pointer;font-family:inherit;
+                     letter-spacing:0.05em;text-transform:uppercase;">
+              Assinar grátis
+            </button>
+          </form>
+        </div>
       </div>
 
       <!-- Lista de mais notícias recentes -->
       <div class="sidebar-block" id="sidebar-more">
         <div class="sidebar-block-title">Mais recentes</div>
         <!-- Populado pelo JS -->
+      </div>
+
+      <!-- Espaço reservado para anúncio futuro -->
+      <div class="ad-placeholder">
+        <span>▭</span>
+        300 × 250 · publicidade
       </div>
     </aside>
   </div>
