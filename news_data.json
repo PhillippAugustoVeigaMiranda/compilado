@@ -1,6 +1,59 @@
 {
   "articles": [
     {
+      "id": "ead36ca4ebcb",
+      "url": "https://dev.to/surajrkhonde/rag-pipeline-complete-nodejs-implementation-guide-1n54",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 10:27:48 +0000",
+      "fetched_at": "2026-06-20T10:29:42.981716+00:00",
+      "title": "Guia Completo: Implementar RAG em Node.js para Produção",
+      "summary": "Artigo prático mostrando como construir sistemas RAG em Node.js, aproveitando I/O rápido, WebSockets em tempo real e facilidade de deploy. Permite que desenvolvedores JavaScript implementem pipelines de IA sem mudar para Python.",
+      "category": "Tutoriais",
+      "relevance_score": 9,
+      "tags": [
+        "Node.js",
+        "RAG",
+        "IA",
+        "backend",
+        "implementação prática"
+      ]
+    },
+    {
+      "id": "02dc80198688",
+      "url": "https://dev.to/kimlike/the-null-input-that-broke-my-production-agent-and-what-fixed-it-1e77",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 10:22:00 +0000",
+      "fetched_at": "2026-06-20T10:29:44.954590+00:00",
+      "title": "Como agentes de IA falham em produção com dados inesperados",
+      "summary": "Um relato sobre como um agente de IA gerou dados falsos quando recebeu inputs nulos, mostrando a diferença crítica entre demos e produção. O artigo é essencial para devs que usam IA em sistemas críticos entenderem riscos de validação e edge cases frequentemente ignorados em testes.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "agentes-IA",
+        "tratamento-de-erros",
+        "validação-dados",
+        "produção",
+        "confiabilidade"
+      ]
+    },
+    {
+      "id": "a7a4942c982c",
+      "url": "https://dev.to/cpsbvbng26dotcom/independent-research-in-the-age-of-open-science-jce",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 10:21:31 +0000",
+      "fetched_at": "2026-06-20T10:29:46.712613+00:00",
+      "title": "Pesquisa Independente na Era da Ciência Aberta",
+      "summary": "O artigo discute como a democratização da ciência aberta está mudando o acesso a recursos de pesquisa, permitindo que desenvolvedores participem independentemente de instituições. Isso impacta o ecossistema de desenvolvimento ao possibilitar colaboração descentralizada e acesso a conhecimento técnico sem barreiras tradicionais.",
+      "category": "Mercado",
+      "relevance_score": 6,
+      "tags": [
+        "ciência aberta",
+        "pesquisa independente",
+        "colaboração",
+        "ecossistema dev"
+      ]
+    },
+    {
       "id": "a2fed122ad1f",
       "url": "https://dev.to/gde/chatting-with-your-data-conversational-analytics-in-bigquery-5545",
       "source": "DEV Community",
@@ -475,26 +528,8 @@
         "Codex",
         "roteamento de modelos"
       ]
-    },
-    {
-      "id": "f3e27823b398",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2",
-      "source": "The Pragmatic Engineer",
-      "published": "Tue, 09 Jun 2026 16:35:53 GMT",
-      "fetched_at": "2026-06-19T23:32:18.416636+00:00",
-      "title": "Mercado de trabalho em software em 2026: IA labs superam Big Tech",
-      "summary": "Análise exclusiva do mercado de tech jobs mostra que laboratórios de IA são mais atraentes que grandes empresas de tecnologia, enquanto roles de mobile e frontend declinam. Dados revelam reorganização gerencial e impacto direto nas oportunidades de carreira para desenvolvedores.",
-      "category": "Mercado",
-      "relevance_score": 9,
-      "tags": [
-        "mercado de trabalho",
-        "IA labs",
-        "carreira de dev",
-        "tendências 2026",
-        "impacto da IA"
-      ]
     }
   ],
-  "last_updated": "2026-06-20T07:55:12.460868+00:00",
-  "total": 28
+  "last_updated": "2026-06-20T10:29:55.238256+00:00",
+  "total": 30
 }
