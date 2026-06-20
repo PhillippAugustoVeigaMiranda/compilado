@@ -1,6 +1,59 @@
 {
   "articles": [
     {
+      "id": "99deabee4396",
+      "url": "https://www.aikido.dev/blog/introducing-code-audit-find-complex-vulnerabilities-hidden-in-your-codebase",
+      "source": "Hacker News: Front Page",
+      "published": "Fri, 19 Jun 2026 23:54:54 +0000",
+      "fetched_at": "2026-06-20T00:59:46.963184+00:00",
+      "title": "Aikido Code Audit: IA para detectar vulnerabilidades complexas",
+      "summary": "Aikido lança ferramenta de auditoria de código com IA para identificar vulnerabilidades complexas automaticamente. A solução promete acelerar a revisão de segurança e reduzir trabalho manual de developers na detecção de falhas.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "segurança",
+        "code audit",
+        "IA",
+        "vulnerabilidades",
+        "DevSecOps"
+      ]
+    },
+    {
+      "id": "ad2ec02b5ba7",
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 11:00:00 GMT",
+      "fetched_at": "2026-06-20T00:59:50.533715+00:00",
+      "title": "GPT-5.5 Instant melhora respostas de saúde no ChatGPT",
+      "summary": "OpenAI apresenta melhorias no raciocínio e contexto do GPT-5.5 Instant para respostas de saúde. Desenvolvedores podem integrar essas capacidades aprimoradas em aplicações médicas e de bem-estar via API.",
+      "category": "Releases",
+      "relevance_score": 6,
+      "tags": [
+        "GPT-5.5",
+        "ChatGPT",
+        "API",
+        "saúde"
+      ]
+    },
+    {
+      "id": "916e534ab8d5",
+      "url": "https://openai.com/index/introducing-life-sci-bench",
+      "source": "OpenAI News",
+      "published": "Wed, 17 Jun 2026 00:00:00 GMT",
+      "fetched_at": "2026-06-20T00:59:55.694448+00:00",
+      "title": "LifeSciBench: novo benchmark para IA em pesquisa de ciências da vida",
+      "summary": "OpenAI lança LifeSciBench, um benchmark criado por especialistas para avaliar como sistemas de IA lidam com tarefas reais de pesquisa em ciências da vida. Relevante para desenvolvedores que trabalham com IA em domínios especializados e precisam de métricas confiáveis para validar modelos em contextos científicos.",
+      "category": "Modelos",
+      "relevance_score": 6,
+      "tags": [
+        "benchmark",
+        "avaliação",
+        "modelos-IA",
+        "pesquisa-científica",
+        "validação"
+      ]
+    },
+    {
       "id": "eb204910ef4c",
       "url": "https://dev.to/netops76/how-ai-will-shape-the-technology-industry-in-2027-3eko",
       "source": "DEV Community",
@@ -369,6 +422,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-20T00:38:48.210226+00:00",
-  "total": 21
+  "last_updated": "2026-06-20T00:59:59.479223+00:00",
+  "total": 24
 }
