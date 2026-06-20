@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "e6f3de528f74",
+      "url": "https://dev.to/kanfu-panda/aitm-10-a-terminal-where-the-ai-is-a-participant-not-the-driver-2nb",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 07:33:52 +0000",
+      "fetched_at": "2026-06-20T07:46:32.109353+00:00",
+      "title": "AITM 1.0: Terminal com IA como participante, não motorista",
+      "summary": "Novo terminal que integra IA, editor e arquivos em uma única interface, eliminando context-switching durante desenvolvimento assistido por IA. A IA atua como ferramenta colaborativa sob controle do desenvolvedor, não como executora autônoma de comandos.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "terminal",
+        "IA-assisted coding",
+        "produtividade",
+        "ferramentas dev",
+        "fluxo de trabalho"
+      ]
+    },
+    {
+      "id": "90a451ed2599",
+      "url": "https://dev.to/archit_aggarwal_5310522d5/your-agent-demo-works-your-agent-doesnt-88l",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 07:19:05 +0000",
+      "fetched_at": "2026-06-20T07:46:35.547917+00:00",
+      "title": "Por que Agentes de IA falham em produção (e como consertar)",
+      "summary": "Artigo técnico que explica por que agentes de IA funcionam bem em demos mas falham em tarefas reais: a falta de estado persistente. Google Cloud apresenta 5 padrões de arquitetura para resolver o problema, essencial para devs que querem colocar agentes em produção.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "agentes IA",
+        "arquitetura",
+        "produção",
+        "stateless",
+        "context persistence"
+      ]
+    },
+    {
+      "id": "0a0879bad20f",
+      "url": "https://dev.to/aon_infotech_3a1b6ff525fc/rate-limiting-without-user-accounts-strategies-for-anonymous-apis-1a3c",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 07:18:22 +0000",
+      "fetched_at": "2026-06-20T07:46:38.237217+00:00",
+      "title": "Rate Limiting em APIs Anônimas: Estratégias Práticas",
+      "summary": "Artigo sobre técnicas de rate limiting para APIs sem autenticação, usando IP, fingerprint e sinais comportamentais. Relevante para desenvolvedores que constroem APIs públicas e precisam proteger seus serviços contra abuso.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "rate-limiting",
+        "api-development",
+        "backend",
+        "segurança",
+        "boas-práticas"
+      ]
+    },
+    {
       "id": "99deabee4396",
       "url": "https://www.aikido.dev/blog/introducing-code-audit-find-complex-vulnerabilities-hidden-in-your-codebase",
       "source": "Hacker News: Front Page",
@@ -422,6 +476,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-20T00:59:59.479223+00:00",
-  "total": 24
+  "last_updated": "2026-06-20T07:46:43.790081+00:00",
+  "total": 27
 }
