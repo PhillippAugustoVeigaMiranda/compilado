@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "285773f4818b",
+      "url": "https://clickhouse.com/blog/postgresbench",
+      "source": "Hacker News: Front Page",
+      "published": "Sat, 20 Jun 2026 19:01:10 +0000",
+      "fetched_at": "2026-06-20T21:11:50.523045+00:00",
+      "title": "PostgresBench: Benchmark Reproduzível para Serviços Postgres",
+      "summary": "Novo benchmark open-source para avaliar performance de serviços PostgreSQL, permitindo comparações consistentes entre diferentes soluções. Ferramenta essencial para devs que trabalham com bancos de dados em produção e precisam escolher entre alternativas de Postgres.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "PostgreSQL",
+        "benchmark",
+        "performance",
+        "banco de dados",
+        "open-source"
+      ]
+    },
+    {
+      "id": "f3e27823b398",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2",
+      "source": "The Pragmatic Engineer",
+      "published": "Tue, 09 Jun 2026 16:35:53 GMT",
+      "fetched_at": "2026-06-20T21:11:55.775989+00:00",
+      "title": "Mercado de trabalho em engenharia de software 2026: IA labs superam Big Tech",
+      "summary": "Análise exclusiva do mercado de tech jobs revela que labs de IA atraem mais talentos que grandes empresas, enquanto roles de mobile e frontend declinem. Tendências que impactam diretamente as oportunidades e trajetórias de carreira dos desenvolvedores brasileiros.",
+      "category": "Mercado",
+      "relevance_score": 9,
+      "tags": [
+        "mercado de trabalho",
+        "carreiras em IA",
+        "tendências 2026",
+        "AI labs",
+        "mobile frontend"
+      ]
+    },
+    {
+      "id": "1fb26b5bc311",
+      "url": "https://dev.to/yescertified/the-cloud-and-ai-security-newsletter-3-the-cloud-security-tool-your-resume-is-missing-part-2-1bf9",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 20:35:26 +0000",
+      "fetched_at": "2026-06-20T21:12:06.453890+00:00",
+      "title": "Segurança em Cloud com IA: Ferramentas essenciais para seu currículo",
+      "summary": "Artigo sobre ferramentas de segurança em cloud (CIEM e IAM Access Analyzer) que devs precisam conhecer. Mostra como IA ajuda a identificar dados sensíveis expostos acidentalmente em ambientes cloud, reduzindo riscos de segurança.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "cloud-security",
+        "IAM",
+        "CIEM",
+        "ferramentas-dev",
+        "segurança"
+      ]
+    },
+    {
       "id": "c9ff39aca9f4",
       "url": "https://dev.to/sanjay_singh_1/token-budgeting-the-engineering-skill-nobody-talks-about-3ifp",
       "source": "DEV Community",
@@ -475,61 +529,8 @@
         "coding-assistant",
         "automação"
       ]
-    },
-    {
-      "id": "f0aaa00764d7",
-      "url": "https://ianbarber.blog/2026/06/19/llms-are-complicated-now/",
-      "source": "Hacker News: Front Page",
-      "published": "Sat, 20 Jun 2026 01:25:14 +0000",
-      "fetched_at": "2026-06-20T11:35:52.970158+00:00",
-      "title": "LLMs Estão Ficando Mais Complexos: O Que Isso Significa",
-      "summary": "Artigo discute a crescente complexidade dos Large Language Models e como isso impacta o desenvolvimento com IA. Essencial para devs entenderem os desafios atuais na implementação e escolha de modelos.",
-      "category": "Modelos",
-      "relevance_score": 8,
-      "tags": [
-        "LLM",
-        "complexidade",
-        "modelos de linguagem",
-        "desenvolvimento com IA"
-      ]
-    },
-    {
-      "id": "799eb45228cf",
-      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-      "source": "The Pragmatic Engineer",
-      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
-      "fetched_at": "2026-06-20T11:35:57.309855+00:00",
-      "title": "Meta reestrutura organização de engenharia focada em IA",
-      "summary": "A Meta está realizando mudanças significativas em sua organização de engenharia impulsionadas por iniciativas de IA. O artigo analisa como essas transformações afetam a estrutura, culturas e oportunidades para engenheiros, refletindo tendências maiores do mercado tech.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "Meta",
-        "IA",
-        "mercado de trabalho",
-        "organização de engenharia",
-        "tendências tech"
-      ]
-    },
-    {
-      "id": "1b448300af8f",
-      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
-      "source": "The Pragmatic Engineer",
-      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
-      "fetched_at": "2026-06-20T11:35:59.225694+00:00",
-      "title": "Novo modelo Fable do Anthropic pode beneficiar concorrentes",
-      "summary": "O novo modelo Fable do Anthropic apresenta limitações que desagradam usuários, potencialmente beneficiando rivais como Codex. O artigo também discute a tendência emergente de smart model routing, uma estratégia relevante para otimizar o uso de diferentes modelos de IA em desenvolvimento.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "Anthropic",
-        "modelos de IA",
-        "Codex",
-        "smart routing",
-        "ferramentas de desenvolvimento"
-      ]
     }
   ],
-  "last_updated": "2026-06-20T17:40:49.008232+00:00",
+  "last_updated": "2026-06-20T21:12:06.453918+00:00",
   "total": 30
 }
