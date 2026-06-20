@@ -292,6 +292,9 @@ def git_push(n_new: int) -> None:
     print("\n🚀 Publicando no GitHub...")
     repo_dir = Path(__file__).parent
     try:
+        # Configura identidade git (necessário no GitHub Actions runner)
+        subprocess.run(["git", "config", "user.email", "bot@compilado.dev"], cwd=repo_dir, check=True)
+        subprocess.run(["git", "config", "user.name", "Compilado Bot"], cwd=repo_dir, check=True)
         subprocess.run(["git", "add", "news_data.json"], cwd=repo_dir, check=True)
         msg = f"atualiza noticias: +{n_new} artigos [{datetime.now().strftime('%Y-%m-%d %H:%M')}]"
         subprocess.run(["git", "commit", "-m", msg], cwd=repo_dir, check=True)
