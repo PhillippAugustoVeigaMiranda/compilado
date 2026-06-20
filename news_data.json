@@ -1,6 +1,41 @@
 {
   "articles": [
     {
+      "id": "bf8121d2478c",
+      "url": "https://news.ycombinator.com/item?id=48604232",
+      "source": "Hacker News: Front Page",
+      "published": "Fri, 19 Jun 2026 22:51:09 +0000",
+      "fetched_at": "2026-06-20T10:37:11.652166+00:00",
+      "title": "Escassez de memória pode impulsionar código mais eficiente entre programadores",
+      "summary": "Discussão sobre como a escassez de recursos de memória pode motivar desenvolvedores a escreverem código mais otimizado e usar algoritmos avançados. A tendência afeta diretamente as práticas de desenvolvimento e a demanda por profissionais com expertise em otimização de performance.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "otimização",
+        "performance",
+        "algoritmos",
+        "mercado de trabalho"
+      ]
+    },
+    {
+      "id": "f3e27823b398",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2",
+      "source": "The Pragmatic Engineer",
+      "published": "Tue, 09 Jun 2026 16:35:53 GMT",
+      "fetched_at": "2026-06-20T10:37:15.139158+00:00",
+      "title": "Mercado de engenharia de software em 2026: dados exclusivos sobre tendências",
+      "summary": "Análise profunda do mercado de tech jobs revelando que labs de IA atraem mais talento que Big Tech, declínio de roles em mobile e frontend, e reorganização das estruturas de gestão. Dados essenciais para entender como a IA está redefinindo oportunidades e demandas de skills para desenvolvedores.",
+      "category": "Mercado",
+      "relevance_score": 9,
+      "tags": [
+        "mercado de trabalho",
+        "IA labs",
+        "tendências de carreira",
+        "ferramentas IA",
+        "emprego tech"
+      ]
+    },
+    {
       "id": "ead36ca4ebcb",
       "url": "https://dev.to/surajrkhonde/rag-pipeline-complete-nodejs-implementation-guide-1n54",
       "source": "DEV Community",
@@ -493,43 +528,8 @@
         "GitOps",
         "entrega contínua"
       ]
-    },
-    {
-      "id": "799eb45228cf",
-      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-      "source": "The Pragmatic Engineer",
-      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
-      "fetched_at": "2026-06-19T23:32:14.025675+00:00",
-      "title": "Meta reestrutura organização de engenharia focada em IA",
-      "summary": "A Meta está realizando mudanças significativas em sua estrutura de engenharia impulsionadas por investimentos em IA. O artigo analisa o impacto dessas reorganizações no mercado de trabalho para engenheiros e como as prioridades em IA estão redefinindo as oportunidades de carreira na empresa.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "Meta",
-        "mercado de trabalho",
-        "reorganização",
-        "IA",
-        "carreiras em tech"
-      ]
-    },
-    {
-      "id": "1b448300af8f",
-      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
-      "source": "The Pragmatic Engineer",
-      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
-      "fetched_at": "2026-06-19T23:32:16.297823+00:00",
-      "title": "Novo modelo Fable da Anthropic: restrições impactam mercado de IA",
-      "summary": "O novo modelo Fable da Anthropic apresenta limitações que podem afastar usuários para alternativas como o Codex. A matéria também aborda a tendência de roteamento inteligente de modelos, impactando como desenvolvedores escolhem e integram ferramentas de IA em seus projetos.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "Anthropic",
-        "modelos de IA",
-        "Codex",
-        "roteamento de modelos"
-      ]
     }
   ],
-  "last_updated": "2026-06-20T10:29:55.238256+00:00",
+  "last_updated": "2026-06-20T10:37:25.526823+00:00",
   "total": 30
 }
