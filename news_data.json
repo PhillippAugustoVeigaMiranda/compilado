@@ -1,0 +1,164 @@
+{
+  "articles": [
+    {
+      "id": "db5490f158fb",
+      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-19T22:45:49+00:00",
+      "fetched_at": "2026-06-19T23:32:00.068148+00:00",
+      "title": "MCP como gateway de autenticação para APIs em agentes IA",
+      "summary": "Discussão técnica sobre o Model Context Protocol (MCP) e seu potencial para isolar fluxos de autenticação fora do contexto do agente IA. A abordagem simplifica a integração segura de APIs em ferramentas de desenvolvimento com IA, reduzindo complexidade na construção de agentes.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "model-context-protocol",
+        "MCP",
+        "agentes-IA",
+        "autenticação",
+        "arquitetura"
+      ]
+    },
+    {
+      "id": "cb9157add9c5",
+      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-18T23:58:38+00:00",
+      "fetched_at": "2026-06-19T23:32:01.650798+00:00",
+      "title": "Datasette Apps: aplicações HTML customizadas em sandbox",
+      "summary": "Novo plugin permite hospedar aplicações HTML+JavaScript dentro do Datasette com acesso a queries SQL. Útil para devs que constroem interfaces de dados e precisam integrar aplicações sem infraestrutura separada.",
+      "category": "Ferramentas",
+      "relevance_score": 6,
+      "tags": [
+        "datasette",
+        "javascript",
+        "sql",
+        "ferramentas-dev",
+        "data-apps"
+      ]
+    },
+    {
+      "id": "41b7cb7dc029",
+      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-17T23:58:39+00:00",
+      "fetched_at": "2026-06-19T23:32:06.048134+00:00",
+      "title": "GLM-5.2: Novo modelo open-source com 753B parâmetros e janela de 1M tokens",
+      "summary": "O lab chinês Z.ai lançou o GLM-5.2, um modelo de linguagem open-weights sob licença MIT com 753B parâmetros e contexto de 1 milhão de tokens. Para desenvolvedores brasileiros, isso significa mais uma opção poderosa e gratuita para integrar em aplicações, com capacidade de processar documentos muito maiores que modelos anteriores.",
+      "category": "Releases",
+      "relevance_score": 8,
+      "tags": [
+        "LLM",
+        "open-source",
+        "GLM-5.2",
+        "modelos-grandes",
+        "context-window"
+      ]
+    },
+    {
+      "id": "cdfac4124bef",
+      "url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-17T17:12:41+00:00",
+      "fetched_at": "2026-06-19T23:32:08.130194+00:00",
+      "title": "IA muda economia do código: geração passa a ser grátis e instantânea",
+      "summary": "Charity Majors aponta que a IA inverteu a economia da produção de código em 2025, tornando-o praticamente gratuito e instantâneo. Isso muda fundamentalmente como desenvolvedores devem trabalhar, exigindo mais disciplina de engenharia e novas práticas de qualidade e manutenção.",
+      "category": "Mercado",
+      "relevance_score": 9,
+      "tags": [
+        "IA-impacto",
+        "economia-desenvolvimento",
+        "disciplina-engenharia"
+      ]
+    },
+    {
+      "id": "f7ae0ced5823",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 18 Jun 2026 17:11:03 GMT",
+      "fetched_at": "2026-06-19T23:32:09.997338+00:00",
+      "title": "EUA bane novo modelo Anthropic Fable: impactos para devs",
+      "summary": "Restrições regulatórias nos EUA afetam disponibilidade de modelos de IA avançados para desenvolvedores. A notícia levanta questões sobre acesso a ferramentas de IA e possíveis fragmentações no mercado global de desenvolvimento.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "Anthropic",
+        "regulação",
+        "modelos de IA",
+        "mercado"
+      ]
+    },
+    {
+      "id": "6974e81c714c",
+      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
+      "source": "The Pragmatic Engineer",
+      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
+      "fetched_at": "2026-06-19T23:32:12.076955+00:00",
+      "title": "CI/CD e IA: o futuro da entrega de software com Kubernetes e GitOps",
+      "summary": "Robert Erez, da Octopus Deploy, discute como a IA está transformando pipelines de CI/CD e práticas modernas de entrega de software. O episódio explora Kubernetes, GitOps e progressive delivery, mostrando ferramentas e estratégias que desenvolvedores precisam conhecer para acompanhar a evolução do mercado.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "CI/CD",
+        "IA em DevOps",
+        "Kubernetes",
+        "GitOps",
+        "entrega contínua"
+      ]
+    },
+    {
+      "id": "799eb45228cf",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "source": "The Pragmatic Engineer",
+      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
+      "fetched_at": "2026-06-19T23:32:14.025675+00:00",
+      "title": "Meta reestrutura organização de engenharia focada em IA",
+      "summary": "A Meta está realizando mudanças significativas em sua estrutura de engenharia impulsionadas por investimentos em IA. O artigo analisa o impacto dessas reorganizações no mercado de trabalho para engenheiros e como as prioridades em IA estão redefinindo as oportunidades de carreira na empresa.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "Meta",
+        "mercado de trabalho",
+        "reorganização",
+        "IA",
+        "carreiras em tech"
+      ]
+    },
+    {
+      "id": "1b448300af8f",
+      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
+      "fetched_at": "2026-06-19T23:32:16.297823+00:00",
+      "title": "Novo modelo Fable da Anthropic: restrições impactam mercado de IA",
+      "summary": "O novo modelo Fable da Anthropic apresenta limitações que podem afastar usuários para alternativas como o Codex. A matéria também aborda a tendência de roteamento inteligente de modelos, impactando como desenvolvedores escolhem e integram ferramentas de IA em seus projetos.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "Anthropic",
+        "modelos de IA",
+        "Codex",
+        "roteamento de modelos"
+      ]
+    },
+    {
+      "id": "f3e27823b398",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2",
+      "source": "The Pragmatic Engineer",
+      "published": "Tue, 09 Jun 2026 16:35:53 GMT",
+      "fetched_at": "2026-06-19T23:32:18.416636+00:00",
+      "title": "Mercado de trabalho em software em 2026: IA labs superam Big Tech",
+      "summary": "Análise exclusiva do mercado de tech jobs mostra que laboratórios de IA são mais atraentes que grandes empresas de tecnologia, enquanto roles de mobile e frontend declinam. Dados revelam reorganização gerencial e impacto direto nas oportunidades de carreira para desenvolvedores.",
+      "category": "Mercado",
+      "relevance_score": 9,
+      "tags": [
+        "mercado de trabalho",
+        "IA labs",
+        "carreira de dev",
+        "tendências 2026",
+        "impacto da IA"
+      ]
+    }
+  ],
+  "last_updated": "2026-06-19T23:32:18.416980+00:00",
+  "total": 9
+}

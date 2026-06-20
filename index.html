@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compilado — IA e Ferramentas para Desenvolvedores</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ── Tema escuro (padrão) ── */
+    :root,
+    [data-theme="dark"] {
+      --bg:        #0c0c0c;
+      --surface:   #141414;
+      --surface2:  #1a1a1a;
+      --border:    #2a2a2a;
+      --accent:    #e8ff47;
+      --text:      #f0f0f0;
+      --text-muted:#aaa;
+      --text-dim:  #777;
+      --topbar-text: #000;
+      --theme-icon: "☀️";
+    }
+
+    /* ── Tema claro ── */
+    [data-theme="light"] {
+      --bg:        #f4f4f2;
+      --surface:   #ffffff;
+      --surface2:  #ebebeb;
+      --border:    #d8d8d8;
+      --accent:    #1a1a1a;
+      --text:      #111111;
+      --text-muted:#555;
+      --text-dim:  #999;
+      --topbar-text: #fff;
+      --theme-icon: "🌙";
+    }
+
+    /* Cores de categoria — iguais nos dois temas */
+    :root {
+      --cat-ferramentas: #2e8fd8;
+      --cat-modelos:     #9b50cc;
+      --cat-releases:    #1f9e5c;
+      --cat-mercado:     #d46b1a;
+      --cat-tutoriais:   #c5a200;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    a { text-decoration: none; color: inherit; }
+
+    /* ── Top bar ── */
+    .topbar {
+      background: var(--accent);
+      color: var(--topbar-text);
+      text-align: center;
+      padding: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 1px solid var(--border);
+      background: var(--bg);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-main {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      color: var(--text);
+    }
+
+    [data-theme="dark"] .logo-accent { color: #e8ff47; }
+    [data-theme="light"] .logo-accent { color: #c5a200; }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .live-indicator {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .live-dot {
+      width: 7px;
+      height: 7px;
+      background: #4caf50;
+      border-radius: 50%;
+      animation: blink 1.5s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.2; }
+    }
+
+    /* ── Botão modo claro/escuro ── */
+    .theme-btn {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.82rem;
+      transition: all 0.15s;
+      font-family: inherit;
+    }
+
+    .theme-btn:hover {
+      border-color: var(--text-muted);
+      color: var(--text);
+    }
+
+    /* ── Nav categories ── */
+    .header-nav {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      height: 40px;
+      overflow-x: auto;
+    }
+
+    .nav-item {
+      padding: 0 1.25rem;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--text-muted);
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      white-space: nowrap;
+      transition: all 0.15s;
+      background: none;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      font-family: inherit;
+    }
+
+    .nav-item:hover { color: var(--text); }
+    .nav-item.active {
+      color: var(--text);
+      border-bottom-color: var(--text);
+    }
+
+    [data-theme="dark"] .nav-item.active { color: #e8ff47; border-bottom-color: #e8ff47; }
+    [data-theme="light"] .nav-item.active { color: #c5a200; border-bottom-color: #c5a200; }
+
+    /* ── Layout principal ── */
+    main {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    /* Grade: conteúdo principal + sidebar direita */
+    .page-layout {
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .content-area { min-width: 0; }
+
+    /* ── Sidebar direita ── */
+    .right-sidebar {
+      position: sticky;
+      top: 112px;
+    }
+
+    .sidebar-block {
+      border: 1px solid var(--border);
+      background: var(--surface);
+      margin-bottom: 1.25rem;
+    }
+
+    .sidebar-block-title {
+      padding: 0.65rem 1rem;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+      background: var(--surface2);
+    }
+
+    .sidebar-list-item {
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: background 0.15s;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+
+    .sidebar-list-item:last-child { border-bottom: none; }
+    .sidebar-list-item:hover { background: var(--surface2); }
+
+    .sidebar-list-num {
+      font-size: 0.65rem;
+      font-weight: 700;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--text-dim);
+    }
+
+    .sidebar-list-cat {
+      font-size: 0.66rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .sidebar-list-title {
+      font-size: 0.82rem;
+      font-weight: 600;
+      line-height: 1.4;
+      color: var(--text);
+    }
+
+    .sidebar-list-meta {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Espaço reservado para propaganda futura */
+    .ad-placeholder {
+      border: 1px dashed var(--border);
+      background: var(--surface);
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      color: var(--text-dim);
+      font-size: 0.7rem;
+      font-family: 'JetBrains Mono', monospace;
+      margin-bottom: 1.25rem;
+    }
+
+    .ad-placeholder span { font-size: 1.5rem; opacity: 0.3; }
+
+    /* ── Search ── */
+    .search-wrap {
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    .search-wrap input {
+      width: 100%;
+      padding: 0.9rem 1rem 0.9rem 3rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--text);
+      font-size: 0.9rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+
+    .search-wrap input:focus { border-color: var(--text-muted); }
+    .search-wrap input::placeholder { color: var(--text-dim); }
+
+    .search-icon {
+      position: absolute;
+      left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+      font-size: 1.1rem;
+    }
+
+    /* ── Section label ── */
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+    }
+
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── Hero ── */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 0;
+      border: 1px solid var(--border);
+      margin-bottom: 2rem;
+      background: var(--surface);
+    }
+
+    .hero-main {
+      padding: 2rem;
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .hero-main:hover { background: var(--surface2); }
+
+    .hero-cat {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .hero-cat::before {
+      content: '';
+      display: inline-block;
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+
+    .hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.9rem;
+      font-weight: 900;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-summary {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+
+    .hero-meta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+      margin-top: auto;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .hero-score {
+      background: var(--text);
+      color: var(--bg);
+      padding: 2px 8px;
+      font-weight: 700;
+      font-size: 0.68rem;
+    }
+
+    /* ── Hero sidebar (artigos 2-4) ── */
+    .hero-sidebar {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sidebar-item {
+      padding: 1.1rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: background 0.15s;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      flex: 1;
+    }
+
+    .sidebar-item:last-child { border-bottom: none; }
+    .sidebar-item:hover { background: var(--surface2); }
+
+    .sidebar-cat {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .sidebar-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    .sidebar-meta {
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* ── Cards grid (2 colunas dentro do content-area) ── */
+    .grid-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      margin-bottom: 2rem;
+    }
+
+    .card {
+      background: var(--surface);
+      padding: 1.4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+      cursor: pointer;
+      transition: background 0.15s;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card:hover { background: var(--surface2); }
+
+    .card-cat {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .card-cat::before {
+      content: '';
+      display: inline-block;
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+
+    .card-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+    }
+
+    .card-summary {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+      flex: 1;
+    }
+
+    .card-tags {
+      display: flex;
+      gap: 0.3rem;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      font-size: 0.68rem;
+      padding: 2px 7px;
+      background: var(--surface2);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 0.7rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .card-source { color: var(--text-muted); }
+
+    .card-score {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      padding: 2px 7px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    /* ── Empty state ── */
+    .empty {
+      text-align: center;
+      padding: 5rem 2rem;
+      color: var(--text-muted);
+    }
+
+    .empty h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+      color: var(--text);
+    }
+
+    .empty code {
+      display: inline-block;
+      margin-top: 1.25rem;
+      padding: 0.6rem 1.2rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      color: var(--text);
+    }
+
+    /* ── Stats bar ── */
+    .statsbar {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.72rem;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--text-dim);
+    }
+
+    .statsbar strong { color: var(--text); }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 4rem;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 1100px) {
+      .page-layout { grid-template-columns: 1fr; }
+      .right-sidebar { position: static; }
+      .ad-placeholder { display: none; }
+      /* Na versão mobile, sidebar vira uma lista horizontal */
+      .sidebar-block .sidebar-list-item { display: inline-flex; width: 260px; }
+    }
+
+    @media (max-width: 860px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-main { border-right: none; border-bottom: 1px solid var(--border); }
+      .hero-title { font-size: 1.5rem; }
+      .grid-cards { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 600px) {
+      main { padding: 1rem; }
+      .header-main { padding: 0 1rem; }
+      .header-nav { padding: 0 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="topbar">🗞️ Compilado — Ferramentas e tendências para desenvolvedores</div>
+
+<header>
+  <div class="header-main">
+    <div class="logo">Comp<span class="logo-accent">il</span>ado</div>
+    <div class="header-right">
+      <div class="live-indicator">
+        <span class="live-dot"></span>
+        <span id="last-updated">—</span>
+      </div>
+      <!-- Botão que alterna entre modo claro e escuro -->
+      <button class="theme-btn" id="theme-btn" onclick="toggleTheme()" title="Alternar tema">
+        ☀️ Claro
+      </button>
+    </div>
+  </div>
+  <nav class="header-nav" id="nav">
+    <button class="nav-item active" onclick="setFilter('Todos', this)">Todos</button>
+  </nav>
+</header>
+
+<main>
+  <div class="search-wrap">
+    <span class="search-icon">⌕</span>
+    <input type="text" id="search" placeholder="Buscar por ferramenta, modelo, linguagem..." oninput="renderNews()" />
+  </div>
+
+  <div class="statsbar" id="statsbar" style="display:none">
+    <span><strong id="stat-total">0</strong> notícias</span>
+    <span id="last-updated-bar"></span>
+  </div>
+
+  <!-- Layout de duas colunas: conteúdo + sidebar direita -->
+  <div class="page-layout">
+    <!-- Coluna esquerda: hero + grid de cards -->
+    <div class="content-area" id="news-container">
+      <div class="empty">
+        <h3>Carregando notícias...</h3>
+        <p>Buscando dados do agente</p>
+      </div>
+    </div>
+
+    <!-- Sidebar direita: lista de mais notícias + espaço para anúncios -->
+    <aside class="right-sidebar">
+      <!-- Espaço reservado — no futuro pode virar um banner de anúncio -->
+      <div class="ad-placeholder">
+        <span>▭</span>
+        300 × 250 · publicidade
+      </div>
+
+      <!-- Lista de mais notícias recentes -->
+      <div class="sidebar-block" id="sidebar-more">
+        <div class="sidebar-block-title">Mais recentes</div>
+        <!-- Populado pelo JS -->
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer>
+  <p>Compilado © 2026 · Para desenvolvedores</p>
+</footer>
+
+<script>
+  let allArticles = [];
+  let activeFilter = 'Todos';
+
+  const CATEGORIES = ['Ferramentas', 'Modelos', 'Releases', 'Mercado', 'Tutoriais'];
+
+  const CAT_COLORS = {
+    'Ferramentas': 'var(--cat-ferramentas)',
+    'Modelos':     'var(--cat-modelos)',
+    'Releases':    'var(--cat-releases)',
+    'Mercado':     'var(--cat-mercado)',
+    'Tutoriais':   'var(--cat-tutoriais)',
+  };
+
+  // ── Tema claro/escuro ─────────────────────────────────────────────────────────
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    const btn = document.getElementById('theme-btn');
+    btn.textContent = theme === 'dark' ? '☀️ Claro' : '🌙 Escuro';
+    localStorage.setItem('compilado-theme', theme);
+  }
+
+  function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme');
+    applyTheme(current === 'dark' ? 'light' : 'dark');
+  }
+
+  // Detecta preferência do sistema operacional ao carregar
+  (function initTheme() {
+    const saved = localStorage.getItem('compilado-theme');
+    if (saved) {
+      applyTheme(saved);
+    } else {
+      // Usa preferência do sistema (se o usuário tem SO em modo claro, o site também fica claro)
+      const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+      applyTheme(prefersLight ? 'light' : 'dark');
+    }
+  })();
+
+  // ── Helpers ───────────────────────────────────────────────────────────────────
+
+  function timeAgo(str) {
+    if (!str) return '';
+    const d = new Date(str);
+    if (isNaN(d)) return '';
+    const s = (Date.now() - d) / 1000;
+    if (s < 3600)  return `${Math.floor(s/60)}min atrás`;
+    if (s < 86400) return `${Math.floor(s/3600)}h atrás`;
+    return `${Math.floor(s/86400)}d atrás`;
+  }
+
+  function catStyle(cat) {
+    return `color:${CAT_COLORS[cat] || 'var(--text-muted)'}`;
+  }
+
+  // ── Builders de HTML ──────────────────────────────────────────────────────────
+
+  function buildHero(article) {
+    const tags = (article.tags||[]).slice(0,3).map(t=>`<span class="tag">${t}</span>`).join('');
+    return `
+      <div class="hero-main" onclick="window.open('${article.url}','_blank')">
+        <div class="hero-cat" style="${catStyle(article.category)}">${article.category||'Geral'}</div>
+        <div class="hero-title">${article.title}</div>
+        <div class="hero-summary">${article.summary}</div>
+        <div class="card-tags">${tags}</div>
+        <div class="hero-meta">
+          <span class="hero-score">${article.relevance_score}/10</span>
+          <span>${article.source}</span>
+          <span>${timeAgo(article.fetched_at)}</span>
+        </div>
+      </div>`;
+  }
+
+  function buildHeroSideItem(article) {
+    return `
+      <div class="sidebar-item" onclick="window.open('${article.url}','_blank')">
+        <div class="sidebar-cat" style="${catStyle(article.category)}">${article.category||'Geral'}</div>
+        <div class="sidebar-title">${article.title}</div>
+        <div class="sidebar-meta">${article.source} · ${timeAgo(article.fetched_at)}</div>
+      </div>`;
+  }
+
+  function buildCard(article) {
+    const tags = (article.tags||[]).slice(0,2).map(t=>`<span class="tag">${t}</span>`).join('');
+    return `
+      <a class="card" href="${article.url}" target="_blank" rel="noopener">
+        <div class="card-cat" style="${catStyle(article.category)}">${article.category||'Geral'}</div>
+        <div class="card-title">${article.title}</div>
+        <div class="card-summary">${article.summary}</div>
+        <div class="card-tags">${tags}</div>
+        <div class="card-footer">
+          <span class="card-source">${article.source}</span>
+          <span class="card-score">⭐ ${article.relevance_score}/10</span>
+        </div>
+      </a>`;
+  }
+
+  // Itens numerados para a sidebar direita ("Mais recentes")
+  function buildRightSidebarItem(article, index) {
+    return `
+      <div class="sidebar-list-item" onclick="window.open('${article.url}','_blank')">
+        <div style="display:flex; align-items:center; justify-content:space-between;">
+          <span class="sidebar-list-num">#${String(index+1).padStart(2,'0')}</span>
+          <span class="sidebar-list-cat" style="${catStyle(article.category)}">${article.category||'Geral'}</span>
+        </div>
+        <div class="sidebar-list-title">${article.title}</div>
+        <div class="sidebar-list-meta">${article.source} · ${timeAgo(article.fetched_at)}</div>
+      </div>`;
+  }
+
+  // ── Filtro e render ───────────────────────────────────────────────────────────
+
+  function setFilter(cat, el) {
+    activeFilter = cat;
+    document.querySelectorAll('.nav-item').forEach(b => b.classList.remove('active'));
+    el.classList.add('active');
+    renderNews();
+  }
+
+  function renderNews() {
+    const q = document.getElementById('search').value.toLowerCase();
+    const container = document.getElementById('news-container');
+
+    let filtered = allArticles.filter(a => {
+      const matchCat = activeFilter === 'Todos' || a.category === activeFilter;
+      const matchQ = !q ||
+        a.title.toLowerCase().includes(q) ||
+        a.summary.toLowerCase().includes(q) ||
+        (a.tags||[]).some(t => t.toLowerCase().includes(q));
+      return matchCat && matchQ;
+    });
+
+    if (!filtered.length) {
+      container.innerHTML = `
+        <div class="empty">
+          <h3>Nenhum resultado</h3>
+          <p>Tente outro termo ou categoria.</p>
+        </div>`;
+      return;
+    }
+
+    // Artigo destaque + 3 no mini-sidebar interno do hero
+    const [hero, s1, s2, s3, ...rest] = filtered;
+    const heroSideItems = [s1, s2, s3].filter(Boolean);
+
+    const heroHtml = `
+      <div class="section-label">Destaque</div>
+      <div class="hero">
+        ${buildHero(hero)}
+        <div class="hero-sidebar">
+          ${heroSideItems.map(buildHeroSideItem).join('')}
+        </div>
+      </div>`;
+
+    // Grid de cards 2×N com o restante
+    let gridHtml = '';
+    if (rest.length) {
+      gridHtml = `
+        <div class="section-label">Mais notícias</div>
+        <div class="grid-cards">
+          ${rest.map(buildCard).join('')}
+        </div>`;
+    }
+
+    container.innerHTML = heroHtml + gridHtml;
+
+    // Popula a sidebar direita com os 8 artigos mais recentes de todos (ignora filtro ativo)
+    // Isso mantém a sidebar sempre cheia mesmo ao navegar por categoria
+    const sidebarEl = document.getElementById('sidebar-more');
+    const sidebarArticles = allArticles.slice(0, 8);
+    const sidebarHtml = sidebarArticles.map((a, i) => buildRightSidebarItem(a, i)).join('');
+    // Mantém o título e substitui só os itens
+    sidebarEl.innerHTML = `
+      <div class="sidebar-block-title">Mais recentes</div>
+      ${sidebarHtml}`;
+  }
+
+  function buildNav(articles) {
+    const present = CATEGORIES.filter(c => articles.some(a => a.category === c));
+    const nav = document.getElementById('nav');
+    nav.innerHTML = ['Todos', ...present].map(c => `
+      <button class="nav-item ${c === activeFilter ? 'active' : ''}"
+              onclick="setFilter('${c}', this)">${c}</button>
+    `).join('');
+  }
+
+  // ── Carregamento de dados ─────────────────────────────────────────────────────
+
+  async function loadNews() {
+    try {
+      const res = await fetch('news_data.json?_=' + Date.now());
+      if (!res.ok) throw new Error();
+      const data = await res.json();
+
+      allArticles = (data.articles||[]).sort(
+        (a,b) => new Date(b.fetched_at) - new Date(a.fetched_at)
+      );
+
+      if (data.last_updated) {
+        document.getElementById('last-updated').textContent =
+          new Date(data.last_updated).toLocaleString('pt-BR');
+        const bar = document.getElementById('last-updated-bar');
+        if (bar) bar.textContent = 'atualizado ' + new Date(data.last_updated).toLocaleString('pt-BR');
+      }
+
+      document.getElementById('stat-total').textContent = allArticles.length;
+      document.getElementById('statsbar').style.display = 'flex';
+
+      buildNav(allArticles);
+      renderNews();
+    } catch {
+      document.getElementById('news-container').innerHTML = `
+        <div class="empty">
+          <h3>Nenhuma notícia ainda</h3>
+          <p>Execute o agente para popular o site:</p>
+          <code>python agent.py</code>
+        </div>`;
+    }
+  }
+
+  loadNews();
+  // Recarrega automaticamente a cada 5 minutos
+  setInterval(loadNews, 5 * 60 * 1000);
+</script>
+
+</body>
+</html>
