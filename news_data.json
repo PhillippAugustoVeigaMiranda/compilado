@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "316e190be5c9",
+      "url": "https://dev.to/kevin_menesesgonzlez/building-a-finviz-alternative-with-claude-code-and-eodhd-api-1115",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 13:56:19 +0000",
+      "fetched_at": "2026-06-20T14:19:06.030896+00:00",
+      "title": "Construir alternativa ao Finviz com Claude Code e API EODHD",
+      "summary": "Artigo mostra como desenvolvedores podem usar Claude Code e APIs para construir ferramentas financeiras personalizadas, consolidando múltiplas fontes de dados. Demonstra aplicação prática de IA para automatizar workflows complexos e reduzir fragmentação de dados em aplicações reais.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "Claude AI",
+        "APIs",
+        "desenvolvimento de ferramentas",
+        "automação",
+        "finanças"
+      ]
+    },
+    {
+      "id": "4a9e9c521126",
+      "url": "https://dev.to/parastejpal987cmyk/i-built-a-free-api-that-scrapes-any-website-using-plain-english-no-css-selectors-14fa",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 13:51:12 +0000",
+      "fetched_at": "2026-06-20T14:19:07.737010+00:00",
+      "title": "API gratuita usa IA para web scraping sem CSS selectors",
+      "summary": "Uma nova ferramenta chamada Opticparse utiliza modelos de visão por IA para fazer scraping de websites através de descrições em linguagem natural, eliminando a necessidade de manutenção de CSS selectors. Isso reduz drasticamente o tempo de desenvolvimento e manutenção de scrapers, que frequentemente quebram após mudanças no frontend dos sites.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "web-scraping",
+        "visão-por-computador",
+        "IA",
+        "automação",
+        "desenvolvimento"
+      ]
+    },
+    {
       "id": "672d238d12a8",
       "url": "https://dev.to/enes_bilgin/from-tles-to-real-time-satellite-tracking-building-an-orbital-backend-with-spring-boot-and-orekit-lgn",
       "source": "DEV Community",
@@ -495,44 +531,8 @@
         "ferramentas dev",
         "fluxo de trabalho"
       ]
-    },
-    {
-      "id": "90a451ed2599",
-      "url": "https://dev.to/archit_aggarwal_5310522d5/your-agent-demo-works-your-agent-doesnt-88l",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 07:19:05 +0000",
-      "fetched_at": "2026-06-20T07:46:35.547917+00:00",
-      "title": "Por que Agentes de IA falham em produção (e como consertar)",
-      "summary": "Artigo técnico que explica por que agentes de IA funcionam bem em demos mas falham em tarefas reais: a falta de estado persistente. Google Cloud apresenta 5 padrões de arquitetura para resolver o problema, essencial para devs que querem colocar agentes em produção.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "agentes IA",
-        "arquitetura",
-        "produção",
-        "stateless",
-        "context persistence"
-      ]
-    },
-    {
-      "id": "0a0879bad20f",
-      "url": "https://dev.to/aon_infotech_3a1b6ff525fc/rate-limiting-without-user-accounts-strategies-for-anonymous-apis-1a3c",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 07:18:22 +0000",
-      "fetched_at": "2026-06-20T07:46:38.237217+00:00",
-      "title": "Rate Limiting em APIs Anônimas: Estratégias Práticas",
-      "summary": "Artigo sobre técnicas de rate limiting para APIs sem autenticação, usando IP, fingerprint e sinais comportamentais. Relevante para desenvolvedores que constroem APIs públicas e precisam proteger seus serviços contra abuso.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "rate-limiting",
-        "api-development",
-        "backend",
-        "segurança",
-        "boas-práticas"
-      ]
     }
   ],
-  "last_updated": "2026-06-20T13:51:02.862444+00:00",
+  "last_updated": "2026-06-20T14:19:12.084398+00:00",
   "total": 30
 }
