@@ -1,6 +1,25 @@
 {
   "articles": [
     {
+      "id": "a2fed122ad1f",
+      "url": "https://dev.to/gde/chatting-with-your-data-conversational-analytics-in-bigquery-5545",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 07:45:01 +0000",
+      "fetched_at": "2026-06-20T07:54:52.021462+00:00",
+      "title": "BigQuery Conversational Analytics: IA generativa para queries em linguagem natural",
+      "summary": "Google integra Gemini ao BigQuery para permitir consultas em linguagem natural, eliminando a necessidade de escrever SQL manualmente. Isso muda o fluxo de trabalho de Data Engineers, reduzindo gargalos e democratizando o acesso a dados para não-técnicos.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "BigQuery",
+        "IA generativa",
+        "SQL",
+        "data analytics",
+        "Gemini",
+        "ferramentas dev"
+      ]
+    },
+    {
       "id": "e6f3de528f74",
       "url": "https://dev.to/kanfu-panda/aitm-10-a-terminal-where-the-ai-is-a-participant-not-the-driver-2nb",
       "source": "DEV Community",
@@ -476,6 +495,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-20T07:46:43.790081+00:00",
-  "total": 27
+  "last_updated": "2026-06-20T07:55:12.460868+00:00",
+  "total": 28
 }
