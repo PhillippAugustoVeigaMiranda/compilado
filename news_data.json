@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "c9ff39aca9f4",
+      "url": "https://dev.to/sanjay_singh_1/token-budgeting-the-engineering-skill-nobody-talks-about-3ifp",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 17:38:41 +0000",
+      "fetched_at": "2026-06-20T17:40:40.815272+00:00",
+      "title": "Token Budgeting: A Habilidade de Engenharia que Reduz Custos com LLMs",
+      "summary": "Artigo explora como otimizar custos com modelos de linguagem focando em engenharia de contexto, não apenas em prompts curtos. Desenvolvedores aprendem a identificar tokens desnecessários, estruturar cache e escolher modelos adequados para cada tarefa.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "LLM",
+        "otimização de custos",
+        "prompt engineering",
+        "context engineering",
+        "IA generativa"
+      ]
+    },
+    {
+      "id": "f293b2a4b8d6",
+      "url": "https://dev.to/amargul/i-built-a-neural-network-you-can-watch-train-forward-pass-loss-and-backprop-animated-45db",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 17:36:00 +0000",
+      "fetched_at": "2026-06-20T17:40:42.622834+00:00",
+      "title": "Visualização Interativa de Treinamento de Redes Neurais",
+      "summary": "Artigo apresenta uma ferramenta interativa para visualizar em tempo real como redes neurais aprendem, mostrando forward pass, cálculo de loss e backpropagation. Útil para desenvolvedores que querem entender profundamente o funcionamento de modelos de IA antes de implementar em produção.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "redes neurais",
+        "visualização",
+        "educação",
+        "machine learning",
+        "deep learning"
+      ]
+    },
+    {
+      "id": "7acdc9e4f02a",
+      "url": "https://dev.to/marcusykim/the-first-qa-checklist-i-would-run-on-any-ai-built-app-in-2026-3p3g",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 17:30:00 +0000",
+      "fetched_at": "2026-06-20T17:40:46.247935+00:00",
+      "title": "Checklist de QA essencial para aplicações construídas com IA",
+      "summary": "Artigo prático sobre estratégias de teste para aplicações desenvolvidas com IA, destacando os riscos de assumir que o código gerado está correto. Oferece um guia simplificado de QA para desenvolvedores iniciantes que usam IA no desenvolvimento.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "QA",
+        "testes",
+        "AI-generated code",
+        "boas práticas",
+        "desenvolvimento com IA"
+      ]
+    },
+    {
       "id": "9852cbbf1ba8",
       "url": "https://github.com/geiger-rs/cargo-geiger",
       "source": "Hacker News: Front Page",
@@ -474,61 +528,8 @@
         "smart routing",
         "ferramentas de desenvolvimento"
       ]
-    },
-    {
-      "id": "bf8121d2478c",
-      "url": "https://news.ycombinator.com/item?id=48604232",
-      "source": "Hacker News: Front Page",
-      "published": "Fri, 19 Jun 2026 22:51:09 +0000",
-      "fetched_at": "2026-06-20T10:37:11.652166+00:00",
-      "title": "Escassez de memória pode impulsionar código mais eficiente entre programadores",
-      "summary": "Discussão sobre como a escassez de recursos de memória pode motivar desenvolvedores a escreverem código mais otimizado e usar algoritmos avançados. A tendência afeta diretamente as práticas de desenvolvimento e a demanda por profissionais com expertise em otimização de performance.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "otimização",
-        "performance",
-        "algoritmos",
-        "mercado de trabalho"
-      ]
-    },
-    {
-      "id": "f3e27823b398",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2",
-      "source": "The Pragmatic Engineer",
-      "published": "Tue, 09 Jun 2026 16:35:53 GMT",
-      "fetched_at": "2026-06-20T10:37:15.139158+00:00",
-      "title": "Mercado de engenharia de software em 2026: dados exclusivos sobre tendências",
-      "summary": "Análise profunda do mercado de tech jobs revelando que labs de IA atraem mais talento que Big Tech, declínio de roles em mobile e frontend, e reorganização das estruturas de gestão. Dados essenciais para entender como a IA está redefinindo oportunidades e demandas de skills para desenvolvedores.",
-      "category": "Mercado",
-      "relevance_score": 9,
-      "tags": [
-        "mercado de trabalho",
-        "IA labs",
-        "tendências de carreira",
-        "ferramentas IA",
-        "emprego tech"
-      ]
-    },
-    {
-      "id": "ead36ca4ebcb",
-      "url": "https://dev.to/surajrkhonde/rag-pipeline-complete-nodejs-implementation-guide-1n54",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 10:27:48 +0000",
-      "fetched_at": "2026-06-20T10:29:42.981716+00:00",
-      "title": "Guia Completo: Implementar RAG em Node.js para Produção",
-      "summary": "Artigo prático mostrando como construir sistemas RAG em Node.js, aproveitando I/O rápido, WebSockets em tempo real e facilidade de deploy. Permite que desenvolvedores JavaScript implementem pipelines de IA sem mudar para Python.",
-      "category": "Tutoriais",
-      "relevance_score": 9,
-      "tags": [
-        "Node.js",
-        "RAG",
-        "IA",
-        "backend",
-        "implementação prática"
-      ]
     }
   ],
-  "last_updated": "2026-06-20T17:21:48.624092+00:00",
+  "last_updated": "2026-06-20T17:40:49.008232+00:00",
   "total": 30
 }
