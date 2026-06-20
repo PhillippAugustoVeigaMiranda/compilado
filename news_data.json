@@ -1,6 +1,129 @@
 {
   "articles": [
     {
+      "id": "db5490f158fb",
+      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-19T22:45:49+00:00",
+      "fetched_at": "2026-06-20T11:58:05.086179+00:00",
+      "title": "MCP: isolando autenticação em agentes de IA",
+      "summary": "Sean Lynch discute como o Model Context Protocol (MCP) oferece uma vantagem significativa ao isolar o fluxo de autenticação fora do contexto do agente, melhorando segurança e eficiência. Isso muda como devs implementam integração de APIs com LLMs, potencialmente simplificando a arquitetura de sistemas com agentes de IA.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "Model Context Protocol",
+        "MCP",
+        "agentes de IA",
+        "LLMs",
+        "autenticação",
+        "integração de APIs"
+      ]
+    },
+    {
+      "id": "cb9157add9c5",
+      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-18T23:58:38+00:00",
+      "fetched_at": "2026-06-20T11:58:06.683152+00:00",
+      "title": "Datasette Apps: hospede aplicações HTML customizadas no Datasette",
+      "summary": "Novo plugin permite criar aplicações web auto-contidas que rodam em sandbox dentro do Datasette, com acesso a queries SQL. Útil para devs que precisam construir interfaces de dados rapidamente sem infraestrutura complexa.",
+      "category": "Ferramentas",
+      "relevance_score": 6,
+      "tags": [
+        "Datasette",
+        "SQL",
+        "Desenvolvimento Web",
+        "Ferramentas de Dados"
+      ]
+    },
+    {
+      "id": "41b7cb7dc029",
+      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-17T23:58:39+00:00",
+      "fetched_at": "2026-06-20T11:58:10.644631+00:00",
+      "title": "GLM-5.2: Poderoso LLM open source com 1M tokens de contexto",
+      "summary": "O lab chinês Z.ai lançou o GLM-5.2, um modelo de linguagem open source com 753B parâmetros e janela de contexto de 1 milhão de tokens, 5x maior que a versão anterior. Para desenvolvedores brasileiros, isso significa acesso a uma alternativa open weights de alto desempenho para integrar em aplicações localmente, sem custos de API.",
+      "category": "Releases",
+      "relevance_score": 9,
+      "tags": [
+        "LLM",
+        "open source",
+        "GLM-5.2",
+        "modelo de linguagem",
+        "context window"
+      ]
+    },
+    {
+      "id": "7d936861d662",
+      "url": "https://dev.to/bala_paranj_059d338e44e7e/the-viability-test-every-ai-dev-architecture-fails-d3",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 11:37:43 +0000",
+      "fetched_at": "2026-06-20T11:58:13.775237+00:00",
+      "title": "Arquitetura de Agentes IA: O Teste de Viabilidade que Todos Falham",
+      "summary": "Artigo analisa as limitações das arquiteturas atuais de agentes IA (Modelo + Harness) e propõe um framework de cinco elementos baseado em TRIZ para desenvolvimento assistido por IA. Essencial para devs que trabalham com arquiteturas de agentes e querem entender gaps críticos nas soluções atuais.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "arquitetura-de-agentes",
+        "agentes-IA",
+        "desenvolvimento-assistido",
+        "padrões-arquiteturais"
+      ]
+    },
+    {
+      "id": "7339e5de8ac4",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "source": "The GitHub Blog",
+      "published": "Fri, 19 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-20T11:58:15.473338+00:00",
+      "title": "GitHub cria agente de análise de dados com Copilot interno",
+      "summary": "O GitHub desenvolveu o Qubot, um agente analítico alimentado por IA que permite consultas em linguagem natural sobre dados. A experiência mostra como ferramentas de IA estão transformando a forma como desenvolvedores acessam e interpretam informações complexas sem código SQL.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "GitHub Copilot",
+        "Agentes de IA",
+        "Data Analytics",
+        "Desenvolvimento Interno"
+      ]
+    },
+    {
+      "id": "af5b66d8418f",
+      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
+      "source": "The GitHub Blog",
+      "published": "Thu, 18 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-20T11:58:17.113177+00:00",
+      "title": "Limites de Pull Requests: Como GitHub reduz ruído em repositórios",
+      "summary": "GitHub implementa limites de pull requests para gerenciar melhor o volume de contribuições em repositórios. A funcionalidade ajuda mantenedores a controlar spam e contribuições indesejadas, impactando o fluxo de trabalho e a produtividade dos desenvolvedores em projetos open source.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "GitHub",
+        "Pull Requests",
+        "Fluxo de trabalho",
+        "Open Source",
+        "Produtividade"
+      ]
+    },
+    {
+      "id": "c34b6e156686",
+      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+      "source": "The GitHub Blog",
+      "published": "Wed, 17 Jun 2026 19:41:46 +0000",
+      "fetched_at": "2026-06-20T11:58:18.685159+00:00",
+      "title": "Copilot melhora roteamento de modelos e uso de tokens",
+      "summary": "GitHub Copilot otimiza o processamento de contexto e roteamento inteligente de modelos para economizar tokens e aumentar produtividade. A melhoria permite que desenvolvedores façam mais com menos créditos gastos na plataforma.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "GitHub Copilot",
+        "otimização de tokens",
+        "context handling",
+        "eficiência de IA"
+      ]
+    },
+    {
       "id": "cdfac4124bef",
       "url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
       "source": "Simon Willison's Weblog",
@@ -409,130 +532,8 @@
         "carreira dev",
         "ferramentas IA"
       ]
-    },
-    {
-      "id": "3988d785f288",
-      "url": "https://dev.to/aiwave/how-to-access-50-chinese-ai-models-with-one-api-no-code-changes-required-2e7f",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 00:24:41 +0000",
-      "fetched_at": "2026-06-20T00:38:37.440998+00:00",
-      "title": "Acessar 50+ modelos de IA chineses com uma única API",
-      "summary": "Artigo sobre como integrar modelos de IA chineses (DeepSeek, GLM-4, Qwen) muito mais baratos que GPT-4o através de uma API unificada, eliminando a necessidade de gerenciar múltiplas credenciais e dashboards. Relevante para devs que buscam reduzir custos de inferência mantendo qualidade.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "IA",
-        "APIs",
-        "modelos chineses",
-        "custo-benefício",
-        "integração"
-      ]
-    },
-    {
-      "id": "a0019444751f",
-      "url": "https://dev.to/lisamangnani1122sketch/supervised-vs-unsupervised-machine-learning-how-to-choose-the-right-approach-559",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 00:24:28 +0000",
-      "fetched_at": "2026-06-20T00:38:39.756704+00:00",
-      "title": "Aprendizado Supervisionado vs Não-Supervisionado: Escolhendo a Abordagem",
-      "summary": "Artigo educacional que explica conceitos fundamentais de machine learning para desenvolvedores escolherem entre aprendizado supervisionado e não-supervisionado em seus projetos. Relevante para devs que querem entender quando usar cada abordagem ao implementar soluções com IA.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "machine-learning",
-        "ia-basica",
-        "desenvolvimento",
-        "aprendizado-de-maquina"
-      ]
-    },
-    {
-      "id": "9e363471388c",
-      "url": "https://dev.to/aiwave/how-to-access-50-chinese-ai-models-through-one-api-no-code-changes-required-3f2l",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 00:23:28 +0000",
-      "fetched_at": "2026-06-20T00:38:42.038043+00:00",
-      "title": "Acessar 50+ modelos de IA chineses por uma única API",
-      "summary": "Artigo sobre como integrar modelos de IA chineses (DeepSeek, Qwen, GLM-4) muito mais baratos que GPT-4o através de uma API unificada, eliminando a necessidade de gerenciar múltiplas chaves e dashboards. Relevante para devs brasileiros que buscam reduzir custos de IA em produção sem mudar código existente.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "IA",
-        "APIs",
-        "modelos-chineses",
-        "custo-reduzido",
-        "integração"
-      ]
-    },
-    {
-      "id": "51ed7c9b7278",
-      "url": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
-      "source": "The GitHub Blog",
-      "published": "Tue, 16 Jun 2026 20:58:54 +0000",
-      "fetched_at": "2026-06-20T00:38:44.255985+00:00",
-      "title": "Git Worktrees: Otimizando seu fluxo de trabalho com Git",
-      "summary": "Artigo explora git worktrees, uma funcionalidade Git que permite trabalhar em múltiplos branches simultaneamente sem trocar de contexto. Ferramenta útil para aumentar produtividade no desenvolvimento, especialmente ao integrar com ferramentas de IA que assistem na codificação.",
-      "category": "Tutoriais",
-      "relevance_score": 6,
-      "tags": [
-        "git",
-        "produtividade",
-        "fluxo-de-trabalho",
-        "versionamento"
-      ]
-    },
-    {
-      "id": "01f51600141b",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
-      "source": "The GitHub Blog",
-      "published": "Mon, 15 Jun 2026 20:15:31 +0000",
-      "fetched_at": "2026-06-20T00:38:46.127155+00:00",
-      "title": "GitHub Copilot CLI: Guia de Comandos Slash para Iniciantes",
-      "summary": "O GitHub Copilot CLI agora oferece comandos slash para controlar um agente de IA no terminal, facilitando a automação de tarefas comuns de desenvolvimento. Essa ferramenta permite que desenvolvedores interajam com IA diretamente na linha de comando, aumentando a produtividade no workflow diário.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "GitHub Copilot",
-        "CLI",
-        "IA para desenvolvimento",
-        "automação de terminal"
-      ]
-    },
-    {
-      "id": "a55ebd412e31",
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "source": "OpenAI News",
-      "published": "Thu, 18 Jun 2026 17:00:00 GMT",
-      "fetched_at": "2026-06-20T00:38:48.210062+00:00",
-      "title": "OpenAI lança controles de gastos e analytics para ChatGPT Enterprise",
-      "summary": "OpenAI implementou novos controles de gastos e analytics de uso para ChatGPT Enterprise, permitindo que organizações gerenciem custos de IA em escala. A atualização facilita o monitoramento de consumo e planejamento orçamentário para empresas que integram IA em seus produtos e serviços.",
-      "category": "Releases",
-      "relevance_score": 7,
-      "tags": [
-        "ChatGPT Enterprise",
-        "controle de custos",
-        "analytics",
-        "gestão de recursos"
-      ]
-    },
-    {
-      "id": "3553c9116d13",
-      "url": "https://dev.to/pvgomes/your-ci-agent-is-reading-more-than-your-prompt-3c96",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 00:01:45 +0000",
-      "fetched_at": "2026-06-20T00:11:51.990732+00:00",
-      "title": "Agentes de IA em CI/CD: riscos de segurança que você precisa conhecer",
-      "summary": "O artigo alerta sobre os riscos de segurança ao integrar agentes de IA em pipelines de CI/CD, onde eles ganham acesso a tokens, repositórios e sistemas de produção. Desenvolvedores precisam entender como essas ferramentas podem expor credenciais e dados sensíveis, mudando a forma como implementamos automação segura.",
-      "category": "Ferramentas",
-      "relevance_score": 9,
-      "tags": [
-        "CI/CD",
-        "segurança",
-        "agentes de IA",
-        "GitHub Actions",
-        "DevOps"
-      ]
     }
   ],
-  "last_updated": "2026-06-20T11:54:06.024953+00:00",
+  "last_updated": "2026-06-20T11:58:18.685191+00:00",
   "total": 30
 }
