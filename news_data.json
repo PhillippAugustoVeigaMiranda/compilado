@@ -1,6 +1,74 @@
 {
   "articles": [
     {
+      "id": "9852cbbf1ba8",
+      "url": "https://github.com/geiger-rs/cargo-geiger",
+      "source": "Hacker News: Front Page",
+      "published": "Sat, 20 Jun 2026 14:52:59 +0000",
+      "fetched_at": "2026-06-20T17:21:35.018004+00:00",
+      "title": "Cargo-Geiger: Ferramenta de Análise de Código Unsafe em Rust",
+      "summary": "Cargo-Geiger é uma ferramenta que analisa e identifica código unsafe em projetos Rust, ajudando desenvolvedores a gerenciar riscos de segurança. Relevante para quem trabalha com Rust e busca melhorar a qualidade e segurança do código de forma automatizada.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "Rust",
+        "Segurança",
+        "Análise Estática",
+        "Ferramentas de Dev"
+      ]
+    },
+    {
+      "id": "a5dce2d46468",
+      "url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19/",
+      "source": "Hacker News: Front Page",
+      "published": "Sat, 20 Jun 2026 14:32:15 +0000",
+      "fetched_at": "2026-06-20T17:21:36.697919+00:00",
+      "title": "Cientista John Jumper deixa Google DeepMind para Anthropic",
+      "summary": "Pesquisador chave do Google DeepMind se muda para Anthropic, sinalizando mudanças estratégicas na corrida de IA. Movimento reflete dinâmica competitiva entre gigantes de IA que afeta disponibilidade de ferramentas e modelos para desenvolvedores.",
+      "category": "Mercado",
+      "relevance_score": 6,
+      "tags": [
+        "anthropic",
+        "google-deepmind",
+        "mercado-ia",
+        "pesquisa-ia"
+      ]
+    },
+    {
+      "id": "47671371017b",
+      "url": "https://dev.to/greymothjp/the-enter-key-that-quietly-breaks-japanese-input-and-how-to-test-if-your-app-does-it-25ep",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 16:52:24 +0000",
+      "fetched_at": "2026-06-20T17:21:45.192171+00:00",
+      "title": "Bug de entrada de texto japonês em aplicações web",
+      "summary": "Artigo técnico sobre um erro comum em apps que não suportam IME (Input Method Editor) do japonês, onde a tecla Enter é interpretada como submit em vez de confirmação de conversão. Desenvolvedor deve testar internacionalização para evitar quebrar a experiência de usuários japoneses.",
+      "category": "Tutoriais",
+      "relevance_score": 6,
+      "tags": [
+        "internacionalização",
+        "i18n",
+        "bug de entrada de texto",
+        "desenvolvimento web"
+      ]
+    },
+    {
+      "id": "3d8d1b9719d5",
+      "url": "https://dev.to/ammorick/from-delivery-rider-to-building-my-first-ai-system-heres-my-story-3d9c",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 16:50:21 +0000",
+      "fetched_at": "2026-06-20T17:21:46.917358+00:00",
+      "title": "De entregador a dev: história de aprendizado com AI Agents",
+      "summary": "Relato inspirador de um desenvolvedor autodidata que descobriu sua paixão por IA enquanto trabalhava como entregador. Mostra como ferramentas de AI Agents estão acessíveis para quem quer aprender a programar do zero, abrindo novas oportunidades no mercado.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "AI Agents",
+        "carreira dev",
+        "autodidata",
+        "aprendizado"
+      ]
+    },
+    {
       "id": "316e190be5c9",
       "url": "https://dev.to/kevin_menesesgonzlez/building-a-finviz-alternative-with-claude-code-and-eodhd-api-1115",
       "source": "DEV Community",
@@ -459,80 +527,8 @@
         "backend",
         "implementação prática"
       ]
-    },
-    {
-      "id": "02dc80198688",
-      "url": "https://dev.to/kimlike/the-null-input-that-broke-my-production-agent-and-what-fixed-it-1e77",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 10:22:00 +0000",
-      "fetched_at": "2026-06-20T10:29:44.954590+00:00",
-      "title": "Como agentes de IA falham em produção com dados inesperados",
-      "summary": "Um relato sobre como um agente de IA gerou dados falsos quando recebeu inputs nulos, mostrando a diferença crítica entre demos e produção. O artigo é essencial para devs que usam IA em sistemas críticos entenderem riscos de validação e edge cases frequentemente ignorados em testes.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "agentes-IA",
-        "tratamento-de-erros",
-        "validação-dados",
-        "produção",
-        "confiabilidade"
-      ]
-    },
-    {
-      "id": "a7a4942c982c",
-      "url": "https://dev.to/cpsbvbng26dotcom/independent-research-in-the-age-of-open-science-jce",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 10:21:31 +0000",
-      "fetched_at": "2026-06-20T10:29:46.712613+00:00",
-      "title": "Pesquisa Independente na Era da Ciência Aberta",
-      "summary": "O artigo discute como a democratização da ciência aberta está mudando o acesso a recursos de pesquisa, permitindo que desenvolvedores participem independentemente de instituições. Isso impacta o ecossistema de desenvolvimento ao possibilitar colaboração descentralizada e acesso a conhecimento técnico sem barreiras tradicionais.",
-      "category": "Mercado",
-      "relevance_score": 6,
-      "tags": [
-        "ciência aberta",
-        "pesquisa independente",
-        "colaboração",
-        "ecossistema dev"
-      ]
-    },
-    {
-      "id": "a2fed122ad1f",
-      "url": "https://dev.to/gde/chatting-with-your-data-conversational-analytics-in-bigquery-5545",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 07:45:01 +0000",
-      "fetched_at": "2026-06-20T07:54:52.021462+00:00",
-      "title": "BigQuery Conversational Analytics: IA generativa para queries em linguagem natural",
-      "summary": "Google integra Gemini ao BigQuery para permitir consultas em linguagem natural, eliminando a necessidade de escrever SQL manualmente. Isso muda o fluxo de trabalho de Data Engineers, reduzindo gargalos e democratizando o acesso a dados para não-técnicos.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "BigQuery",
-        "IA generativa",
-        "SQL",
-        "data analytics",
-        "Gemini",
-        "ferramentas dev"
-      ]
-    },
-    {
-      "id": "e6f3de528f74",
-      "url": "https://dev.to/kanfu-panda/aitm-10-a-terminal-where-the-ai-is-a-participant-not-the-driver-2nb",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 07:33:52 +0000",
-      "fetched_at": "2026-06-20T07:46:32.109353+00:00",
-      "title": "AITM 1.0: Terminal com IA como participante, não motorista",
-      "summary": "Novo terminal que integra IA, editor e arquivos em uma única interface, eliminando context-switching durante desenvolvimento assistido por IA. A IA atua como ferramenta colaborativa sob controle do desenvolvedor, não como executora autônoma de comandos.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "terminal",
-        "IA-assisted coding",
-        "produtividade",
-        "ferramentas dev",
-        "fluxo de trabalho"
-      ]
     }
   ],
-  "last_updated": "2026-06-20T14:19:12.084398+00:00",
+  "last_updated": "2026-06-20T17:21:48.624092+00:00",
   "total": 30
 }
