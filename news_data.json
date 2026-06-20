@@ -1,6 +1,59 @@
 {
   "articles": [
     {
+      "id": "f0aaa00764d7",
+      "url": "https://ianbarber.blog/2026/06/19/llms-are-complicated-now/",
+      "source": "Hacker News: Front Page",
+      "published": "Sat, 20 Jun 2026 01:25:14 +0000",
+      "fetched_at": "2026-06-20T11:35:52.970158+00:00",
+      "title": "LLMs Estão Ficando Mais Complexos: O Que Isso Significa",
+      "summary": "Artigo discute a crescente complexidade dos Large Language Models e como isso impacta o desenvolvimento com IA. Essencial para devs entenderem os desafios atuais na implementação e escolha de modelos.",
+      "category": "Modelos",
+      "relevance_score": 8,
+      "tags": [
+        "LLM",
+        "complexidade",
+        "modelos de linguagem",
+        "desenvolvimento com IA"
+      ]
+    },
+    {
+      "id": "799eb45228cf",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "source": "The Pragmatic Engineer",
+      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
+      "fetched_at": "2026-06-20T11:35:57.309855+00:00",
+      "title": "Meta reestrutura organização de engenharia focada em IA",
+      "summary": "A Meta está realizando mudanças significativas em sua organização de engenharia impulsionadas por iniciativas de IA. O artigo analisa como essas transformações afetam a estrutura, culturas e oportunidades para engenheiros, refletindo tendências maiores do mercado tech.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "Meta",
+        "IA",
+        "mercado de trabalho",
+        "organização de engenharia",
+        "tendências tech"
+      ]
+    },
+    {
+      "id": "1b448300af8f",
+      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
+      "fetched_at": "2026-06-20T11:35:59.225694+00:00",
+      "title": "Novo modelo Fable do Anthropic pode beneficiar concorrentes",
+      "summary": "O novo modelo Fable do Anthropic apresenta limitações que desagradam usuários, potencialmente beneficiando rivais como Codex. O artigo também discute a tendência emergente de smart model routing, uma estratégia relevante para otimizar o uso de diferentes modelos de IA em desenvolvimento.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "Anthropic",
+        "modelos de IA",
+        "Codex",
+        "smart routing",
+        "ferramentas de desenvolvimento"
+      ]
+    },
+    {
       "id": "bf8121d2478c",
       "url": "https://news.ycombinator.com/item?id=48604232",
       "source": "Hacker News: Front Page",
@@ -477,59 +530,8 @@
         "modelos-grandes",
         "context-window"
       ]
-    },
-    {
-      "id": "cdfac4124bef",
-      "url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-17T17:12:41+00:00",
-      "fetched_at": "2026-06-19T23:32:08.130194+00:00",
-      "title": "IA muda economia do código: geração passa a ser grátis e instantânea",
-      "summary": "Charity Majors aponta que a IA inverteu a economia da produção de código em 2025, tornando-o praticamente gratuito e instantâneo. Isso muda fundamentalmente como desenvolvedores devem trabalhar, exigindo mais disciplina de engenharia e novas práticas de qualidade e manutenção.",
-      "category": "Mercado",
-      "relevance_score": 9,
-      "tags": [
-        "IA-impacto",
-        "economia-desenvolvimento",
-        "disciplina-engenharia"
-      ]
-    },
-    {
-      "id": "f7ae0ced5823",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
-      "source": "The Pragmatic Engineer",
-      "published": "Thu, 18 Jun 2026 17:11:03 GMT",
-      "fetched_at": "2026-06-19T23:32:09.997338+00:00",
-      "title": "EUA bane novo modelo Anthropic Fable: impactos para devs",
-      "summary": "Restrições regulatórias nos EUA afetam disponibilidade de modelos de IA avançados para desenvolvedores. A notícia levanta questões sobre acesso a ferramentas de IA e possíveis fragmentações no mercado global de desenvolvimento.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "Anthropic",
-        "regulação",
-        "modelos de IA",
-        "mercado"
-      ]
-    },
-    {
-      "id": "6974e81c714c",
-      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
-      "source": "The Pragmatic Engineer",
-      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
-      "fetched_at": "2026-06-19T23:32:12.076955+00:00",
-      "title": "CI/CD e IA: o futuro da entrega de software com Kubernetes e GitOps",
-      "summary": "Robert Erez, da Octopus Deploy, discute como a IA está transformando pipelines de CI/CD e práticas modernas de entrega de software. O episódio explora Kubernetes, GitOps e progressive delivery, mostrando ferramentas e estratégias que desenvolvedores precisam conhecer para acompanhar a evolução do mercado.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "CI/CD",
-        "IA em DevOps",
-        "Kubernetes",
-        "GitOps",
-        "entrega contínua"
-      ]
     }
   ],
-  "last_updated": "2026-06-20T10:37:25.526823+00:00",
+  "last_updated": "2026-06-20T11:36:07.276987+00:00",
   "total": 30
 }
