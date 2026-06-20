@@ -1,6 +1,146 @@
 {
   "articles": [
     {
+      "id": "eb204910ef4c",
+      "url": "https://dev.to/netops76/how-ai-will-shape-the-technology-industry-in-2027-3eko",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 00:25:38 +0000",
+      "fetched_at": "2026-06-20T00:38:33.260096+00:00",
+      "title": "IA moldará a indústria tech em 2027: o que muda para devs",
+      "summary": "Pesquisa aponta que até 2027 empresas usarão modelos de IA específicos 3x mais que LLMs genéricos. O artigo analisa como essa mudança vai impactar as ferramentas, skills e mercado de trabalho para desenvolvedores. Uma leitura essencial para entender as tendências que vão moldar a carreira tech nos próximos anos.",
+      "category": "Mercado",
+      "relevance_score": 9,
+      "tags": [
+        "IA",
+        "tendências 2027",
+        "modelos task-specific",
+        "mercado de trabalho",
+        "carreira dev"
+      ]
+    },
+    {
+      "id": "c443b4f78c3f",
+      "url": "https://dev.to/netops76/your-pink-slip-is-an-algorithm-what-the-ai-jobs-debate-means-for-developers-5e2m",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 00:25:17 +0000",
+      "fetched_at": "2026-06-20T00:38:35.522222+00:00",
+      "title": "IA está mudando o mercado de trabalho de desenvolvedores",
+      "summary": "Artigo analisa como ferramentas de IA como GitHub Copilot, Cursor e Claude estão impactando o mercado de trabalho, especialmente reduzindo vagas de entrada e questionando o futuro de desenvolvedores mid-level. Apresenta dados sobre contração de vagas e discussões que desenvolvedores precisam enfrentar sobre relevância profissional.",
+      "category": "Mercado",
+      "relevance_score": 9,
+      "tags": [
+        "IA e emprego",
+        "mercado de trabalho",
+        "GitHub Copilot",
+        "carreira dev",
+        "ferramentas IA"
+      ]
+    },
+    {
+      "id": "3988d785f288",
+      "url": "https://dev.to/aiwave/how-to-access-50-chinese-ai-models-with-one-api-no-code-changes-required-2e7f",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 00:24:41 +0000",
+      "fetched_at": "2026-06-20T00:38:37.440998+00:00",
+      "title": "Acessar 50+ modelos de IA chineses com uma única API",
+      "summary": "Artigo sobre como integrar modelos de IA chineses (DeepSeek, GLM-4, Qwen) muito mais baratos que GPT-4o através de uma API unificada, eliminando a necessidade de gerenciar múltiplas credenciais e dashboards. Relevante para devs que buscam reduzir custos de inferência mantendo qualidade.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "IA",
+        "APIs",
+        "modelos chineses",
+        "custo-benefício",
+        "integração"
+      ]
+    },
+    {
+      "id": "a0019444751f",
+      "url": "https://dev.to/lisamangnani1122sketch/supervised-vs-unsupervised-machine-learning-how-to-choose-the-right-approach-559",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 00:24:28 +0000",
+      "fetched_at": "2026-06-20T00:38:39.756704+00:00",
+      "title": "Aprendizado Supervisionado vs Não-Supervisionado: Escolhendo a Abordagem",
+      "summary": "Artigo educacional que explica conceitos fundamentais de machine learning para desenvolvedores escolherem entre aprendizado supervisionado e não-supervisionado em seus projetos. Relevante para devs que querem entender quando usar cada abordagem ao implementar soluções com IA.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "machine-learning",
+        "ia-basica",
+        "desenvolvimento",
+        "aprendizado-de-maquina"
+      ]
+    },
+    {
+      "id": "9e363471388c",
+      "url": "https://dev.to/aiwave/how-to-access-50-chinese-ai-models-through-one-api-no-code-changes-required-3f2l",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 00:23:28 +0000",
+      "fetched_at": "2026-06-20T00:38:42.038043+00:00",
+      "title": "Acessar 50+ modelos de IA chineses por uma única API",
+      "summary": "Artigo sobre como integrar modelos de IA chineses (DeepSeek, Qwen, GLM-4) muito mais baratos que GPT-4o através de uma API unificada, eliminando a necessidade de gerenciar múltiplas chaves e dashboards. Relevante para devs brasileiros que buscam reduzir custos de IA em produção sem mudar código existente.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "IA",
+        "APIs",
+        "modelos-chineses",
+        "custo-reduzido",
+        "integração"
+      ]
+    },
+    {
+      "id": "51ed7c9b7278",
+      "url": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+      "source": "The GitHub Blog",
+      "published": "Tue, 16 Jun 2026 20:58:54 +0000",
+      "fetched_at": "2026-06-20T00:38:44.255985+00:00",
+      "title": "Git Worktrees: Otimizando seu fluxo de trabalho com Git",
+      "summary": "Artigo explora git worktrees, uma funcionalidade Git que permite trabalhar em múltiplos branches simultaneamente sem trocar de contexto. Ferramenta útil para aumentar produtividade no desenvolvimento, especialmente ao integrar com ferramentas de IA que assistem na codificação.",
+      "category": "Tutoriais",
+      "relevance_score": 6,
+      "tags": [
+        "git",
+        "produtividade",
+        "fluxo-de-trabalho",
+        "versionamento"
+      ]
+    },
+    {
+      "id": "01f51600141b",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
+      "source": "The GitHub Blog",
+      "published": "Mon, 15 Jun 2026 20:15:31 +0000",
+      "fetched_at": "2026-06-20T00:38:46.127155+00:00",
+      "title": "GitHub Copilot CLI: Guia de Comandos Slash para Iniciantes",
+      "summary": "O GitHub Copilot CLI agora oferece comandos slash para controlar um agente de IA no terminal, facilitando a automação de tarefas comuns de desenvolvimento. Essa ferramenta permite que desenvolvedores interajam com IA diretamente na linha de comando, aumentando a produtividade no workflow diário.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "GitHub Copilot",
+        "CLI",
+        "IA para desenvolvimento",
+        "automação de terminal"
+      ]
+    },
+    {
+      "id": "a55ebd412e31",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 17:00:00 GMT",
+      "fetched_at": "2026-06-20T00:38:48.210062+00:00",
+      "title": "OpenAI lança controles de gastos e analytics para ChatGPT Enterprise",
+      "summary": "OpenAI implementou novos controles de gastos e analytics de uso para ChatGPT Enterprise, permitindo que organizações gerenciem custos de IA em escala. A atualização facilita o monitoramento de consumo e planejamento orçamentário para empresas que integram IA em seus produtos e serviços.",
+      "category": "Releases",
+      "relevance_score": 7,
+      "tags": [
+        "ChatGPT Enterprise",
+        "controle de custos",
+        "analytics",
+        "gestão de recursos"
+      ]
+    },
+    {
       "id": "3553c9116d13",
       "url": "https://dev.to/pvgomes/your-ci-agent-is-reading-more-than-your-prompt-3c96",
       "source": "DEV Community",
@@ -229,6 +369,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-20T00:12:00.980749+00:00",
-  "total": 13
+  "last_updated": "2026-06-20T00:38:48.210226+00:00",
+  "total": 21
 }
