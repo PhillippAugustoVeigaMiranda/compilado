@@ -1,6 +1,113 @@
 {
   "articles": [
     {
+      "id": "cdfac4124bef",
+      "url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-17T17:12:41+00:00",
+      "fetched_at": "2026-06-20T11:53:54.592277+00:00",
+      "title": "IA torna código gratuito e instantâneo: como isso muda a engenharia",
+      "summary": "Charity Majors analisa como a IA inverteu a economia da produção de código em 2025, tornando-o barato e rápido de gerar. Isso exige que desenvolvedores repensem práticas de engenharia, focando em qualidade e disciplina em vez de quantidade de linhas de código.",
+      "category": "Mercado",
+      "relevance_score": 9,
+      "tags": [
+        "economia-ia",
+        "disciplina-engenharia",
+        "mercado-desenvolvimento",
+        "impacto-carreira"
+      ]
+    },
+    {
+      "id": "f7ae0ced5823",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 18 Jun 2026 17:11:03 GMT",
+      "fetched_at": "2026-06-20T11:53:56.473615+00:00",
+      "title": "EUA bane novo modelo Anthropic Fable; impactos para devs",
+      "summary": "Análise das implicações de restrições governamentais ao modelo Fable da Anthropic, afetando acesso a ferramentas de IA para desenvolvedores. Inclui movimentações no mercado como possível compra do Cursor pela SpaceX e mudanças na cultura de engenharia da Meta.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "Anthropic",
+        "regulação",
+        "ferramentas IA",
+        "Cursor",
+        "impacto mercado"
+      ]
+    },
+    {
+      "id": "6974e81c714c",
+      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
+      "source": "The Pragmatic Engineer",
+      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
+      "fetched_at": "2026-06-20T11:53:58.211531+00:00",
+      "title": "CI/CD Moderno: Kubernetes, GitOps e IA na Entrega de Software",
+      "summary": "Discussão sobre como IA está sendo integrada em pipelines CI/CD e práticas de progressive delivery. O artigo aborda ferramentas como Octopus Deploy e mostra como automação inteligente está transformando a forma como desenvolvedores fazem deployment e gerenciam infraestrutura.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "CI/CD",
+        "IA em DevOps",
+        "Kubernetes",
+        "GitOps",
+        "Progressive Delivery"
+      ]
+    },
+    {
+      "id": "e737d3d6de85",
+      "url": "https://dev.to/shrsv/multi-step-learning-rate-schedulers-in-llm-training-why-some-teams-are-moving-beyond-cosine-decay-3nef",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 11:42:42 +0000",
+      "fetched_at": "2026-06-20T11:53:59.897228+00:00",
+      "title": "Otimização de Learning Rate em Treinamento de LLMs",
+      "summary": "Artigo técnico sobre estratégias avançadas de ajuste de taxa de aprendizado no treinamento de modelos de linguagem, mostrando como pequenas otimizações podem reduzir significativamente custos de GPU. Relevante para devs que trabalham com fine-tuning ou treinamento próprio de LLMs.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "LLM",
+        "treinamento",
+        "otimização",
+        "learning-rate",
+        "deep-learning"
+      ]
+    },
+    {
+      "id": "bbea7a96d5b3",
+      "url": "https://dev.to/fouzi_oukacha/i-built-a-production-ai-pipeline-for-a-uk-fintech-heres-what-actually-happened-3gfg",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 11:39:35 +0000",
+      "fetched_at": "2026-06-20T11:54:01.660861+00:00",
+      "title": "Pipeline de IA em Produção: Caso Real de FinTech",
+      "summary": "Desenvolvedor compartilha experiência prática integrando IA em sistema de empréstimos de uma fintech britânica. Mostra desafios reais de implementação de IA em produção e como isso mudou sua abordagem como desenvolvedor.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "IA em produção",
+        "FinTech",
+        "Pipeline de IA",
+        "Estudo de caso",
+        "Integração de modelos"
+      ]
+    },
+    {
+      "id": "b3bae478dbef",
+      "url": "https://dev.to/anthonyhumphreys/anvil-20nk",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 11:37:18 +0000",
+      "fetched_at": "2026-06-20T11:54:04.787404+00:00",
+      "title": "Anvil: Stack de Ferramentas para Desenvolvimento com Agentes de IA",
+      "summary": "Anvil é um conjunto de três projetos independentes que funcionam juntos para permitir que desenvolvedores executem agentes de IA dentro de projetos reais, mantendo contexto e integração com fluxos de trabalho existentes. A ferramenta visa substituir interfaces de chat por um ambiente de desenvolvimento prático onde agentes IA compreendem o repositório e trabalham integrados às tarefas do desenvolvedor.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "agentes-ia",
+        "desenvolvimento",
+        "ferramentas-dev",
+        "coding-assistant",
+        "automação"
+      ]
+    },
+    {
       "id": "f0aaa00764d7",
       "url": "https://ianbarber.blog/2026/06/19/llms-are-complicated-now/",
       "source": "Hacker News: Front Page",
@@ -424,114 +531,8 @@
         "GitHub Actions",
         "DevOps"
       ]
-    },
-    {
-      "id": "7339e5de8ac4",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
-      "source": "The GitHub Blog",
-      "published": "Fri, 19 Jun 2026 16:00:00 +0000",
-      "fetched_at": "2026-06-20T00:11:57.472977+00:00",
-      "title": "Como GitHub construiu agente de analytics com Copilot",
-      "summary": "GitHub desenvolveu Qubot, um agente de IA que permite consultar dados em linguagem natural, mostrando como integrar Copilot em ferramentas internas. O artigo revela práticas práticas para devs que querem implementar agentes de IA em suas próprias plataformas.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "GitHub Copilot",
-        "Agentes de IA",
-        "Data Analytics",
-        "LLM",
-        "Desenvolvimento interno"
-      ]
-    },
-    {
-      "id": "af5b66d8418f",
-      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
-      "source": "The GitHub Blog",
-      "published": "Thu, 18 Jun 2026 16:00:00 +0000",
-      "fetched_at": "2026-06-20T00:11:59.322818+00:00",
-      "title": "Limites de Pull Requests no GitHub reduzem ruído em repositórios",
-      "summary": "O GitHub implementa limites de pull requests para gerenciar melhor o volume de contribuições em repositórios. A funcionalidade ajuda mantenedores a controlar spam e manter a qualidade do código, impactando fluxos de trabalho colaborativos de desenvolvedores.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "GitHub",
-        "pull requests",
-        "desenvolvimento colaborativo",
-        "gestão de repositórios"
-      ]
-    },
-    {
-      "id": "c34b6e156686",
-      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
-      "source": "The GitHub Blog",
-      "published": "Wed, 17 Jun 2026 19:41:46 +0000",
-      "fetched_at": "2026-06-20T00:12:00.980678+00:00",
-      "title": "GitHub Copilot melhora eficiência de tokens e roteamento de modelos",
-      "summary": "O GitHub Copilot otimiza o uso de tokens em cada sessão, permitindo que desenvolvedores obtenham mais valor de seus créditos. A melhoria no contexto e roteamento automático de modelos torna a ferramenta mais econômica e eficiente para tarefas de desenvolvimento.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "GitHub Copilot",
-        "otimização de tokens",
-        "eficiência de custos",
-        "IA para desenvolvedores"
-      ]
-    },
-    {
-      "id": "db5490f158fb",
-      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-19T22:45:49+00:00",
-      "fetched_at": "2026-06-19T23:32:00.068148+00:00",
-      "title": "MCP como gateway de autenticação para APIs em agentes IA",
-      "summary": "Discussão técnica sobre o Model Context Protocol (MCP) e seu potencial para isolar fluxos de autenticação fora do contexto do agente IA. A abordagem simplifica a integração segura de APIs em ferramentas de desenvolvimento com IA, reduzindo complexidade na construção de agentes.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "model-context-protocol",
-        "MCP",
-        "agentes-IA",
-        "autenticação",
-        "arquitetura"
-      ]
-    },
-    {
-      "id": "cb9157add9c5",
-      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-18T23:58:38+00:00",
-      "fetched_at": "2026-06-19T23:32:01.650798+00:00",
-      "title": "Datasette Apps: aplicações HTML customizadas em sandbox",
-      "summary": "Novo plugin permite hospedar aplicações HTML+JavaScript dentro do Datasette com acesso a queries SQL. Útil para devs que constroem interfaces de dados e precisam integrar aplicações sem infraestrutura separada.",
-      "category": "Ferramentas",
-      "relevance_score": 6,
-      "tags": [
-        "datasette",
-        "javascript",
-        "sql",
-        "ferramentas-dev",
-        "data-apps"
-      ]
-    },
-    {
-      "id": "41b7cb7dc029",
-      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-17T23:58:39+00:00",
-      "fetched_at": "2026-06-19T23:32:06.048134+00:00",
-      "title": "GLM-5.2: Novo modelo open-source com 753B parâmetros e janela de 1M tokens",
-      "summary": "O lab chinês Z.ai lançou o GLM-5.2, um modelo de linguagem open-weights sob licença MIT com 753B parâmetros e contexto de 1 milhão de tokens. Para desenvolvedores brasileiros, isso significa mais uma opção poderosa e gratuita para integrar em aplicações, com capacidade de processar documentos muito maiores que modelos anteriores.",
-      "category": "Releases",
-      "relevance_score": 8,
-      "tags": [
-        "LLM",
-        "open-source",
-        "GLM-5.2",
-        "modelos-grandes",
-        "context-window"
-      ]
     }
   ],
-  "last_updated": "2026-06-20T11:36:07.276987+00:00",
+  "last_updated": "2026-06-20T11:54:06.024953+00:00",
   "total": 30
 }
