@@ -836,8 +836,9 @@
 
   function buildCard(article) {
     const tags = (article.tags||[]).slice(0,2).map(t=>`<span class="tag">${t}</span>`).join('');
+    // Usamos div em vez de <a> para evitar <a> aninhado com o botão LinkedIn
     return `
-      <a class="card" href="${article.url}" target="_blank" rel="noopener">
+      <div class="card" onclick="window.open('${article.url}','_blank')" role="link" tabindex="0">
         <div class="card-cat" style="${catStyle(article.category)}">${article.category||'Geral'}</div>
         <div class="card-title">${article.title}</div>
         <div class="card-summary">${article.summary}</div>
@@ -849,7 +850,7 @@
             <span class="card-score">⭐ ${article.relevance_score}/10</span>
           </span>
         </div>
-      </a>`;
+      </div>`;
   }
 
   // Itens numerados para a sidebar direita ("Mais recentes")
