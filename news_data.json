@@ -1,6 +1,76 @@
 {
   "articles": [
     {
+      "id": "3553c9116d13",
+      "url": "https://dev.to/pvgomes/your-ci-agent-is-reading-more-than-your-prompt-3c96",
+      "source": "DEV Community",
+      "published": "Sat, 20 Jun 2026 00:01:45 +0000",
+      "fetched_at": "2026-06-20T00:11:51.990732+00:00",
+      "title": "Agentes de IA em CI/CD: riscos de segurança que você precisa conhecer",
+      "summary": "O artigo alerta sobre os riscos de segurança ao integrar agentes de IA em pipelines de CI/CD, onde eles ganham acesso a tokens, repositórios e sistemas de produção. Desenvolvedores precisam entender como essas ferramentas podem expor credenciais e dados sensíveis, mudando a forma como implementamos automação segura.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "CI/CD",
+        "segurança",
+        "agentes de IA",
+        "GitHub Actions",
+        "DevOps"
+      ]
+    },
+    {
+      "id": "7339e5de8ac4",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "source": "The GitHub Blog",
+      "published": "Fri, 19 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-20T00:11:57.472977+00:00",
+      "title": "Como GitHub construiu agente de analytics com Copilot",
+      "summary": "GitHub desenvolveu Qubot, um agente de IA que permite consultar dados em linguagem natural, mostrando como integrar Copilot em ferramentas internas. O artigo revela práticas práticas para devs que querem implementar agentes de IA em suas próprias plataformas.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "GitHub Copilot",
+        "Agentes de IA",
+        "Data Analytics",
+        "LLM",
+        "Desenvolvimento interno"
+      ]
+    },
+    {
+      "id": "af5b66d8418f",
+      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
+      "source": "The GitHub Blog",
+      "published": "Thu, 18 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-20T00:11:59.322818+00:00",
+      "title": "Limites de Pull Requests no GitHub reduzem ruído em repositórios",
+      "summary": "O GitHub implementa limites de pull requests para gerenciar melhor o volume de contribuições em repositórios. A funcionalidade ajuda mantenedores a controlar spam e manter a qualidade do código, impactando fluxos de trabalho colaborativos de desenvolvedores.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "GitHub",
+        "pull requests",
+        "desenvolvimento colaborativo",
+        "gestão de repositórios"
+      ]
+    },
+    {
+      "id": "c34b6e156686",
+      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+      "source": "The GitHub Blog",
+      "published": "Wed, 17 Jun 2026 19:41:46 +0000",
+      "fetched_at": "2026-06-20T00:12:00.980678+00:00",
+      "title": "GitHub Copilot melhora eficiência de tokens e roteamento de modelos",
+      "summary": "O GitHub Copilot otimiza o uso de tokens em cada sessão, permitindo que desenvolvedores obtenham mais valor de seus créditos. A melhoria no contexto e roteamento automático de modelos torna a ferramenta mais econômica e eficiente para tarefas de desenvolvimento.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "GitHub Copilot",
+        "otimização de tokens",
+        "eficiência de custos",
+        "IA para desenvolvedores"
+      ]
+    },
+    {
       "id": "db5490f158fb",
       "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
       "source": "Simon Willison's Weblog",
@@ -159,6 +229,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-19T23:32:18.416980+00:00",
-  "total": 9
+  "last_updated": "2026-06-20T00:12:00.980749+00:00",
+  "total": 13
 }
