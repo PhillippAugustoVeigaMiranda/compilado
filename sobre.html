@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre — Compilado</title>
+  <meta name="description" content="O Compilado é um portal de notícias automatizado sobre IA e ferramentas para desenvolvedores brasileiros." />
+  <link rel="canonical" href="https://compilado-blush.vercel.app/sobre.html" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-42KYY4YEZ7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-42KYY4YEZ7');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root, [data-theme="dark"] {
+      --bg: #0c0c0c; --surface: #141414; --surface2: #1a1a1a;
+      --border: #2a2a2a; --accent: #e8ff47; --text: #f0f0f0;
+      --text-muted: #aaa; --text-dim: #777; --topbar-text: #000;
+    }
+    [data-theme="light"] {
+      --bg: #f4f4f2; --surface: #ffffff; --surface2: #ebebeb;
+      --border: #d8d8d8; --accent: #1a1a1a; --text: #111111;
+      --text-muted: #555; --text-dim: #999; --topbar-text: #fff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+    a { text-decoration: none; color: inherit; }
+    .topbar { background: var(--accent); color: var(--topbar-text); text-align: center; padding: 6px; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+    header { border-bottom: 1px solid var(--border); background: var(--bg); position: sticky; top: 0; z-index: 100; }
+    .header-main { max-width: 860px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .logo { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 900; letter-spacing: -0.03em; }
+    [data-theme="dark"] .logo-accent { color: #e8ff47; }
+    [data-theme="light"] .logo-accent { color: #c5a200; }
+    .theme-btn { background: var(--surface2); border: 1px solid var(--border); color: var(--text-muted); padding: 5px 10px; border-radius: 4px; cursor: pointer; font-size: 0.82rem; font-family: inherit; }
+    main { max-width: 860px; margin: 0 auto; padding: 3rem 2rem; }
+    h1 { font-family: 'Playfair Display', serif; font-size: 2.5rem; font-weight: 900; margin-bottom: 0.5rem; }
+    .subtitle { color: var(--text-muted); font-size: 1rem; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+    h2 { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; margin: 2rem 0 1rem; }
+    p { line-height: 1.8; color: var(--text-muted); margin-bottom: 1rem; }
+    .highlight { background: var(--surface); border-left: 3px solid var(--accent); padding: 1.25rem 1.5rem; margin: 2rem 0; }
+    .highlight p { margin: 0; color: var(--text); }
+    .tag-list { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; }
+    .tag { font-size: 0.75rem; padding: 4px 10px; background: var(--surface2); border: 1px solid var(--border); font-family: 'JetBrains Mono', monospace; color: var(--text-muted); }
+    .contact-box { border: 1px solid var(--border); background: var(--surface); padding: 1.5rem; margin-top: 2rem; }
+    .contact-box a { color: var(--accent); font-weight: 600; }
+    [data-theme="light"] .contact-box a { color: #c5a200; }
+    footer { border-top: 1px solid var(--border); margin-top: 4rem; padding: 2rem; text-align: center; font-size: 0.75rem; color: var(--text-dim); font-family: 'JetBrains Mono', monospace; }
+    footer a { color: var(--text-dim); margin: 0 0.5rem; }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+<div class="topbar">🗞️ Compilado — Ferramentas e tendências para desenvolvedores</div>
+<header>
+  <div class="header-main">
+    <a href="/" class="logo">Comp<span class="logo-accent">il</span>ado</a>
+    <button class="theme-btn" onclick="toggleTheme()">☀️ Claro</button>
+  </div>
+</header>
+
+<main>
+  <h1>Sobre o Compilado</h1>
+  <p class="subtitle">Portal de notícias automatizado sobre IA e ferramentas para desenvolvedores</p>
+
+  <h2>O que é</h2>
+  <p>O <strong>Compilado</strong> é um portal de notícias criado para desenvolvedores brasileiros que querem se manter atualizados sobre inteligência artificial, novas ferramentas de desenvolvimento, lançamentos de modelos e tendências do mercado de tecnologia.</p>
+  <p>O conteúdo é coletado automaticamente de fontes especializadas como Hacker News, GitHub Blog, OpenAI, TechCrunch e outras referências do setor, resumido em português e publicado continuamente ao longo do dia.</p>
+
+  <div class="highlight">
+    <p>O objetivo é simples: entregar o que importa para devs, em português, sem precisar garimpar dezenas de sites todos os dias.</p>
+  </div>
+
+  <h2>Como funciona</h2>
+  <p>Um agente de IA monitora feeds RSS de 10 fontes especializadas a cada 4 horas. Para cada artigo encontrado, o agente avalia a relevância, resume o conteúdo em português focando no impacto prático para desenvolvedores, e categoriza em uma das cinco áreas do site.</p>
+  <p>Apenas artigos com nota de relevância 6 ou acima (em uma escala de 1 a 10) são publicados. O site é atualizado automaticamente após cada execução.</p>
+
+  <h2>Categorias</h2>
+  <div class="tag-list">
+    <span class="tag" style="color:#2e8fd8">Ferramentas</span>
+    <span class="tag" style="color:#9b50cc">Modelos</span>
+    <span class="tag" style="color:#1f9e5c">Releases</span>
+    <span class="tag" style="color:#d46b1a">Mercado</span>
+    <span class="tag" style="color:#c5a200">Tutoriais</span>
+  </div>
+
+  <h2>Fontes monitoradas</h2>
+  <p>Hacker News · GitHub Blog · OpenAI Blog · Simon Willison · The Pragmatic Engineer · Dev.to · TechCrunch AI · VentureBeat AI · The Verge Tech · InfoQ</p>
+
+  <h2>Contato</h2>
+  <div class="contact-box">
+    <p>Sugestões de fontes, feedback ou parcerias:<br>
+    <a href="mailto:phillippmiranda@gmail.com">phillippmiranda@gmail.com</a></p>
+  </div>
+</main>
+
+<footer>
+  <p>
+    <a href="/">Início</a>
+    <a href="/sobre.html">Sobre</a>
+    <a href="/privacidade.html">Privacidade</a>
+  </p>
+  <p style="margin-top:0.75rem">Compilado © 2026 · Para desenvolvedores</p>
+</footer>
+
+<script>
+  function applyTheme(t) {
+    document.documentElement.setAttribute('data-theme', t);
+    document.querySelector('.theme-btn').textContent = t === 'dark' ? '☀️ Claro' : '🌙 Escuro';
+    localStorage.setItem('compilado-theme', t);
+  }
+  function toggleTheme() {
+    applyTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+  }
+  (function() {
+    const s = localStorage.getItem('compilado-theme');
+    applyTheme(s || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'));
+  })();
+</script>
+</body>
+</html>
