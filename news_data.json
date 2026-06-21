@@ -1,6 +1,112 @@
 {
   "articles": [
     {
+      "id": "f625d644b89c",
+      "url": "https://clevercrow.io",
+      "source": "Hacker News: Front Page",
+      "published": "Sun, 21 Jun 2026 19:06:07 +0000",
+      "fetched_at": "2026-06-21T21:09:40.039392+00:00",
+      "title": "CleverCrow: plataforma de incentivos com tokens para projetos GitHub",
+      "summary": "Ferramenta que permite apoiadores financiar projetos open source via tokens, direcionando recursos para issues específicas. Soluciona o problema de pull requests inadequados gerados por IA, criando um sistema de incentivos onde mantenedores mantêm controle sobre o que será desenvolvido.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "GitHub",
+        "open source",
+        "IA",
+        "pull requests",
+        "ecossistema dev"
+      ]
+    },
+    {
+      "id": "cbcb127508d3",
+      "url": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
+      "source": "Hacker News: Front Page",
+      "published": "Sun, 21 Jun 2026 16:56:18 +0000",
+      "fetched_at": "2026-06-21T21:09:43.551763+00:00",
+      "title": "Burnout em Mantedores de Open Source é Real",
+      "summary": "Artigo discute o esgotamento profissional enfrentado por desenvolvedores que mantêm projetos open source, impactando a sustentabilidade do ecossistema. Para devs brasileiros, essa realidade afeta a confiabilidade das ferramentas e bibliotecas que usam diariamente no trabalho.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "open source",
+        "mercado de trabalho",
+        "sustentabilidade",
+        "comunidade dev"
+      ]
+    },
+    {
+      "id": "cdfac4124bef",
+      "url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-17T17:12:41+00:00",
+      "fetched_at": "2026-06-21T21:09:47.389635+00:00",
+      "title": "IA torna código barato e descartável, exigindo mais disciplina de engenharia",
+      "summary": "Charity Majors analisa como a IA inverteu a economia da produção de código em 2025, tornando-o praticamente gratuito e instantâneo. Isso muda fundamentalmente como desenvolvedores devem pensar em qualidade, reutilização e manutenção de código, exigindo maior disciplina de engenharia em vez de menos.",
+      "category": "Mercado",
+      "relevance_score": 9,
+      "tags": [
+        "ia-gerativa",
+        "desenvolvimento-de-software",
+        "mercado-de-trabalho",
+        "qualidade-de-código",
+        "engenharia-de-software"
+      ]
+    },
+    {
+      "id": "f7ae0ced5823",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 18 Jun 2026 17:11:03 GMT",
+      "fetched_at": "2026-06-21T21:09:49.157201+00:00",
+      "title": "EUA bane novo modelo Fable da Anthropic; impactos para devs",
+      "summary": "Banimento do modelo Fable da Anthropic nos EUA pode afetar a disponibilidade de ferramentas de IA para desenvolvedores brasileiros. O artigo discute implicações regulatórias que impactam o acesso a modelos de linguagem avançados e o ecossistema de desenvolvimento.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "Anthropic",
+        "Regulação",
+        "Modelos de IA",
+        "Impacto no mercado"
+      ]
+    },
+    {
+      "id": "cf871f2a8e55",
+      "url": "https://dev.to/antonkirilchuk/mock-any-api-response-in-postman-and-let-ai-build-the-collection-2le1",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 21:06:29 +0000",
+      "fetched_at": "2026-06-21T21:09:50.968173+00:00",
+      "title": "Mock de APIs com Postman e IA para testes frontend",
+      "summary": "Artigo mostra como usar servidores mock do Postman com IA para simular respostas de backend durante testes, eliminando a necessidade de modificar servidores reais. Isso muda o workflow de testes frontend, permitindo que devs testem cenários complexos (erros 500, respostas vazias) sem depender do backend.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "Postman",
+        "API mocking",
+        "IA",
+        "testes",
+        "frontend"
+      ]
+    },
+    {
+      "id": "f137faa6d025",
+      "url": "https://dev.to/anthonymax/new-bifrost-edge-visibility-and-control-for-enterprise-teams-and-beyond-5g5l",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 20:49:11 +0000",
+      "fetched_at": "2026-06-21T21:09:56.907736+00:00",
+      "title": "Bifrost Edge: Controle de Agentes IA em Ambientes Empresariais",
+      "summary": "Novo produto que resolve o problema de governança e segurança de servidores MCP (Model Context Protocol) em empresas, permitindo visibilidade e controle centralizado de agentes IA. Essencial para devs que usam Claude e ferramentas de IA em ambientes corporativos onde segurança e compliance são críticos.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "MCP",
+        "Claude",
+        "Segurança",
+        "Governança IA",
+        "Desenvolvimento Empresarial"
+      ]
+    },
+    {
       "id": "6974e81c714c",
       "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
       "source": "The Pragmatic Engineer",
@@ -426,114 +532,8 @@
         "compliance",
         "detecção-PII"
       ]
-    },
-    {
-      "id": "7339e5de8ac4",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
-      "source": "The GitHub Blog",
-      "published": "Fri, 19 Jun 2026 16:00:00 +0000",
-      "fetched_at": "2026-06-21T08:25:39.014217+00:00",
-      "title": "Como o GitHub construiu um agente de análise de dados com IA",
-      "summary": "O GitHub desenvolveu o Qubot, um agente analítico alimentado pelo Copilot que permite consultas em linguagem natural sobre dados. O caso mostra como developers podem usar IA generativa para democratizar acesso a analytics e construir ferramentas internas mais eficientes.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "GitHub Copilot",
-        "Agentes de IA",
-        "Data Analytics",
-        "Desenvolvimento Interno"
-      ]
-    },
-    {
-      "id": "db5490f158fb",
-      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-19T22:45:49+00:00",
-      "fetched_at": "2026-06-21T04:59:40.663384+00:00",
-      "title": "MCP: Isolamento de autenticação em agentes IA",
-      "summary": "Sean Lynch comenta sobre o Model Context Protocol (MCP) e sua capacidade de isolar fluxos de autenticação fora do contexto do agente IA. Isso simplifica a integração segura de APIs em ferramentas baseadas em LLMs, reduzindo complexidade para desenvolvedores que implementam agentes inteligentes.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "MCP",
-        "autenticação",
-        "agentes IA",
-        "LLMs",
-        "integração de APIs"
-      ]
-    },
-    {
-      "id": "cb9157add9c5",
-      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-18T23:58:38+00:00",
-      "fetched_at": "2026-06-21T04:59:42.756740+00:00",
-      "title": "Datasette Apps: hospede aplicações HTML customizadas no Datasette",
-      "summary": "Nova extensão do Datasette permite hospedar aplicações HTML+JavaScript isoladas que executam queries SQL contra seus dados. Útil para devs que precisam criar interfaces web customizadas integradas diretamente em suas plataformas de dados, sem infraestrutura adicional.",
-      "category": "Ferramentas",
-      "relevance_score": 6,
-      "tags": [
-        "Datasette",
-        "Web Development",
-        "Banco de Dados",
-        "JavaScript",
-        "Plugin"
-      ]
-    },
-    {
-      "id": "41b7cb7dc029",
-      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-17T23:58:39+00:00",
-      "fetched_at": "2026-06-21T04:59:46.702413+00:00",
-      "title": "GLM-5.2: Novo LLM open source com 1M tokens de contexto",
-      "summary": "O lab chinês Z.ai lançou o GLM-5.2, um modelo de linguagem open weights com 753B parâmetros e janela de contexto de 1 milhão de tokens. Para desenvolvedores brasileiros, isso significa acesso a uma alternativa open source poderosa para integrar em projetos sem dependência de APIs proprietárias.",
-      "category": "Releases",
-      "relevance_score": 8,
-      "tags": [
-        "LLM open source",
-        "GLM-5.2",
-        "modelos de linguagem",
-        "context window"
-      ]
-    },
-    {
-      "id": "0ef8fba96a25",
-      "url": "https://dev.to/aws-builders/monitorear-agentes-de-ia-con-cloudwatch-45c4",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 04:49:05 +0000",
-      "fetched_at": "2026-06-21T04:59:49.697160+00:00",
-      "title": "Monitorar agentes de IA com CloudWatch: métricas sem código",
-      "summary": "Artigo técnico sobre como usar MetricFilter e EMF no CloudWatch para monitorar agentes de IA em produção, substituindo logs simples por métricas estruturadas. Essencial para devs que deployam agentes na AWS e precisam observabilidade real em tempo de execução.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "CloudWatch",
-        "observabilidade",
-        "agentes de IA",
-        "AWS",
-        "monitoramento"
-      ]
-    },
-    {
-      "id": "052a30c7a5b3",
-      "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
-      "source": "Hacker News: Front Page",
-      "published": "Sun, 21 Jun 2026 00:58:13 +0000",
-      "fetched_at": "2026-06-21T03:36:37.673137+00:00",
-      "title": "Quando rejeitar código gerado por IA mesmo que funcione",
-      "summary": "Artigo discute critérios práticos para avaliar código gerado por IA além da funcionalidade imediata, considerando legibilidade, manutenibilidade e impacto a longo prazo no projeto. Essencial para desenvolvedores entenderem quando aceitar ou questionar sugestões de ferramentas de IA no dia a dia.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "code generation",
-        "AI coding assistants",
-        "code review",
-        "best practices",
-        "developer productivity"
-      ]
     }
   ],
-  "last_updated": "2026-06-21T17:45:10.071807+00:00",
+  "last_updated": "2026-06-21T21:09:56.907765+00:00",
   "total": 30
 }
