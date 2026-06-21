@@ -1,6 +1,133 @@
 {
   "articles": [
     {
+      "id": "052a30c7a5b3",
+      "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
+      "source": "Hacker News: Front Page",
+      "published": "Sun, 21 Jun 2026 00:58:13 +0000",
+      "fetched_at": "2026-06-21T03:36:37.673137+00:00",
+      "title": "Quando rejeitar código gerado por IA mesmo que funcione",
+      "summary": "Artigo discute critérios práticos para avaliar código gerado por IA além da funcionalidade imediata, considerando legibilidade, manutenibilidade e impacto a longo prazo no projeto. Essencial para desenvolvedores entenderem quando aceitar ou questionar sugestões de ferramentas de IA no dia a dia.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "code generation",
+        "AI coding assistants",
+        "code review",
+        "best practices",
+        "developer productivity"
+      ]
+    },
+    {
+      "id": "31c5ca121636",
+      "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "source": "Hacker News: Front Page",
+      "published": "Sun, 21 Jun 2026 00:00:25 +0000",
+      "fetched_at": "2026-06-21T03:36:39.328213+00:00",
+      "title": "Project Fetch Phase Two: Avanços da Anthropic em IA",
+      "summary": "A Anthropic anuncia a segunda fase do Project Fetch, expandindo capacidades de pesquisa em IA. O desenvolvimento impacta diretamente as ferramentas disponíveis para desenvolvedores trabalharem com modelos de linguagem mais avançados e eficientes.",
+      "category": "Modelos",
+      "relevance_score": 7,
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "modelos de IA",
+        "pesquisa",
+        "desenvolvimento"
+      ]
+    },
+    {
+      "id": "cdfac4124bef",
+      "url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-17T17:12:41+00:00",
+      "fetched_at": "2026-06-21T03:36:42.804554+00:00",
+      "title": "IA torna código gratuito e descartável: novo paradigma para devs",
+      "summary": "Charity Majors analisa como a IA generativa inverteu a economia da produção de código em 2025, tornando linhas de código praticamente gratuitas e regeneráveis. Isso exige dos desenvolvedores uma mudança radical na disciplina de engenharia, focando menos em otimização de código e mais em qualidade arquitetural e manutenibilidade.",
+      "category": "Mercado",
+      "relevance_score": 9,
+      "tags": [
+        "ia-generativa",
+        "economia-de-codigo",
+        "engenharia-de-software",
+        "impacto-mercado",
+        "disciplina-dev"
+      ]
+    },
+    {
+      "id": "f7ae0ced5823",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 18 Jun 2026 17:11:03 GMT",
+      "fetched_at": "2026-06-21T03:36:45.053202+00:00",
+      "title": "EUA bane novo modelo Anthropic Fable; impacto no mercado de IA",
+      "summary": "A proibição do modelo Fable da Anthropic nos EUA pode afetar a disponibilidade de ferramentas de IA para desenvolvedores brasileiros e sinaliza mudanças regulatórias no mercado. O artigo também cobre a compra do Cursor pela SpaceX e impacto na cultura de engenharia da Meta, temas relevantes para quem trabalha com IA generativa.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "Anthropic",
+        "regulação",
+        "modelos de IA",
+        "Cursor",
+        "ferramentas dev"
+      ]
+    },
+    {
+      "id": "6974e81c714c",
+      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
+      "source": "The Pragmatic Engineer",
+      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
+      "fetched_at": "2026-06-21T03:36:46.742377+00:00",
+      "title": "CI/CD moderno: Kubernetes, GitOps e IA na entrega de software",
+      "summary": "Discussão sobre como a IA está transformando pipelines de CI/CD, incluindo práticas modernas com Kubernetes e GitOps. Relevante para entender como automação inteligente está mudando a forma que desenvolvedores fazem deploy e delivery de aplicações.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "CI/CD",
+        "IA em DevOps",
+        "Kubernetes",
+        "GitOps",
+        "Progressive Delivery",
+        "Automação"
+      ]
+    },
+    {
+      "id": "c0eb22d76e56",
+      "url": "https://dev.to/kanfu-panda/your-ai-feels-slow-maybe-its-not-dumb-youre-making-it-work-one-thing-at-a-time-3ipl",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 03:23:29 +0000",
+      "fetched_at": "2026-06-21T03:36:48.623768+00:00",
+      "title": "Otimizando Agentes de IA com Execução Paralela",
+      "summary": "Artigo explora como executar múltiplos agentes de IA em paralelo em vez de sequencial, acelerando significativamente tarefas independentes. Relevante para devs que usam Claude Code e outras ferramentas de IA generativa, mostrando padrões práticos de otimização de performance.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "agentes-ia",
+        "claude-code",
+        "otimização-performance",
+        "arquitetura",
+        "desenvolvimento"
+      ]
+    },
+    {
+      "id": "7b5bf50dfdba",
+      "url": "https://dev.to/m_m_ce8454e07d6b8ffa6af4b/i-built-a-vad-that-beats-silero-pyannote-and-webrtc-on-noisy-audio-heres-how-4lmj",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 02:50:48 +0000",
+      "fetched_at": "2026-06-21T03:36:53.134989+00:00",
+      "title": "NOVA-VAD: Detector de Voz que Supera Silero e Pyannote",
+      "summary": "Um desenvolvedor criou um Voice Activity Detector (VAD) open source que alcança 93% de precisão em áudio ruidoso, superando soluções consolidadas como Silero (87%) e Pyannote (62%). A ferramenta é leve, explainável e pronta para uso em produção, oferecendo uma alternativa superior para projetos que envolvem processamento de áudio e reconhecimento de fala.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "Voice Activity Detection",
+        "áudio",
+        "open source",
+        "machine learning",
+        "processamento de fala"
+      ]
+    },
+    {
       "id": "799eb45228cf",
       "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
       "source": "The Pragmatic Engineer",
@@ -404,131 +531,8 @@
         "cost management",
         "analytics"
       ]
-    },
-    {
-      "id": "db5490f158fb",
-      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-19T22:45:49+00:00",
-      "fetched_at": "2026-06-20T11:58:05.086179+00:00",
-      "title": "MCP: isolando autenticação em agentes de IA",
-      "summary": "Sean Lynch discute como o Model Context Protocol (MCP) oferece uma vantagem significativa ao isolar o fluxo de autenticação fora do contexto do agente, melhorando segurança e eficiência. Isso muda como devs implementam integração de APIs com LLMs, potencialmente simplificando a arquitetura de sistemas com agentes de IA.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "Model Context Protocol",
-        "MCP",
-        "agentes de IA",
-        "LLMs",
-        "autenticação",
-        "integração de APIs"
-      ]
-    },
-    {
-      "id": "cb9157add9c5",
-      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-18T23:58:38+00:00",
-      "fetched_at": "2026-06-20T11:58:06.683152+00:00",
-      "title": "Datasette Apps: hospede aplicações HTML customizadas no Datasette",
-      "summary": "Novo plugin permite criar aplicações web auto-contidas que rodam em sandbox dentro do Datasette, com acesso a queries SQL. Útil para devs que precisam construir interfaces de dados rapidamente sem infraestrutura complexa.",
-      "category": "Ferramentas",
-      "relevance_score": 6,
-      "tags": [
-        "Datasette",
-        "SQL",
-        "Desenvolvimento Web",
-        "Ferramentas de Dados"
-      ]
-    },
-    {
-      "id": "41b7cb7dc029",
-      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-17T23:58:39+00:00",
-      "fetched_at": "2026-06-20T11:58:10.644631+00:00",
-      "title": "GLM-5.2: Poderoso LLM open source com 1M tokens de contexto",
-      "summary": "O lab chinês Z.ai lançou o GLM-5.2, um modelo de linguagem open source com 753B parâmetros e janela de contexto de 1 milhão de tokens, 5x maior que a versão anterior. Para desenvolvedores brasileiros, isso significa acesso a uma alternativa open weights de alto desempenho para integrar em aplicações localmente, sem custos de API.",
-      "category": "Releases",
-      "relevance_score": 9,
-      "tags": [
-        "LLM",
-        "open source",
-        "GLM-5.2",
-        "modelo de linguagem",
-        "context window"
-      ]
-    },
-    {
-      "id": "7d936861d662",
-      "url": "https://dev.to/bala_paranj_059d338e44e7e/the-viability-test-every-ai-dev-architecture-fails-d3",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 11:37:43 +0000",
-      "fetched_at": "2026-06-20T11:58:13.775237+00:00",
-      "title": "Arquitetura de Agentes IA: O Teste de Viabilidade que Todos Falham",
-      "summary": "Artigo analisa as limitações das arquiteturas atuais de agentes IA (Modelo + Harness) e propõe um framework de cinco elementos baseado em TRIZ para desenvolvimento assistido por IA. Essencial para devs que trabalham com arquiteturas de agentes e querem entender gaps críticos nas soluções atuais.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "arquitetura-de-agentes",
-        "agentes-IA",
-        "desenvolvimento-assistido",
-        "padrões-arquiteturais"
-      ]
-    },
-    {
-      "id": "7339e5de8ac4",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
-      "source": "The GitHub Blog",
-      "published": "Fri, 19 Jun 2026 16:00:00 +0000",
-      "fetched_at": "2026-06-20T11:58:15.473338+00:00",
-      "title": "GitHub cria agente de análise de dados com Copilot interno",
-      "summary": "O GitHub desenvolveu o Qubot, um agente analítico alimentado por IA que permite consultas em linguagem natural sobre dados. A experiência mostra como ferramentas de IA estão transformando a forma como desenvolvedores acessam e interpretam informações complexas sem código SQL.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "GitHub Copilot",
-        "Agentes de IA",
-        "Data Analytics",
-        "Desenvolvimento Interno"
-      ]
-    },
-    {
-      "id": "af5b66d8418f",
-      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
-      "source": "The GitHub Blog",
-      "published": "Thu, 18 Jun 2026 16:00:00 +0000",
-      "fetched_at": "2026-06-20T11:58:17.113177+00:00",
-      "title": "Limites de Pull Requests: Como GitHub reduz ruído em repositórios",
-      "summary": "GitHub implementa limites de pull requests para gerenciar melhor o volume de contribuições em repositórios. A funcionalidade ajuda mantenedores a controlar spam e contribuições indesejadas, impactando o fluxo de trabalho e a produtividade dos desenvolvedores em projetos open source.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "GitHub",
-        "Pull Requests",
-        "Fluxo de trabalho",
-        "Open Source",
-        "Produtividade"
-      ]
-    },
-    {
-      "id": "c34b6e156686",
-      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
-      "source": "The GitHub Blog",
-      "published": "Wed, 17 Jun 2026 19:41:46 +0000",
-      "fetched_at": "2026-06-20T11:58:18.685159+00:00",
-      "title": "Copilot melhora roteamento de modelos e uso de tokens",
-      "summary": "GitHub Copilot otimiza o processamento de contexto e roteamento inteligente de modelos para economizar tokens e aumentar produtividade. A melhoria permite que desenvolvedores façam mais com menos créditos gastos na plataforma.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "GitHub Copilot",
-        "otimização de tokens",
-        "context handling",
-        "eficiência de IA"
-      ]
     }
   ],
-  "last_updated": "2026-06-20T21:24:20.778368+00:00",
+  "last_updated": "2026-06-21T03:36:53.135022+00:00",
   "total": 30
 }
