@@ -1,6 +1,148 @@
 {
   "articles": [
     {
+      "id": "08b6418582ce",
+      "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+      "source": "Hacker News: Front Page",
+      "published": "Sun, 21 Jun 2026 05:45:21 +0000",
+      "fetched_at": "2026-06-21T08:25:21.574046+00:00",
+      "title": "Os 100 mil porquês da IA: entendendo os fundamentos",
+      "summary": "Artigo exploratório que questiona os princípios fundamentais por trás dos sistemas de IA, ajudando desenvolvedores a compreender melhor como essas ferramentas funcionam internamente. Relevante para quem quer ir além do uso superficial de modelos de IA e entender suas limitações e capacidades reais.",
+      "category": "Modelos",
+      "relevance_score": 7,
+      "tags": [
+        "IA",
+        "fundamentos",
+        "modelos de linguagem",
+        "educação técnica"
+      ]
+    },
+    {
+      "id": "a50ca6b1e2b2",
+      "url": "https://www.satisfice.com/blog/archives/488148",
+      "source": "Hacker News: Front Page",
+      "published": "Sun, 21 Jun 2026 04:50:46 +0000",
+      "fetched_at": "2026-06-21T08:25:23.861142+00:00",
+      "title": "Cuidado ao declarar uso de IA na escrita profissional",
+      "summary": "Artigo discute os riscos reputacionais e profissionais de admitir publicamente o uso de IA para escrever. Para desenvolvedores, isso é relevante considerando documentação de código, comunicação técnica e impacto na credibilidade profissional no mercado.",
+      "category": "Mercado",
+      "relevance_score": 6,
+      "tags": [
+        "IA generativa",
+        "carreira",
+        "ferramentas de escrita",
+        "ética profissional"
+      ]
+    },
+    {
+      "id": "65411946b238",
+      "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "source": "Hacker News: Front Page",
+      "published": "Sun, 21 Jun 2026 04:28:39 +0000",
+      "fetched_at": "2026-06-21T08:25:26.768744+00:00",
+      "title": "Construindo sistemas de IA agentic confiáveis",
+      "summary": "Guia prático sobre como desenvolver agentes de IA confiáveis e robustos em produção. O artigo aborda padrões, desafios técnicos e melhores práticas que developers precisam dominar para implementar sistemas agentic em suas aplicações.",
+      "category": "Tutoriais",
+      "relevance_score": 9,
+      "tags": [
+        "agentic AI",
+        "LLM",
+        "confiabilidade",
+        "boas práticas",
+        "produção"
+      ]
+    },
+    {
+      "id": "6b8b89c54a5d",
+      "url": "https://dev.to/gunxueqiu6/how-to-use-ai-coding-tools-without-leaking-source-code-16k",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 08:15:46 +0000",
+      "fetched_at": "2026-06-21T08:25:31.400973+00:00",
+      "title": "Como usar ferramentas de IA sem vazar código-fonte",
+      "summary": "Artigo essencial que explica como principais ferramentas de IA (Copilot, Cursor, Claude) transmitem código para servidores externos e apresenta estratégias práticas para desenvolvedores brasileiros protegerem sua propriedade intelectual ao usar assistentes de IA.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "segurança",
+        "privacidade",
+        "GitHub Copilot",
+        "Cursor",
+        "boas práticas"
+      ]
+    },
+    {
+      "id": "6c7851d08ddc",
+      "url": "https://dev.to/gunxueqiu6/pii-masking-vs-data-encryption-whats-the-difference-for-ai-apis-594d",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 08:15:38 +0000",
+      "fetched_at": "2026-06-21T08:25:33.150230+00:00",
+      "title": "Mascaramento de PII vs Criptografia em APIs de IA",
+      "summary": "Artigo técnico que explica por que criptografia tradicional quebra funcionalidade de APIs de IA e por que mascaramento de dados sensíveis é a abordagem correta. Essencial para devs que trabalham com IA e precisam proteger dados de clientes sem comprometer o modelo.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "IA",
+        "segurança",
+        "APIs",
+        "proteção de dados",
+        "PII",
+        "boas práticas"
+      ]
+    },
+    {
+      "id": "39233d9399cc",
+      "url": "https://dev.to/gunxueqiu6/the-developers-guide-to-ai-data-privacy-in-2026-21",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 08:15:31 +0000",
+      "fetched_at": "2026-06-21T08:25:35.245785+00:00",
+      "title": "Privacidade de dados em ferramentas IA: o que devs brasileiros precisam saber",
+      "summary": "Artigo essencial que revela como IDEs com IA integrada (Copilot, Cursor, Claude Code) enviam código para servidores terceirizados. Apresenta riscos de segurança e um checklist prático para proteger dados e conformidade nas organizações brasileiras.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "privacidade",
+        "segurança",
+        "IDE",
+        "IA integrada",
+        "proteção de dados"
+      ]
+    },
+    {
+      "id": "62d5175a816d",
+      "url": "https://dev.to/gunxueqiu6/open-source-vs-commercial-ai-privacy-tools-5-options-compared-4o7c",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 08:15:23 +0000",
+      "fetched_at": "2026-06-21T08:25:37.238985+00:00",
+      "title": "5 Ferramentas de Privacidade para IA: Open Source vs Commercial",
+      "summary": "Comparação prática de ferramentas de detecção de PII e mascaramento de dados para pipelines de IA. O artigo ajuda devs a escolher entre soluções open source (controle total) e comerciais (zero setup), considerando latência, custo e precisão.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "privacidade",
+        "ferramentas-IA",
+        "open-source",
+        "compliance",
+        "detecção-PII"
+      ]
+    },
+    {
+      "id": "7339e5de8ac4",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "source": "The GitHub Blog",
+      "published": "Fri, 19 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-21T08:25:39.014217+00:00",
+      "title": "Como o GitHub construiu um agente de análise de dados com IA",
+      "summary": "O GitHub desenvolveu o Qubot, um agente analítico alimentado pelo Copilot que permite consultas em linguagem natural sobre dados. O caso mostra como developers podem usar IA generativa para democratizar acesso a analytics e construir ferramentas internas mais eficientes.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "GitHub Copilot",
+        "Agentes de IA",
+        "Data Analytics",
+        "Desenvolvimento Interno"
+      ]
+    },
+    {
       "id": "db5490f158fb",
       "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
       "source": "Simon Willison's Weblog",
@@ -392,148 +534,8 @@
         "machine learning",
         "deep learning"
       ]
-    },
-    {
-      "id": "7acdc9e4f02a",
-      "url": "https://dev.to/marcusykim/the-first-qa-checklist-i-would-run-on-any-ai-built-app-in-2026-3p3g",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 17:30:00 +0000",
-      "fetched_at": "2026-06-20T17:40:46.247935+00:00",
-      "title": "Checklist de QA essencial para aplicações construídas com IA",
-      "summary": "Artigo prático sobre estratégias de teste para aplicações desenvolvidas com IA, destacando os riscos de assumir que o código gerado está correto. Oferece um guia simplificado de QA para desenvolvedores iniciantes que usam IA no desenvolvimento.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "QA",
-        "testes",
-        "AI-generated code",
-        "boas práticas",
-        "desenvolvimento com IA"
-      ]
-    },
-    {
-      "id": "9852cbbf1ba8",
-      "url": "https://github.com/geiger-rs/cargo-geiger",
-      "source": "Hacker News: Front Page",
-      "published": "Sat, 20 Jun 2026 14:52:59 +0000",
-      "fetched_at": "2026-06-20T17:21:35.018004+00:00",
-      "title": "Cargo-Geiger: Ferramenta de Análise de Código Unsafe em Rust",
-      "summary": "Cargo-Geiger é uma ferramenta que analisa e identifica código unsafe em projetos Rust, ajudando desenvolvedores a gerenciar riscos de segurança. Relevante para quem trabalha com Rust e busca melhorar a qualidade e segurança do código de forma automatizada.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "Rust",
-        "Segurança",
-        "Análise Estática",
-        "Ferramentas de Dev"
-      ]
-    },
-    {
-      "id": "a5dce2d46468",
-      "url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19/",
-      "source": "Hacker News: Front Page",
-      "published": "Sat, 20 Jun 2026 14:32:15 +0000",
-      "fetched_at": "2026-06-20T17:21:36.697919+00:00",
-      "title": "Cientista John Jumper deixa Google DeepMind para Anthropic",
-      "summary": "Pesquisador chave do Google DeepMind se muda para Anthropic, sinalizando mudanças estratégicas na corrida de IA. Movimento reflete dinâmica competitiva entre gigantes de IA que afeta disponibilidade de ferramentas e modelos para desenvolvedores.",
-      "category": "Mercado",
-      "relevance_score": 6,
-      "tags": [
-        "anthropic",
-        "google-deepmind",
-        "mercado-ia",
-        "pesquisa-ia"
-      ]
-    },
-    {
-      "id": "47671371017b",
-      "url": "https://dev.to/greymothjp/the-enter-key-that-quietly-breaks-japanese-input-and-how-to-test-if-your-app-does-it-25ep",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 16:52:24 +0000",
-      "fetched_at": "2026-06-20T17:21:45.192171+00:00",
-      "title": "Bug de entrada de texto japonês em aplicações web",
-      "summary": "Artigo técnico sobre um erro comum em apps que não suportam IME (Input Method Editor) do japonês, onde a tecla Enter é interpretada como submit em vez de confirmação de conversão. Desenvolvedor deve testar internacionalização para evitar quebrar a experiência de usuários japoneses.",
-      "category": "Tutoriais",
-      "relevance_score": 6,
-      "tags": [
-        "internacionalização",
-        "i18n",
-        "bug de entrada de texto",
-        "desenvolvimento web"
-      ]
-    },
-    {
-      "id": "3d8d1b9719d5",
-      "url": "https://dev.to/ammorick/from-delivery-rider-to-building-my-first-ai-system-heres-my-story-3d9c",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 16:50:21 +0000",
-      "fetched_at": "2026-06-20T17:21:46.917358+00:00",
-      "title": "De entregador a dev: história de aprendizado com AI Agents",
-      "summary": "Relato inspirador de um desenvolvedor autodidata que descobriu sua paixão por IA enquanto trabalhava como entregador. Mostra como ferramentas de AI Agents estão acessíveis para quem quer aprender a programar do zero, abrindo novas oportunidades no mercado.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "AI Agents",
-        "carreira dev",
-        "autodidata",
-        "aprendizado"
-      ]
-    },
-    {
-      "id": "316e190be5c9",
-      "url": "https://dev.to/kevin_menesesgonzlez/building-a-finviz-alternative-with-claude-code-and-eodhd-api-1115",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 13:56:19 +0000",
-      "fetched_at": "2026-06-20T14:19:06.030896+00:00",
-      "title": "Construir alternativa ao Finviz com Claude Code e API EODHD",
-      "summary": "Artigo mostra como desenvolvedores podem usar Claude Code e APIs para construir ferramentas financeiras personalizadas, consolidando múltiplas fontes de dados. Demonstra aplicação prática de IA para automatizar workflows complexos e reduzir fragmentação de dados em aplicações reais.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "Claude AI",
-        "APIs",
-        "desenvolvimento de ferramentas",
-        "automação",
-        "finanças"
-      ]
-    },
-    {
-      "id": "4a9e9c521126",
-      "url": "https://dev.to/parastejpal987cmyk/i-built-a-free-api-that-scrapes-any-website-using-plain-english-no-css-selectors-14fa",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 13:51:12 +0000",
-      "fetched_at": "2026-06-20T14:19:07.737010+00:00",
-      "title": "API gratuita usa IA para web scraping sem CSS selectors",
-      "summary": "Uma nova ferramenta chamada Opticparse utiliza modelos de visão por IA para fazer scraping de websites através de descrições em linguagem natural, eliminando a necessidade de manutenção de CSS selectors. Isso reduz drasticamente o tempo de desenvolvimento e manutenção de scrapers, que frequentemente quebram após mudanças no frontend dos sites.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "web-scraping",
-        "visão-por-computador",
-        "IA",
-        "automação",
-        "desenvolvimento"
-      ]
-    },
-    {
-      "id": "672d238d12a8",
-      "url": "https://dev.to/enes_bilgin/from-tles-to-real-time-satellite-tracking-building-an-orbital-backend-with-spring-boot-and-orekit-lgn",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 13:44:50 +0000",
-      "fetched_at": "2026-06-20T13:50:50.135190+00:00",
-      "title": "Rastreamento de Satélites em Tempo Real com Spring Boot e Orekit",
-      "summary": "Artigo técnico mostrando como construir um backend de rastreamento orbital usando Spring Boot e a biblioteca Orekit, eliminando dependência de APIs pagas. Relevante para desenvolvedores que trabalham com dados geoespaciais e sistemas em tempo real.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "Spring Boot",
-        "Orekit",
-        "Rastreamento Orbital",
-        "Backend",
-        "APIs Públicas"
-      ]
     }
   ],
-  "last_updated": "2026-06-21T04:59:53.057472+00:00",
+  "last_updated": "2026-06-21T08:25:39.014251+00:00",
   "total": 30
 }
