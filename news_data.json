@@ -1,6 +1,77 @@
 {
   "articles": [
     {
+      "id": "db5490f158fb",
+      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-19T22:45:49+00:00",
+      "fetched_at": "2026-06-21T04:59:40.663384+00:00",
+      "title": "MCP: Isolamento de autenticação em agentes IA",
+      "summary": "Sean Lynch comenta sobre o Model Context Protocol (MCP) e sua capacidade de isolar fluxos de autenticação fora do contexto do agente IA. Isso simplifica a integração segura de APIs em ferramentas baseadas em LLMs, reduzindo complexidade para desenvolvedores que implementam agentes inteligentes.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "MCP",
+        "autenticação",
+        "agentes IA",
+        "LLMs",
+        "integração de APIs"
+      ]
+    },
+    {
+      "id": "cb9157add9c5",
+      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-18T23:58:38+00:00",
+      "fetched_at": "2026-06-21T04:59:42.756740+00:00",
+      "title": "Datasette Apps: hospede aplicações HTML customizadas no Datasette",
+      "summary": "Nova extensão do Datasette permite hospedar aplicações HTML+JavaScript isoladas que executam queries SQL contra seus dados. Útil para devs que precisam criar interfaces web customizadas integradas diretamente em suas plataformas de dados, sem infraestrutura adicional.",
+      "category": "Ferramentas",
+      "relevance_score": 6,
+      "tags": [
+        "Datasette",
+        "Web Development",
+        "Banco de Dados",
+        "JavaScript",
+        "Plugin"
+      ]
+    },
+    {
+      "id": "41b7cb7dc029",
+      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-17T23:58:39+00:00",
+      "fetched_at": "2026-06-21T04:59:46.702413+00:00",
+      "title": "GLM-5.2: Novo LLM open source com 1M tokens de contexto",
+      "summary": "O lab chinês Z.ai lançou o GLM-5.2, um modelo de linguagem open weights com 753B parâmetros e janela de contexto de 1 milhão de tokens. Para desenvolvedores brasileiros, isso significa acesso a uma alternativa open source poderosa para integrar em projetos sem dependência de APIs proprietárias.",
+      "category": "Releases",
+      "relevance_score": 8,
+      "tags": [
+        "LLM open source",
+        "GLM-5.2",
+        "modelos de linguagem",
+        "context window"
+      ]
+    },
+    {
+      "id": "0ef8fba96a25",
+      "url": "https://dev.to/aws-builders/monitorear-agentes-de-ia-con-cloudwatch-45c4",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 04:49:05 +0000",
+      "fetched_at": "2026-06-21T04:59:49.697160+00:00",
+      "title": "Monitorar agentes de IA com CloudWatch: métricas sem código",
+      "summary": "Artigo técnico sobre como usar MetricFilter e EMF no CloudWatch para monitorar agentes de IA em produção, substituindo logs simples por métricas estruturadas. Essencial para devs que deployam agentes na AWS e precisam observabilidade real em tempo de execução.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "CloudWatch",
+        "observabilidade",
+        "agentes de IA",
+        "AWS",
+        "monitoramento"
+      ]
+    },
+    {
       "id": "052a30c7a5b3",
       "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
       "source": "Hacker News: Front Page",
@@ -461,78 +532,8 @@
         "Backend",
         "APIs Públicas"
       ]
-    },
-    {
-      "id": "7595640cf53b",
-      "url": "https://dev.to/codenameone/3d-graphics-without-writing-shaders-the-portable-gpu-api-3ach",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 13:33:27 +0000",
-      "fetched_at": "2026-06-20T13:50:56.244810+00:00",
-      "title": "GPU Portável: Gráficos 3D sem escrever Shaders",
-      "summary": "Uma nova API GPU portável simplifica o desenvolvimento de gráficos 3D multiplataforma, eliminando a necessidade de escrever shaders diferentes para iOS, Android, Web e Windows. Isso reduz significativamente a complexidade e o tempo de desenvolvimento para criar aplicações gráficas que funcionem em múltiplos dispositivos.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "GPU",
-        "gráficos 3D",
-        "desenvolvimento multiplataforma",
-        "shaders",
-        "WebGL"
-      ]
-    },
-    {
-      "id": "51ed7c9b7278",
-      "url": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
-      "source": "The GitHub Blog",
-      "published": "Tue, 16 Jun 2026 20:58:54 +0000",
-      "fetched_at": "2026-06-20T13:50:59.609487+00:00",
-      "title": "Git Worktrees: Como usar a funcionalidade para produtividade",
-      "summary": "Artigo sobre git worktrees, uma feature disponível desde 2015 que ganhou popularidade recentemente. Aprenda como usar para trabalhar em múltiplos branches simultaneamente sem trocar de contexto, melhorando o fluxo de desenvolvimento.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "git",
-        "workflow",
-        "produtividade",
-        "ferramentas-desenvolvimento"
-      ]
-    },
-    {
-      "id": "01f51600141b",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
-      "source": "The GitHub Blog",
-      "published": "Mon, 15 Jun 2026 20:15:31 +0000",
-      "fetched_at": "2026-06-20T13:51:01.166918+00:00",
-      "title": "GitHub Copilot CLI: Guia de comandos slash para iniciantes",
-      "summary": "O GitHub Copilot CLI agora oferece comandos slash para controlar um agente de IA no terminal, facilitando a automação de tarefas comuns de desenvolvimento. Esse recurso torna a assistência de IA mais acessível e integrada ao fluxo de trabalho diário dos desenvolvedores brasileiros.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "GitHub Copilot",
-        "CLI",
-        "IA generativa",
-        "produtividade",
-        "terminal"
-      ]
-    },
-    {
-      "id": "a55ebd412e31",
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "source": "OpenAI News",
-      "published": "Thu, 18 Jun 2026 17:00:00 GMT",
-      "fetched_at": "2026-06-20T13:51:02.862417+00:00",
-      "title": "OpenAI lança controles de gastos e análise de uso para ChatGPT Enterprise",
-      "summary": "OpenAI apresenta novos controles de gastos e analytics de uso para ChatGPT Enterprise, permitindo que organizações gerenciem custos e escalem soluções com IA de forma mais controlada. A atualização é relevante para devs que implementam APIs da OpenAI em projetos empresariais, oferecendo melhor visibilidade e controle sobre consumo de tokens e despesas.",
-      "category": "Releases",
-      "relevance_score": 7,
-      "tags": [
-        "OpenAI",
-        "ChatGPT Enterprise",
-        "cost management",
-        "analytics"
-      ]
     }
   ],
-  "last_updated": "2026-06-21T03:36:53.135022+00:00",
+  "last_updated": "2026-06-21T04:59:53.057472+00:00",
   "total": 30
 }
