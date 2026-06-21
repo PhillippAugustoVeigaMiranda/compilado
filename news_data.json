@@ -1,6 +1,111 @@
 {
   "articles": [
     {
+      "id": "89376b20bf54",
+      "url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
+      "source": "Hacker News: Front Page",
+      "published": "Sun, 21 Jun 2026 16:14:54 +0000",
+      "fetched_at": "2026-06-21T17:24:30.836123+00:00",
+      "title": "IA quebrou o processo de contratação: como consertar",
+      "summary": "Artigo analisa como ferramentas de IA estão transformando (e prejudicando) processos de seleção e contratação. Relevante para devs entenderem como IA impacta o mercado de trabalho e oportunidades na área de tecnologia.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "mercado de trabalho",
+        "recrutamento",
+        "IA em RH",
+        "carreira dev"
+      ]
+    },
+    {
+      "id": "7be745803e59",
+      "url": "https://dev.to/mspro3210/every-agent-passport-layer-is-grading-its-own-exam-20do",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 17:11:47 +0000",
+      "fetched_at": "2026-06-21T17:24:34.725891+00:00",
+      "title": "Autorização Pré-Ação: Nova Camada de Segurança para Agentes IA",
+      "summary": "Uma nova camada de segurança está se consolidando no stack de agentes: a autorização pré-ação determinística. Ela intercepta chamadas de ferramentas antes da execução, aplicando políticas declarativas imunes a prompt injection. Desenvolvedores precisam entender esse padrão que já está em produção para construir agentes mais seguros.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "agentes-ia",
+        "segurança",
+        "autorização",
+        "ai-agents",
+        "desenvolvimento"
+      ]
+    },
+    {
+      "id": "4646aa02abec",
+      "url": "https://dev.to/knallhartdev/the-scrollheight-lie-how-i-finally-got-full-page-screenshots-right-with-playwright-4emn",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 16:59:14 +0000",
+      "fetched_at": "2026-06-21T17:24:40.127274+00:00",
+      "title": "Screenshots Full-Page com Playwright: Resolvendo Limitações do scrollHeight",
+      "summary": "Artigo técnico sobre como contornar limitações do scrollHeight ao automatizar screenshots de páginas inteiras com Playwright, abordando desafios com lazy-loading e scroll infinito. Relevante para devs que trabalham com automação de testes e ferramentas que processam conteúdo web.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "Playwright",
+        "Automação Web",
+        "Screenshots",
+        "Desenvolvimento"
+      ]
+    },
+    {
+      "id": "6086b27c1967",
+      "url": "https://dev.to/irniaqa/audio-testing-for-ai-chatbots-key-qa-techniques-and-best-practices-14gh",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 16:50:35 +0000",
+      "fetched_at": "2026-06-21T17:24:42.086333+00:00",
+      "title": "Testes de Áudio em Chatbots IA: Técnicas e Boas Práticas de QA",
+      "summary": "Artigo aborda desafios específicos de QA para chatbots com interação por voz, incluindo variáveis como sotaques, ruído de fundo e condições de rede. Essencial para devs que trabalham com chatbots habilitados para voz, um mercado em expansão acelerada que deve crescer 170% até 2035.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "QA",
+        "chatbots",
+        "IA conversacional",
+        "testes de áudio",
+        "voice-enabled"
+      ]
+    },
+    {
+      "id": "51ed7c9b7278",
+      "url": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+      "source": "The GitHub Blog",
+      "published": "Tue, 16 Jun 2026 20:58:54 +0000",
+      "fetched_at": "2026-06-21T17:24:43.928251+00:00",
+      "title": "Git Worktrees: ferramenta essencial para workflows paralelos",
+      "summary": "Artigo explora git worktrees, recurso disponível desde 2015 que permite trabalhar em múltiplos branches simultaneamente sem trocar de contexto. Ideal para devs que querem aumentar produtividade gerenciando várias linhas de desenvolvimento em paralelo.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "git",
+        "workflow",
+        "produtividade",
+        "ferramentas-desenvolvimento"
+      ]
+    },
+    {
+      "id": "01f51600141b",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
+      "source": "The GitHub Blog",
+      "published": "Mon, 15 Jun 2026 20:15:31 +0000",
+      "fetched_at": "2026-06-21T17:24:45.663085+00:00",
+      "title": "GitHub Copilot CLI: Dominando slash commands para terminal",
+      "summary": "O GitHub Copilot agora oferece uma interface CLI com slash commands para controlar um agente de IA no terminal. Isso permite que desenvolvedores executem tarefas comuns de linha de comando com assistência de IA, aumentando produtividade e reduzindo tempo em operações repetitivas.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "GitHub Copilot",
+        "CLI",
+        "Produtividade",
+        "Terminal",
+        "IA para devs"
+      ]
+    },
+    {
       "id": "e592a89e41a4",
       "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity/",
       "source": "Hacker News: Front Page",
@@ -428,114 +533,8 @@
         "Cursor",
         "ferramentas dev"
       ]
-    },
-    {
-      "id": "6974e81c714c",
-      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
-      "source": "The Pragmatic Engineer",
-      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
-      "fetched_at": "2026-06-21T03:36:46.742377+00:00",
-      "title": "CI/CD moderno: Kubernetes, GitOps e IA na entrega de software",
-      "summary": "Discussão sobre como a IA está transformando pipelines de CI/CD, incluindo práticas modernas com Kubernetes e GitOps. Relevante para entender como automação inteligente está mudando a forma que desenvolvedores fazem deploy e delivery de aplicações.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "CI/CD",
-        "IA em DevOps",
-        "Kubernetes",
-        "GitOps",
-        "Progressive Delivery",
-        "Automação"
-      ]
-    },
-    {
-      "id": "c0eb22d76e56",
-      "url": "https://dev.to/kanfu-panda/your-ai-feels-slow-maybe-its-not-dumb-youre-making-it-work-one-thing-at-a-time-3ipl",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 03:23:29 +0000",
-      "fetched_at": "2026-06-21T03:36:48.623768+00:00",
-      "title": "Otimizando Agentes de IA com Execução Paralela",
-      "summary": "Artigo explora como executar múltiplos agentes de IA em paralelo em vez de sequencial, acelerando significativamente tarefas independentes. Relevante para devs que usam Claude Code e outras ferramentas de IA generativa, mostrando padrões práticos de otimização de performance.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "agentes-ia",
-        "claude-code",
-        "otimização-performance",
-        "arquitetura",
-        "desenvolvimento"
-      ]
-    },
-    {
-      "id": "7b5bf50dfdba",
-      "url": "https://dev.to/m_m_ce8454e07d6b8ffa6af4b/i-built-a-vad-that-beats-silero-pyannote-and-webrtc-on-noisy-audio-heres-how-4lmj",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 02:50:48 +0000",
-      "fetched_at": "2026-06-21T03:36:53.134989+00:00",
-      "title": "NOVA-VAD: Detector de Voz que Supera Silero e Pyannote",
-      "summary": "Um desenvolvedor criou um Voice Activity Detector (VAD) open source que alcança 93% de precisão em áudio ruidoso, superando soluções consolidadas como Silero (87%) e Pyannote (62%). A ferramenta é leve, explainável e pronta para uso em produção, oferecendo uma alternativa superior para projetos que envolvem processamento de áudio e reconhecimento de fala.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "Voice Activity Detection",
-        "áudio",
-        "open source",
-        "machine learning",
-        "processamento de fala"
-      ]
-    },
-    {
-      "id": "799eb45228cf",
-      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-      "source": "The Pragmatic Engineer",
-      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
-      "fetched_at": "2026-06-20T21:24:09.440709+00:00",
-      "title": "Meta desmantelando sua engenharia: impacto da IA no mercado",
-      "summary": "A Meta está reestruturando sua organização de engenharia focada em IA, com implicações diretas no mercado de trabalho tech. Developers precisam entender como gigantes de tech estão reorganizando equipes e priorizando IA, sinalizando tendências de contratação e demanda de skills.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "mercado de trabalho",
-        "IA em empresas tech",
-        "reorganização de times"
-      ]
-    },
-    {
-      "id": "1b448300af8f",
-      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
-      "source": "The Pragmatic Engineer",
-      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
-      "fetched_at": "2026-06-20T21:24:11.205718+00:00",
-      "title": "Novo modelo Fable da Anthropic e impacto no mercado de IA",
-      "summary": "O novo modelo Fable da Anthropic apresenta limitações que podem afastar usuários para concorrentes como Codex. O artigo discute tendências emergentes como smart model routing, que impactam como desenvolvedores escolhem e integram modelos de IA em seus projetos.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "Anthropic",
-        "modelos de IA",
-        "competição mercado",
-        "smart routing"
-      ]
-    },
-    {
-      "id": "f64df3ad1488",
-      "url": "https://dev.to/okeke_chukwudubem_5f3bf49/project-log-9-my-ai-agent-works-on-my-phone-but-what-about-yours-2mng",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 21:22:01 +0000",
-      "fetched_at": "2026-06-20T21:24:13.287192+00:00",
-      "title": "Agentes de IA em Mobile: Desafios de Compatibilidade Entre Dispositivos",
-      "summary": "Um desenvolvedor documenta os obstáculos ao portar um agente de IA de seu celular para outros dispositivos Android, explorando como variações de resolução, densidade de pixels e versões do SO afetam a confiabilidade da detecção de elementos. O artigo revela problemas práticos que devs enfrentam ao deployar soluções de IA em mobile.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "agentes-ia",
-        "mobile",
-        "android",
-        "compatibilidade",
-        "visao-computacional"
-      ]
     }
   ],
-  "last_updated": "2026-06-21T14:25:07.988721+00:00",
+  "last_updated": "2026-06-21T17:24:45.663127+00:00",
   "total": 30
 }
