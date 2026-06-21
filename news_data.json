@@ -1,6 +1,78 @@
 {
   "articles": [
     {
+      "id": "e592a89e41a4",
+      "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity/",
+      "source": "Hacker News: Front Page",
+      "published": "Sun, 21 Jun 2026 12:44:13 +0000",
+      "fetched_at": "2026-06-21T13:58:52.133641+00:00",
+      "title": "Anthropic exigirá verificação de identidade para certos recursos",
+      "summary": "A partir de 8 de julho, a Anthropic implementará verificação de identidade para acessar certos recursos do Claude. A mudança afeta desenvolvedores que usam a plataforma, impactando fluxos de desenvolvimento e integração de APIs.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "Verificação de identidade",
+        "Acesso à API",
+        "Mudanças de política"
+      ]
+    },
+    {
+      "id": "f3e27823b398",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2",
+      "source": "The Pragmatic Engineer",
+      "published": "Tue, 09 Jun 2026 16:35:53 GMT",
+      "fetched_at": "2026-06-21T13:58:58.442225+00:00",
+      "title": "Mercado de trabalho em software 2026: IA Labs superam Big Tech",
+      "summary": "Análise exclusiva do mercado de tech jobs revela que laboratórios de IA são mais atraentes que grandes empresas, funções de mobile e frontend estão em declínio, e há uma reorganização nas estruturas de gestão. Insights essenciais para desenvolvedores entenderem as mudanças nas oportunidades de carreira.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "mercado de trabalho",
+        "carreiras",
+        "IA Labs",
+        "tendências 2026",
+        "frontend",
+        "mobile"
+      ]
+    },
+    {
+      "id": "8da23f704a40",
+      "url": "https://dev.to/betschwa/why-im-building-yet-another-uml-tool-in-2026-12l1",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 13:53:10 +0000",
+      "fetched_at": "2026-06-21T13:59:05.120196+00:00",
+      "title": "Nova ferramenta UML em 2026: o que mudou no mercado de diagramação",
+      "summary": "Um desenvolvedor com 20 anos de experiência em sistemas críticos explora por que está criando mais uma ferramenta UML, analisando as falhas das soluções existentes como PlantUML, Mermaid e draw.io. O artigo discute como a IA e novas abordagens podem preencher lacunas ignoradas pela categoria por uma década.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "UML",
+        "ferramentas de desenvolvimento",
+        "diagramação",
+        "SysML",
+        "produtividade de devs"
+      ]
+    },
+    {
+      "id": "c34b6e156686",
+      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+      "source": "The GitHub Blog",
+      "published": "Wed, 17 Jun 2026 19:41:46 +0000",
+      "fetched_at": "2026-06-21T13:59:08.292516+00:00",
+      "title": "Copilot melhora uso de tokens com roteamento inteligente de modelos",
+      "summary": "GitHub Copilot otimiza o gerenciamento de contexto e implementa roteamento automático entre modelos para maximizar a utilidade de cada token consumido. Isso significa que desenvolvedores conseguem mais funcionalidades com o mesmo crédito, reduzindo custos operacionais da IA assistiva.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "GitHub Copilot",
+        "otimização de tokens",
+        "IA assistiva",
+        "eficiência de custos"
+      ]
+    },
+    {
       "id": "e3998b22433b",
       "url": "https://dev.to/gentleforge/the-cto-playbook-for-ai-agent-data-analysis-on-a-budget-36i5",
       "source": "DEV Community",
@@ -462,80 +534,8 @@
         "compatibilidade",
         "visao-computacional"
       ]
-    },
-    {
-      "id": "1986c8c9b9a5",
-      "url": "https://dev.to/magopredator/securing-llm-agent-teams-inside-nrt-defense-v040-oh",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 21:19:36 +0000",
-      "fetched_at": "2026-06-20T21:24:15.337615+00:00",
-      "title": "NRT-Defense v0.4.0: Framework de Segurança para Agentes LLM",
-      "summary": "Novo framework open-source que protege agentes de IA autônomos contra ataques multi-turno, reduzindo vulnerabilidades de 8-12% para menos de 1%. Desenvolvedores que trabalham com sistemas críticos e LLM agents precisam conhecer essa solução de segurança.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "segurança",
-        "LLM agents",
-        "guardrails",
-        "defesa adaptativa"
-      ]
-    },
-    {
-      "id": "919475812d67",
-      "url": "https://dev.to/qawalah/3-things-nobody-tells-you-about-bdd-before-your-cucumber-suite-becomes-a-maintenance-nightmare-9c7",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 21:17:07 +0000",
-      "fetched_at": "2026-06-20T21:24:17.205877+00:00",
-      "title": "BDD com Cucumber: 3 armadilhas que ninguém avisa antes do caos",
-      "summary": "Artigo crítico sobre os desafios reais de manter suites de testes BDD com Cucumber, revelando por que a promessa de stakeholders lerem testes falha na prática e como evitar manutenção insustentável. Essencial para devs que trabalham com automação de testes e consideram adotar BDD.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "BDD",
-        "Cucumber",
-        "testes automatizados",
-        "manutenibilidade",
-        "boas práticas"
-      ]
-    },
-    {
-      "id": "d94def7afbd4",
-      "url": "https://dev.to/aws-builders/aws-waf-brought-back-402-payment-required-for-the-agent-economy-29a",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 21:15:57 +0000",
-      "fetched_at": "2026-06-20T21:24:19.084446+00:00",
-      "title": "AWS WAF permite cobrar bots de IA por acesso a conteúdo",
-      "summary": "AWS introduz monetização de tráfego de IA no WAF, permitindo que proprietários de conteúdo cobrem por acesso de bots em vez de apenas bloquear ou permitir. Isso muda a dinâmica de custos e viabilidade econômica para desenvolvedores que oferecem APIs e conteúdo consumido por agentes de IA.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "AWS",
-        "IA",
-        "APIs",
-        "monetização",
-        "WAF",
-        "mercado de trabalho"
-      ]
-    },
-    {
-      "id": "285773f4818b",
-      "url": "https://clickhouse.com/blog/postgresbench",
-      "source": "Hacker News: Front Page",
-      "published": "Sat, 20 Jun 2026 19:01:10 +0000",
-      "fetched_at": "2026-06-20T21:11:50.523045+00:00",
-      "title": "PostgresBench: Benchmark Reproduzível para Serviços Postgres",
-      "summary": "Novo benchmark open-source para avaliar performance de serviços PostgreSQL, permitindo comparações consistentes entre diferentes soluções. Ferramenta essencial para devs que trabalham com bancos de dados em produção e precisam escolher entre alternativas de Postgres.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "PostgreSQL",
-        "benchmark",
-        "performance",
-        "banco de dados",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-06-21T11:21:27.256377+00:00",
+  "last_updated": "2026-06-21T13:59:08.292551+00:00",
   "total": 30
 }
