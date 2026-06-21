@@ -1,6 +1,78 @@
 {
   "articles": [
     {
+      "id": "e3998b22433b",
+      "url": "https://dev.to/gentleforge/the-cto-playbook-for-ai-agent-data-analysis-on-a-budget-36i5",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 11:20:39 +0000",
+      "fetched_at": "2026-06-21T11:21:15.770338+00:00",
+      "title": "Reduzindo custos de IA: estratégia de otimização de agentes",
+      "summary": "Um CTO compartilha como reduziu custos de $14k/mês em pipelines de IA ao mudar de modelo. O artigo oferece insights práticos sobre escolha de modelos, otimização de custos e trade-offs entre qualidade e performance que afetam decisões arquiteturais de desenvolvedores.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "otimização de custos",
+        "AI agents",
+        "GPT-4",
+        "arquitetura",
+        "data analysis"
+      ]
+    },
+    {
+      "id": "09c57cc0c7f2",
+      "url": "https://dev.to/pueding/amd-atom-atomesh-prefilldecode-disaggregation-on-rocm-2p0a",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 11:20:15 +0000",
+      "fetched_at": "2026-06-21T11:21:17.376230+00:00",
+      "title": "AMD ATOM + ATOMesh: Otimização de Inferência LLM com Separação Prefill/Decode",
+      "summary": "AMD lançou uma stack nativa de serving para LLMs que separa as fases de prefill e decode em pools de GPUs distintas, otimizando recursos de hardware. Isso muda como devs implementam servidores de IA, reduzindo latência e aumentando throughput em produção.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "LLM",
+        "ROCm",
+        "Inferência",
+        "GPU",
+        "Otimização",
+        "Arquitetura"
+      ]
+    },
+    {
+      "id": "b2cdb8a924a0",
+      "url": "https://dev.to/shahraan_hussain_b42640e7/anti-bot-evasion-2026-why-your-tls-handshake-is-getting-you-flagged-and-how-to-fix-it-4cmn",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 11:05:06 +0000",
+      "fetched_at": "2026-06-21T11:21:25.685007+00:00",
+      "title": "Detecção Anti-Bot em TLS: Como Navegadores Expõem Web Scrapers",
+      "summary": "Sistemas anti-bot modernos detectam scrapers durante o handshake TLS, antes mesmo da primeira requisição HTTP. Desenvolvedores que trabalham com web scraping e automação precisam atualizar suas estratégias de fingerprinting de navegador para evitar bloqueios causados por suporte a criptografia pós-quântica.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "web-scraping",
+        "segurança",
+        "TLS",
+        "anti-bot",
+        "detecção"
+      ]
+    },
+    {
+      "id": "af5b66d8418f",
+      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
+      "source": "The GitHub Blog",
+      "published": "Thu, 18 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-21T11:21:27.256346+00:00",
+      "title": "Limites de Pull Requests: Como Reduzir Ruído em Repositórios",
+      "summary": "O GitHub implementa limites de pull requests para gerenciar melhor o volume de contribuições em repositórios. A funcionalidade ajuda mantenedores a controlar spam e contribuições irrelevantes, melhorando a qualidade do processo de review e economia de tempo dos desenvolvedores.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "GitHub",
+        "pull requests",
+        "workflow",
+        "open source"
+      ]
+    },
+    {
       "id": "08b6418582ce",
       "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
       "source": "Hacker News: Front Page",
@@ -462,80 +534,8 @@
         "banco de dados",
         "open-source"
       ]
-    },
-    {
-      "id": "f3e27823b398",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2",
-      "source": "The Pragmatic Engineer",
-      "published": "Tue, 09 Jun 2026 16:35:53 GMT",
-      "fetched_at": "2026-06-20T21:11:55.775989+00:00",
-      "title": "Mercado de trabalho em engenharia de software 2026: IA labs superam Big Tech",
-      "summary": "Análise exclusiva do mercado de tech jobs revela que labs de IA atraem mais talentos que grandes empresas, enquanto roles de mobile e frontend declinem. Tendências que impactam diretamente as oportunidades e trajetórias de carreira dos desenvolvedores brasileiros.",
-      "category": "Mercado",
-      "relevance_score": 9,
-      "tags": [
-        "mercado de trabalho",
-        "carreiras em IA",
-        "tendências 2026",
-        "AI labs",
-        "mobile frontend"
-      ]
-    },
-    {
-      "id": "1fb26b5bc311",
-      "url": "https://dev.to/yescertified/the-cloud-and-ai-security-newsletter-3-the-cloud-security-tool-your-resume-is-missing-part-2-1bf9",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 20:35:26 +0000",
-      "fetched_at": "2026-06-20T21:12:06.453890+00:00",
-      "title": "Segurança em Cloud com IA: Ferramentas essenciais para seu currículo",
-      "summary": "Artigo sobre ferramentas de segurança em cloud (CIEM e IAM Access Analyzer) que devs precisam conhecer. Mostra como IA ajuda a identificar dados sensíveis expostos acidentalmente em ambientes cloud, reduzindo riscos de segurança.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "cloud-security",
-        "IAM",
-        "CIEM",
-        "ferramentas-dev",
-        "segurança"
-      ]
-    },
-    {
-      "id": "c9ff39aca9f4",
-      "url": "https://dev.to/sanjay_singh_1/token-budgeting-the-engineering-skill-nobody-talks-about-3ifp",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 17:38:41 +0000",
-      "fetched_at": "2026-06-20T17:40:40.815272+00:00",
-      "title": "Token Budgeting: A Habilidade de Engenharia que Reduz Custos com LLMs",
-      "summary": "Artigo explora como otimizar custos com modelos de linguagem focando em engenharia de contexto, não apenas em prompts curtos. Desenvolvedores aprendem a identificar tokens desnecessários, estruturar cache e escolher modelos adequados para cada tarefa.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "LLM",
-        "otimização de custos",
-        "prompt engineering",
-        "context engineering",
-        "IA generativa"
-      ]
-    },
-    {
-      "id": "f293b2a4b8d6",
-      "url": "https://dev.to/amargul/i-built-a-neural-network-you-can-watch-train-forward-pass-loss-and-backprop-animated-45db",
-      "source": "DEV Community",
-      "published": "Sat, 20 Jun 2026 17:36:00 +0000",
-      "fetched_at": "2026-06-20T17:40:42.622834+00:00",
-      "title": "Visualização Interativa de Treinamento de Redes Neurais",
-      "summary": "Artigo apresenta uma ferramenta interativa para visualizar em tempo real como redes neurais aprendem, mostrando forward pass, cálculo de loss e backpropagation. Útil para desenvolvedores que querem entender profundamente o funcionamento de modelos de IA antes de implementar em produção.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "redes neurais",
-        "visualização",
-        "educação",
-        "machine learning",
-        "deep learning"
-      ]
     }
   ],
-  "last_updated": "2026-06-21T08:25:39.014251+00:00",
+  "last_updated": "2026-06-21T11:21:27.256377+00:00",
   "total": 30
 }
