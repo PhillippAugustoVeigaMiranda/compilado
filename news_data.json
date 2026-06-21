@@ -1,6 +1,59 @@
 {
   "articles": [
     {
+      "id": "6974e81c714c",
+      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
+      "source": "The Pragmatic Engineer",
+      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
+      "fetched_at": "2026-06-21T17:44:56.960181+00:00",
+      "title": "CI/CD com IA: Como a inteligência artificial transforma o deploy",
+      "summary": "Robert Erez, da Octopus Deploy, discute como IA está sendo integrada em pipelines CI/CD modernos, junto com Kubernetes e GitOps. Essencial para devs que querem entender as práticas emergentes em entrega contínua e automação de software.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "CI/CD",
+        "IA em DevOps",
+        "Kubernetes",
+        "GitOps",
+        "Entrega contínua"
+      ]
+    },
+    {
+      "id": "799eb45228cf",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "source": "The Pragmatic Engineer",
+      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
+      "fetched_at": "2026-06-21T17:44:59.148598+00:00",
+      "title": "Meta reestrutura organização de engenharia focada em IA",
+      "summary": "A Meta está realizando mudanças significativas em sua estrutura de engenharia impulsionada por prioridades em IA. O artigo analisa como essas transformações afetam o mercado de trabalho para desenvolvedores e as práticas de desenvolvimento na empresa.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "meta",
+        "ia",
+        "mercado de trabalho",
+        "reorganização",
+        "carreira"
+      ]
+    },
+    {
+      "id": "1b448300af8f",
+      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
+      "fetched_at": "2026-06-21T17:45:00.820825+00:00",
+      "title": "Novo modelo Fable da Anthropic com restrições pode beneficiar concorrentes",
+      "summary": "O novo modelo Fable da Anthropic apresenta limitações que desagradam usuários e pode fortalecer alternativas como Codex. O artigo também destaca uma tendência emergente de smart model routing, relevante para desenvolvedores que escolhem qual modelo usar em suas aplicações.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "Anthropic",
+        "modelos de IA",
+        "routing inteligente",
+        "ferramentas de IA"
+      ]
+    },
+    {
       "id": "89376b20bf54",
       "url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
       "source": "Hacker News: Front Page",
@@ -479,62 +532,8 @@
         "best practices",
         "developer productivity"
       ]
-    },
-    {
-      "id": "31c5ca121636",
-      "url": "https://www.anthropic.com/research/project-fetch-phase-two",
-      "source": "Hacker News: Front Page",
-      "published": "Sun, 21 Jun 2026 00:00:25 +0000",
-      "fetched_at": "2026-06-21T03:36:39.328213+00:00",
-      "title": "Project Fetch Phase Two: Avanços da Anthropic em IA",
-      "summary": "A Anthropic anuncia a segunda fase do Project Fetch, expandindo capacidades de pesquisa em IA. O desenvolvimento impacta diretamente as ferramentas disponíveis para desenvolvedores trabalharem com modelos de linguagem mais avançados e eficientes.",
-      "category": "Modelos",
-      "relevance_score": 7,
-      "tags": [
-        "Anthropic",
-        "Claude",
-        "modelos de IA",
-        "pesquisa",
-        "desenvolvimento"
-      ]
-    },
-    {
-      "id": "cdfac4124bef",
-      "url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-17T17:12:41+00:00",
-      "fetched_at": "2026-06-21T03:36:42.804554+00:00",
-      "title": "IA torna código gratuito e descartável: novo paradigma para devs",
-      "summary": "Charity Majors analisa como a IA generativa inverteu a economia da produção de código em 2025, tornando linhas de código praticamente gratuitas e regeneráveis. Isso exige dos desenvolvedores uma mudança radical na disciplina de engenharia, focando menos em otimização de código e mais em qualidade arquitetural e manutenibilidade.",
-      "category": "Mercado",
-      "relevance_score": 9,
-      "tags": [
-        "ia-generativa",
-        "economia-de-codigo",
-        "engenharia-de-software",
-        "impacto-mercado",
-        "disciplina-dev"
-      ]
-    },
-    {
-      "id": "f7ae0ced5823",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
-      "source": "The Pragmatic Engineer",
-      "published": "Thu, 18 Jun 2026 17:11:03 GMT",
-      "fetched_at": "2026-06-21T03:36:45.053202+00:00",
-      "title": "EUA bane novo modelo Anthropic Fable; impacto no mercado de IA",
-      "summary": "A proibição do modelo Fable da Anthropic nos EUA pode afetar a disponibilidade de ferramentas de IA para desenvolvedores brasileiros e sinaliza mudanças regulatórias no mercado. O artigo também cobre a compra do Cursor pela SpaceX e impacto na cultura de engenharia da Meta, temas relevantes para quem trabalha com IA generativa.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "Anthropic",
-        "regulação",
-        "modelos de IA",
-        "Cursor",
-        "ferramentas dev"
-      ]
     }
   ],
-  "last_updated": "2026-06-21T17:24:45.663127+00:00",
+  "last_updated": "2026-06-21T17:45:10.071807+00:00",
   "total": 30
 }
