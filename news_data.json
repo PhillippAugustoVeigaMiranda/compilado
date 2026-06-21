@@ -1,6 +1,113 @@
 {
   "articles": [
     {
+      "id": "db5490f158fb",
+      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-19T22:45:49+00:00",
+      "fetched_at": "2026-06-21T21:21:38.485899+00:00",
+      "title": "MCP como gateway de autenticação para APIs de IA",
+      "summary": "Discussão técnica sobre o Model Context Protocol (MCP) e seu potencial em isolar fluxos de autenticação fora do contexto do agente de IA. A abordagem simplifica a integração segura de APIs em ferramentas alimentadas por LLMs, reduzindo complexidade para desenvolvedores.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "Model Context Protocol",
+        "MCP",
+        "autenticação",
+        "LLMs",
+        "segurança de APIs"
+      ]
+    },
+    {
+      "id": "cb9157add9c5",
+      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-18T23:58:38+00:00",
+      "fetched_at": "2026-06-21T21:21:40.152107+00:00",
+      "title": "Datasette Apps: hospede aplicações HTML customizadas no Datasette",
+      "summary": "Novo plugin permite que desenvolvedores criem aplicações web isoladas em sandbox dentro do Datasette, executando queries SQL direto contra dados. Facilita a construção de interfaces customizadas para visualização e manipulação de dados sem sair da plataforma.",
+      "category": "Ferramentas",
+      "relevance_score": 6,
+      "tags": [
+        "Datasette",
+        "desenvolvimento web",
+        "banco de dados",
+        "plugin",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "41b7cb7dc029",
+      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-17T23:58:39+00:00",
+      "fetched_at": "2026-06-21T21:21:44.824566+00:00",
+      "title": "GLM-5.2: Novo LLM Open Weights com 1M de Tokens",
+      "summary": "A Z.ai lançou o GLM-5.2, um modelo de linguagem open weights de 753B parâmetros com janela de contexto de 1 milhão de tokens. Para desenvolvedores brasileiros, isso significa acesso a um modelo de ponta licenciado em MIT, comparável aos maiores modelos proprietários, ideal para aplicações que exigem processamento de textos longos e raciocínio complexo.",
+      "category": "Releases",
+      "relevance_score": 9,
+      "tags": [
+        "LLM",
+        "Open Weights",
+        "GLM-5.2",
+        "Context Window",
+        "IA Generativa"
+      ]
+    },
+    {
+      "id": "47f767a5dfdc",
+      "url": "https://dev.to/sholajegede/kinde-is-missing-from-mastras-auth-lineup-so-i-built-the-provider-5gc9",
+      "source": "DEV Community",
+      "published": "Sun, 21 Jun 2026 21:10:11 +0000",
+      "fetched_at": "2026-06-21T21:21:46.611037+00:00",
+      "title": "Desenvolvedor cria provider Kinde para framework Mastra de agentes IA",
+      "summary": "Um desenvolvedor implementou suporte para autenticação Kinde no Mastra, framework TypeScript para agentes IA, integrando recursos de organização, permissões e monetização que faltavam na lista oficial. A solução mostra como a comunidade expande ferramentas de IA para casos de uso B2B que exigem multi-tenancy e billing integrados.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "Mastra",
+        "Autenticação",
+        "TypeScript",
+        "Agentes IA",
+        "SaaS"
+      ]
+    },
+    {
+      "id": "7339e5de8ac4",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "source": "The GitHub Blog",
+      "published": "Fri, 19 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-21T21:21:52.113504+00:00",
+      "title": "GitHub constrói agente de análise de dados com Copilot",
+      "summary": "O GitHub desenvolveu o Qubot, um agente IA que permite consultar dados em linguagem natural, mostrando como integrar Copilot em ferramentas internas. O case revela práticas de implementação de agentes IA que devs podem aplicar em seus próprios projetos e fluxos de trabalho.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "GitHub Copilot",
+        "agentes IA",
+        "análise de dados",
+        "LLMs",
+        "desenvolvimento interno"
+      ]
+    },
+    {
+      "id": "a55ebd412e31",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 17:00:00 GMT",
+      "fetched_at": "2026-06-21T21:21:53.778642+00:00",
+      "title": "OpenAI lança controles de gastos e análise de uso para ChatGPT Enterprise",
+      "summary": "OpenAI apresenta novos controles de orçamento e analytics de uso para ChatGPT Enterprise, permitindo que organizações monitorem e gerenciem custos de IA em escala. A atualização oferece mais visibilidade sobre consumo de API e limites de gastos, facilitando a adoção de IA em projetos corporativos.",
+      "category": "Releases",
+      "relevance_score": 7,
+      "tags": [
+        "ChatGPT Enterprise",
+        "controle de custos",
+        "analytics",
+        "gestão de gastos"
+      ]
+    },
+    {
       "id": "f625d644b89c",
       "url": "https://clevercrow.io",
       "source": "Hacker News: Front Page",
@@ -424,116 +531,8 @@
         "modelos de linguagem",
         "educação técnica"
       ]
-    },
-    {
-      "id": "a50ca6b1e2b2",
-      "url": "https://www.satisfice.com/blog/archives/488148",
-      "source": "Hacker News: Front Page",
-      "published": "Sun, 21 Jun 2026 04:50:46 +0000",
-      "fetched_at": "2026-06-21T08:25:23.861142+00:00",
-      "title": "Cuidado ao declarar uso de IA na escrita profissional",
-      "summary": "Artigo discute os riscos reputacionais e profissionais de admitir publicamente o uso de IA para escrever. Para desenvolvedores, isso é relevante considerando documentação de código, comunicação técnica e impacto na credibilidade profissional no mercado.",
-      "category": "Mercado",
-      "relevance_score": 6,
-      "tags": [
-        "IA generativa",
-        "carreira",
-        "ferramentas de escrita",
-        "ética profissional"
-      ]
-    },
-    {
-      "id": "65411946b238",
-      "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
-      "source": "Hacker News: Front Page",
-      "published": "Sun, 21 Jun 2026 04:28:39 +0000",
-      "fetched_at": "2026-06-21T08:25:26.768744+00:00",
-      "title": "Construindo sistemas de IA agentic confiáveis",
-      "summary": "Guia prático sobre como desenvolver agentes de IA confiáveis e robustos em produção. O artigo aborda padrões, desafios técnicos e melhores práticas que developers precisam dominar para implementar sistemas agentic em suas aplicações.",
-      "category": "Tutoriais",
-      "relevance_score": 9,
-      "tags": [
-        "agentic AI",
-        "LLM",
-        "confiabilidade",
-        "boas práticas",
-        "produção"
-      ]
-    },
-    {
-      "id": "6b8b89c54a5d",
-      "url": "https://dev.to/gunxueqiu6/how-to-use-ai-coding-tools-without-leaking-source-code-16k",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 08:15:46 +0000",
-      "fetched_at": "2026-06-21T08:25:31.400973+00:00",
-      "title": "Como usar ferramentas de IA sem vazar código-fonte",
-      "summary": "Artigo essencial que explica como principais ferramentas de IA (Copilot, Cursor, Claude) transmitem código para servidores externos e apresenta estratégias práticas para desenvolvedores brasileiros protegerem sua propriedade intelectual ao usar assistentes de IA.",
-      "category": "Ferramentas",
-      "relevance_score": 9,
-      "tags": [
-        "segurança",
-        "privacidade",
-        "GitHub Copilot",
-        "Cursor",
-        "boas práticas"
-      ]
-    },
-    {
-      "id": "6c7851d08ddc",
-      "url": "https://dev.to/gunxueqiu6/pii-masking-vs-data-encryption-whats-the-difference-for-ai-apis-594d",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 08:15:38 +0000",
-      "fetched_at": "2026-06-21T08:25:33.150230+00:00",
-      "title": "Mascaramento de PII vs Criptografia em APIs de IA",
-      "summary": "Artigo técnico que explica por que criptografia tradicional quebra funcionalidade de APIs de IA e por que mascaramento de dados sensíveis é a abordagem correta. Essencial para devs que trabalham com IA e precisam proteger dados de clientes sem comprometer o modelo.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "IA",
-        "segurança",
-        "APIs",
-        "proteção de dados",
-        "PII",
-        "boas práticas"
-      ]
-    },
-    {
-      "id": "39233d9399cc",
-      "url": "https://dev.to/gunxueqiu6/the-developers-guide-to-ai-data-privacy-in-2026-21",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 08:15:31 +0000",
-      "fetched_at": "2026-06-21T08:25:35.245785+00:00",
-      "title": "Privacidade de dados em ferramentas IA: o que devs brasileiros precisam saber",
-      "summary": "Artigo essencial que revela como IDEs com IA integrada (Copilot, Cursor, Claude Code) enviam código para servidores terceirizados. Apresenta riscos de segurança e um checklist prático para proteger dados e conformidade nas organizações brasileiras.",
-      "category": "Ferramentas",
-      "relevance_score": 9,
-      "tags": [
-        "privacidade",
-        "segurança",
-        "IDE",
-        "IA integrada",
-        "proteção de dados"
-      ]
-    },
-    {
-      "id": "62d5175a816d",
-      "url": "https://dev.to/gunxueqiu6/open-source-vs-commercial-ai-privacy-tools-5-options-compared-4o7c",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 08:15:23 +0000",
-      "fetched_at": "2026-06-21T08:25:37.238985+00:00",
-      "title": "5 Ferramentas de Privacidade para IA: Open Source vs Commercial",
-      "summary": "Comparação prática de ferramentas de detecção de PII e mascaramento de dados para pipelines de IA. O artigo ajuda devs a escolher entre soluções open source (controle total) e comerciais (zero setup), considerando latência, custo e precisão.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "privacidade",
-        "ferramentas-IA",
-        "open-source",
-        "compliance",
-        "detecção-PII"
-      ]
     }
   ],
-  "last_updated": "2026-06-21T21:09:56.907765+00:00",
+  "last_updated": "2026-06-21T21:21:53.778675+00:00",
   "total": 30
 }
