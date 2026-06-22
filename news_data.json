@@ -1,6 +1,130 @@
 {
   "articles": [
     {
+      "id": "d509f232d163",
+      "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+      "source": "Hacker News: Front Page",
+      "published": "Mon, 22 Jun 2026 14:22:46 +0000",
+      "fetched_at": "2026-06-22T16:46:43.569057+00:00",
+      "title": "Claude Code: 'Extended Thinking' é resumo, não pensamento autêntico",
+      "summary": "Análise crítica sobre as limitações do recurso de 'extended thinking' do Claude Code, questionando se realmente representa raciocínio autêntico ou apenas sumarização. Importante para devs que usam essa ferramenta entender suas reais capacidades e limitações.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "Claude",
+        "IA generativa",
+        "Limitações de IA",
+        "Desenvolvimento"
+      ]
+    },
+    {
+      "id": "6403de463dad",
+      "url": "https://hustvl.github.io/Moebius/",
+      "source": "Hacker News: Front Page",
+      "published": "Mon, 22 Jun 2026 13:53:02 +0000",
+      "fetched_at": "2026-06-22T16:46:50.386191+00:00",
+      "title": "Moebius: modelo de inpainting com 0.2B parâmetros e performance de 10B",
+      "summary": "Novo modelo de IA para inpainting de imagens que oferece performance de modelos 50x maiores com apenas 0.2 bilhões de parâmetros. Isso significa ferramentas de edição de imagens muito mais eficientes e acessíveis para integração em aplicações, reduzindo custos computacionais e latência.",
+      "category": "Modelos",
+      "relevance_score": 8,
+      "tags": [
+        "inpainting",
+        "modelos comprimidos",
+        "visão computacional",
+        "otimização",
+        "ferramentas IA"
+      ]
+    },
+    {
+      "id": "6974e81c714c",
+      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
+      "source": "The Pragmatic Engineer",
+      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
+      "fetched_at": "2026-06-22T16:46:53.721130+00:00",
+      "title": "CI/CD Moderno: Kubernetes, GitOps e IA na Entrega de Software",
+      "summary": "Discussão sobre como IA está sendo integrada em pipelines CI/CD e práticas de entrega progressiva. O episódio explora ferramentas e estratégias que estão transformando o workflow de deployment para desenvolvedores modernos.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "CI/CD",
+        "IA em DevOps",
+        "Kubernetes",
+        "GitOps",
+        "Entrega Progressiva"
+      ]
+    },
+    {
+      "id": "799eb45228cf",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "source": "The Pragmatic Engineer",
+      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
+      "fetched_at": "2026-06-22T16:46:55.549096+00:00",
+      "title": "Meta reestrutura organização de engenharia focada em IA",
+      "summary": "A Meta está realizando mudanças significativas em sua estrutura de engenharia impulsionadas por iniciativas de IA. O artigo analisa como essas transformações afetam a carreira de engenheiros e as prioridades tecnológicas da empresa, refletindo tendências do mercado de desenvolvimento.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "meta",
+        "ia",
+        "mercado-de-trabalho",
+        "engenharia",
+        "reestruturação"
+      ]
+    },
+    {
+      "id": "1b448300af8f",
+      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
+      "fetched_at": "2026-06-22T16:47:01.062314+00:00",
+      "title": "Novo modelo Fable da Anthropic pode fortalecer concorrentes",
+      "summary": "O novo modelo Fable da Anthropic apresenta limitações que desagradam usuários, potencialmente beneficiando rivais como o Codex. O artigo também aborda a tendência de smart model routing, uma estratégia relevante para otimizar a escolha de modelos em aplicações de desenvolvimento.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "Anthropic",
+        "modelos de IA",
+        "smart routing",
+        "mercado de IA",
+        "ferramentas de desenvolvimento"
+      ]
+    },
+    {
+      "id": "f8f4f9e107ba",
+      "url": "https://dev.to/kandeepa_sundaram/you-dont-have-a-git-problem-you-have-a-context-problem-1co2",
+      "source": "DEV Community",
+      "published": "Mon, 22 Jun 2026 16:36:36 +0000",
+      "fetched_at": "2026-06-22T16:47:02.978624+00:00",
+      "title": "Gerenciamento de Identidade Git: O Problema Real por Trás dos Commits",
+      "summary": "Artigo aborda a gestão de múltiplas identidades Git como um problema crítico que afeta desenvolvedores modernos. Relevante para quem trabalha com múltiplos repositórios (empresa, clientes, open-source) e precisa evitar erros de segurança e compliance.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "git",
+        "segurança",
+        "boas práticas",
+        "desenvolvimento"
+      ]
+    },
+    {
+      "id": "f7d7bdc9ec02",
+      "url": "https://dev.to/itzzsvr_tech74/linus-torvalds-is-right-ai-is-a-compiler-not-a-coder-and-why-vibe-coding-wont-survive-41eb",
+      "source": "DEV Community",
+      "published": "Mon, 22 Jun 2026 16:33:07 +0000",
+      "fetched_at": "2026-06-22T16:47:05.167628+00:00",
+      "title": "Linus Torvalds questiona 'vibe coding': IA tem limites reais",
+      "summary": "O criador do Linux defende que IA oferece ganho de produtividade real (10x), mas sintaxe é fácil — lógica é o desafio. O artigo desmonta o hype de 'IA escreve 99% do código' e alerta devs brasileiros sobre as limitações genuínas das ferramentas atuais.",
+      "category": "Mercado",
+      "relevance_score": 9,
+      "tags": [
+        "IA",
+        "produtividade",
+        "realidade do mercado",
+        "ferramentas de dev",
+        "Linus Torvalds"
+      ]
+    },
+    {
       "id": "dcd343383c51",
       "url": "https://dev.to/diyaburman/spec-debt-doesnt-disappear-when-you-fix-it-it-migrates-d25",
       "source": "DEV Community",
@@ -409,131 +533,8 @@
         "Agentes IA",
         "SaaS"
       ]
-    },
-    {
-      "id": "7339e5de8ac4",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
-      "source": "The GitHub Blog",
-      "published": "Fri, 19 Jun 2026 16:00:00 +0000",
-      "fetched_at": "2026-06-21T21:21:52.113504+00:00",
-      "title": "GitHub constrói agente de análise de dados com Copilot",
-      "summary": "O GitHub desenvolveu o Qubot, um agente IA que permite consultar dados em linguagem natural, mostrando como integrar Copilot em ferramentas internas. O case revela práticas de implementação de agentes IA que devs podem aplicar em seus próprios projetos e fluxos de trabalho.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "GitHub Copilot",
-        "agentes IA",
-        "análise de dados",
-        "LLMs",
-        "desenvolvimento interno"
-      ]
-    },
-    {
-      "id": "a55ebd412e31",
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "source": "OpenAI News",
-      "published": "Thu, 18 Jun 2026 17:00:00 GMT",
-      "fetched_at": "2026-06-21T21:21:53.778642+00:00",
-      "title": "OpenAI lança controles de gastos e análise de uso para ChatGPT Enterprise",
-      "summary": "OpenAI apresenta novos controles de orçamento e analytics de uso para ChatGPT Enterprise, permitindo que organizações monitorem e gerenciem custos de IA em escala. A atualização oferece mais visibilidade sobre consumo de API e limites de gastos, facilitando a adoção de IA em projetos corporativos.",
-      "category": "Releases",
-      "relevance_score": 7,
-      "tags": [
-        "ChatGPT Enterprise",
-        "controle de custos",
-        "analytics",
-        "gestão de gastos"
-      ]
-    },
-    {
-      "id": "f625d644b89c",
-      "url": "https://clevercrow.io",
-      "source": "Hacker News: Front Page",
-      "published": "Sun, 21 Jun 2026 19:06:07 +0000",
-      "fetched_at": "2026-06-21T21:09:40.039392+00:00",
-      "title": "CleverCrow: plataforma de incentivos com tokens para projetos GitHub",
-      "summary": "Ferramenta que permite apoiadores financiar projetos open source via tokens, direcionando recursos para issues específicas. Soluciona o problema de pull requests inadequados gerados por IA, criando um sistema de incentivos onde mantenedores mantêm controle sobre o que será desenvolvido.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "GitHub",
-        "open source",
-        "IA",
-        "pull requests",
-        "ecossistema dev"
-      ]
-    },
-    {
-      "id": "cbcb127508d3",
-      "url": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
-      "source": "Hacker News: Front Page",
-      "published": "Sun, 21 Jun 2026 16:56:18 +0000",
-      "fetched_at": "2026-06-21T21:09:43.551763+00:00",
-      "title": "Burnout em Mantedores de Open Source é Real",
-      "summary": "Artigo discute o esgotamento profissional enfrentado por desenvolvedores que mantêm projetos open source, impactando a sustentabilidade do ecossistema. Para devs brasileiros, essa realidade afeta a confiabilidade das ferramentas e bibliotecas que usam diariamente no trabalho.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "open source",
-        "mercado de trabalho",
-        "sustentabilidade",
-        "comunidade dev"
-      ]
-    },
-    {
-      "id": "cdfac4124bef",
-      "url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-17T17:12:41+00:00",
-      "fetched_at": "2026-06-21T21:09:47.389635+00:00",
-      "title": "IA torna código barato e descartável, exigindo mais disciplina de engenharia",
-      "summary": "Charity Majors analisa como a IA inverteu a economia da produção de código em 2025, tornando-o praticamente gratuito e instantâneo. Isso muda fundamentalmente como desenvolvedores devem pensar em qualidade, reutilização e manutenção de código, exigindo maior disciplina de engenharia em vez de menos.",
-      "category": "Mercado",
-      "relevance_score": 9,
-      "tags": [
-        "ia-gerativa",
-        "desenvolvimento-de-software",
-        "mercado-de-trabalho",
-        "qualidade-de-código",
-        "engenharia-de-software"
-      ]
-    },
-    {
-      "id": "f7ae0ced5823",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
-      "source": "The Pragmatic Engineer",
-      "published": "Thu, 18 Jun 2026 17:11:03 GMT",
-      "fetched_at": "2026-06-21T21:09:49.157201+00:00",
-      "title": "EUA bane novo modelo Fable da Anthropic; impactos para devs",
-      "summary": "Banimento do modelo Fable da Anthropic nos EUA pode afetar a disponibilidade de ferramentas de IA para desenvolvedores brasileiros. O artigo discute implicações regulatórias que impactam o acesso a modelos de linguagem avançados e o ecossistema de desenvolvimento.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "Anthropic",
-        "Regulação",
-        "Modelos de IA",
-        "Impacto no mercado"
-      ]
-    },
-    {
-      "id": "cf871f2a8e55",
-      "url": "https://dev.to/antonkirilchuk/mock-any-api-response-in-postman-and-let-ai-build-the-collection-2le1",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 21:06:29 +0000",
-      "fetched_at": "2026-06-21T21:09:50.968173+00:00",
-      "title": "Mock de APIs com Postman e IA para testes frontend",
-      "summary": "Artigo mostra como usar servidores mock do Postman com IA para simular respostas de backend durante testes, eliminando a necessidade de modificar servidores reais. Isso muda o workflow de testes frontend, permitindo que devs testem cenários complexos (erros 500, respostas vazias) sem depender do backend.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "Postman",
-        "API mocking",
-        "IA",
-        "testes",
-        "frontend"
-      ]
     }
   ],
-  "last_updated": "2026-06-22T13:40:55.833070+00:00",
+  "last_updated": "2026-06-22T16:47:05.167663+00:00",
   "total": 30
 }
