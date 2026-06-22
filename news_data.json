@@ -1,6 +1,94 @@
 {
   "articles": [
     {
+      "id": "f7ae0ced5823",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 18 Jun 2026 17:11:03 GMT",
+      "fetched_at": "2026-06-22T19:36:24.209055+00:00",
+      "title": "EUA bane novo modelo Anthropic Fable; impactos para devs",
+      "summary": "Restrições regulatórias dos EUA afetam disponibilidade de modelos de IA avançados para desenvolvedores. A decisão impacta o acesso a ferramentas de desenvolvimento e pode influenciar o mercado de IA no Brasil.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "Anthropic",
+        "regulação",
+        "modelos de IA",
+        "impacto mercado"
+      ]
+    },
+    {
+      "id": "74ed074c832a",
+      "url": "https://dev.to/enjoy_kumawat/i-build-mcp-servers-heres-the-security-hole-nobody-talks-about-41b6",
+      "source": "DEV Community",
+      "published": "Mon, 22 Jun 2026 19:08:55 +0000",
+      "fetched_at": "2026-06-22T19:36:27.948898+00:00",
+      "title": "MCP Servers: A Brecha de Segurança que Ninguém Discute",
+      "summary": "Artigo expõe vulnerabilidades críticas no Model Context Protocol (MCP), mostrando como servidores MCP podem se tornar backdoors em ferramentas de desenvolvimento. Essencial para devs que integram IA em seus workflows entenderem os riscos de segurança antes de adotar essa tecnologia.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "MCP",
+        "segurança",
+        "IA",
+        "Model Context Protocol",
+        "arquitetura de agentes"
+      ]
+    },
+    {
+      "id": "fec3d2350e10",
+      "url": "https://dev.to/jjoyneriv/vibe-coded-infrastructure-how-to-ship-fast-without-torching-production-3l83",
+      "source": "DEV Community",
+      "published": "Mon, 22 Jun 2026 19:05:48 +0000",
+      "fetched_at": "2026-06-22T19:36:29.690872+00:00",
+      "title": "IA na Infraestrutura: Como usar 'vibe coding' sem destruir produção",
+      "summary": "Artigo sobre usar modelos de IA para gerar código Terraform e infraestrutura rapidamente, mas com segurança. Mostra as práticas reais de um engenheiro que usa IA em produção para acelerar deploys sem riscos.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "IA generativa",
+        "Terraform",
+        "infraestrutura",
+        "boas práticas",
+        "produção"
+      ]
+    },
+    {
+      "id": "3151015004c9",
+      "url": "https://dev.to/palo_alto_ai/a-terminal-theme-tuned-for-prose-not-syntax-highlighting-3782",
+      "source": "DEV Community",
+      "published": "Mon, 22 Jun 2026 19:05:47 +0000",
+      "fetched_at": "2026-06-22T19:36:31.833925+00:00",
+      "title": "Terminal theme otimizado para leitura de prosa com IA",
+      "summary": "Um novo tema de terminal (klein-blue) desenhado especificamente para ferramentas como Claude Code que geram muita saída em texto. Em vez de focar em syntax highlighting, o tema prioriza legibilidade de prosa em ambiente de desenvolvimento, mudando como devs interagem com outputs de IA.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "terminal",
+        "ferramentas-desenvolvimento",
+        "claude-code",
+        "ux-developer",
+        "ergonomia"
+      ]
+    },
+    {
+      "id": "cd97069d78fa",
+      "url": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
+      "source": "The GitHub Blog",
+      "published": "Mon, 22 Jun 2026 17:20:31 +0000",
+      "fetched_at": "2026-06-22T19:36:35.605696+00:00",
+      "title": "GitHub avança em acessibilidade no ecossistema open source",
+      "summary": "O GitHub compartilha progresso em iniciativas de acessibilidade e inclusão no open source, impactando como desenvolvedores colaboram em projetos. A iniciativa afeta práticas de desenvolvimento e oportunidades para devs com diferentes necessidades.",
+      "category": "Mercado",
+      "relevance_score": 6,
+      "tags": [
+        "open source",
+        "acessibilidade",
+        "GitHub",
+        "inclusão"
+      ]
+    },
+    {
       "id": "d509f232d163",
       "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
       "source": "Hacker News: Front Page",
@@ -442,99 +530,8 @@
         "ferramentas-desenvolvimento",
         "cli"
       ]
-    },
-    {
-      "id": "96c3f898127f",
-      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-21T22:01:04+00:00",
-      "fetched_at": "2026-06-22T03:41:05.523806+00:00",
-      "title": "Cloudflare lança contas temporárias para deploy rápido de aplicações",
-      "summary": "Cloudflare agora permite deployar Workers sem criar conta, com projeto efêmero de 60 minutos via comando simples. Ideal para prototipagem rápida, testes e integração com agentes de IA que precisam provisionar recursos de forma automática.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "cloudflare",
-        "workers",
-        "deploy",
-        "ferramentas",
-        "infraestrutura",
-        "agentes-ia"
-      ]
-    },
-    {
-      "id": "db5490f158fb",
-      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-19T22:45:49+00:00",
-      "fetched_at": "2026-06-21T21:21:38.485899+00:00",
-      "title": "MCP como gateway de autenticação para APIs de IA",
-      "summary": "Discussão técnica sobre o Model Context Protocol (MCP) e seu potencial em isolar fluxos de autenticação fora do contexto do agente de IA. A abordagem simplifica a integração segura de APIs em ferramentas alimentadas por LLMs, reduzindo complexidade para desenvolvedores.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "Model Context Protocol",
-        "MCP",
-        "autenticação",
-        "LLMs",
-        "segurança de APIs"
-      ]
-    },
-    {
-      "id": "cb9157add9c5",
-      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-18T23:58:38+00:00",
-      "fetched_at": "2026-06-21T21:21:40.152107+00:00",
-      "title": "Datasette Apps: hospede aplicações HTML customizadas no Datasette",
-      "summary": "Novo plugin permite que desenvolvedores criem aplicações web isoladas em sandbox dentro do Datasette, executando queries SQL direto contra dados. Facilita a construção de interfaces customizadas para visualização e manipulação de dados sem sair da plataforma.",
-      "category": "Ferramentas",
-      "relevance_score": 6,
-      "tags": [
-        "Datasette",
-        "desenvolvimento web",
-        "banco de dados",
-        "plugin",
-        "JavaScript"
-      ]
-    },
-    {
-      "id": "41b7cb7dc029",
-      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-17T23:58:39+00:00",
-      "fetched_at": "2026-06-21T21:21:44.824566+00:00",
-      "title": "GLM-5.2: Novo LLM Open Weights com 1M de Tokens",
-      "summary": "A Z.ai lançou o GLM-5.2, um modelo de linguagem open weights de 753B parâmetros com janela de contexto de 1 milhão de tokens. Para desenvolvedores brasileiros, isso significa acesso a um modelo de ponta licenciado em MIT, comparável aos maiores modelos proprietários, ideal para aplicações que exigem processamento de textos longos e raciocínio complexo.",
-      "category": "Releases",
-      "relevance_score": 9,
-      "tags": [
-        "LLM",
-        "Open Weights",
-        "GLM-5.2",
-        "Context Window",
-        "IA Generativa"
-      ]
-    },
-    {
-      "id": "47f767a5dfdc",
-      "url": "https://dev.to/sholajegede/kinde-is-missing-from-mastras-auth-lineup-so-i-built-the-provider-5gc9",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 21:10:11 +0000",
-      "fetched_at": "2026-06-21T21:21:46.611037+00:00",
-      "title": "Desenvolvedor cria provider Kinde para framework Mastra de agentes IA",
-      "summary": "Um desenvolvedor implementou suporte para autenticação Kinde no Mastra, framework TypeScript para agentes IA, integrando recursos de organização, permissões e monetização que faltavam na lista oficial. A solução mostra como a comunidade expande ferramentas de IA para casos de uso B2B que exigem multi-tenancy e billing integrados.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "Mastra",
-        "Autenticação",
-        "TypeScript",
-        "Agentes IA",
-        "SaaS"
-      ]
     }
   ],
-  "last_updated": "2026-06-22T16:47:05.167663+00:00",
+  "last_updated": "2026-06-22T19:36:35.605730+00:00",
   "total": 30
 }
