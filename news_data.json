@@ -1,6 +1,95 @@
 {
   "articles": [
     {
+      "id": "14aed481ab1b",
+      "url": "https://dev.to/vikrantnegi/six-lines-zero-api-calls-running-llms-on-device-in-react-native-3ahl",
+      "source": "DEV Community",
+      "published": "Mon, 22 Jun 2026 04:49:24 +0000",
+      "fetched_at": "2026-06-22T05:07:28.204530+00:00",
+      "title": "Executar LLMs localmente em React Native com apenas 6 linhas",
+      "summary": "Artigo mostra como rodar modelos de IA diretamente no dispositivo em React Native, eliminando chamadas à API, custos por token e dependência de conexão. Muda o jogo para devs que precisam de privacidade, offline-first e controle de custos em suas aplicações.",
+      "category": "Tutoriais",
+      "relevance_score": 9,
+      "tags": [
+        "React Native",
+        "LLM on-device",
+        "IA offline",
+        "privacidade",
+        "Expo"
+      ]
+    },
+    {
+      "id": "cd943d90c5b0",
+      "url": "https://dev.to/jaideepparashar/why-i-think-most-ai-agents-are-overengineered-249o",
+      "source": "DEV Community",
+      "published": "Mon, 22 Jun 2026 04:48:31 +0000",
+      "fetched_at": "2026-06-22T05:07:30.146143+00:00",
+      "title": "Por que a maioria dos agentes de IA é superdimensionada",
+      "summary": "Artigo crítico que questiona a tendência de usar agentes de IA para problemas que poderiam ter soluções mais simples. Relevante para devs que buscam entender quando realmente precisam de arquiteturas complexas de IA versus abordagens mais diretas e eficientes.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "agentes de IA",
+        "arquitetura de software",
+        "boas práticas",
+        "engenharia de IA",
+        "otimização de desenvolvimento"
+      ]
+    },
+    {
+      "id": "61a418ee73eb",
+      "url": "https://dev.to/rishini_dharan_t/understanding-server-sent-events-3mkd",
+      "source": "DEV Community",
+      "published": "Mon, 22 Jun 2026 04:26:16 +0000",
+      "fetched_at": "2026-06-22T05:07:32.127459+00:00",
+      "title": "Server-Sent Events: Streaming em LLMs e Aplicações",
+      "summary": "Artigo explica como Server-Sent Events (SSE) possibilita respostas em streaming em LLMs como ChatGPT, evitando esperas longas. Essencial para devs que integram IA em suas aplicações e querem oferecer melhor UX com processamento assíncrono.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "server-sent-events",
+        "streaming",
+        "LLM",
+        "arquitetura-backend"
+      ]
+    },
+    {
+      "id": "af5b66d8418f",
+      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
+      "source": "The GitHub Blog",
+      "published": "Thu, 18 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-22T05:07:38.735586+00:00",
+      "title": "GitHub limita pull requests para reduzir ruído em repositórios",
+      "summary": "O GitHub implementa limites de pull requests para ajudar mantenedores a gerenciar o volume de contribuições. A feature é especialmente útil para projetos open source que recebem muitos PRs e pode impactar como desenvolvedores colaboram em repositórios.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "GitHub",
+        "pull requests",
+        "gestão de repositório",
+        "open source",
+        "workflow"
+      ]
+    },
+    {
+      "id": "663d872622a3",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "source": "OpenAI News",
+      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
+      "fetched_at": "2026-06-22T05:07:41.467476+00:00",
+      "title": "Samsung implanta ChatGPT Enterprise e Codex para todos os funcionários",
+      "summary": "A Samsung adotou em larga escala o ChatGPT Enterprise e Codex da OpenAI, sinalizando uma tendência corporativa de integração de IA em fluxos de desenvolvimento. Esse movimento mostra como grandes empresas estão apostando em assistentes de código para aumentar produtividade de desenvolvedores.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "ChatGPT",
+        "Codex",
+        "IA Empresarial",
+        "Assistente de Código",
+        "Tendência de Mercado"
+      ]
+    },
+    {
       "id": "46ff7e0ca3d5",
       "url": "https://mcipetition.com/",
       "source": "Hacker News: Front Page",
@@ -442,98 +531,8 @@
         "Terminal",
         "IA para devs"
       ]
-    },
-    {
-      "id": "e592a89e41a4",
-      "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity/",
-      "source": "Hacker News: Front Page",
-      "published": "Sun, 21 Jun 2026 12:44:13 +0000",
-      "fetched_at": "2026-06-21T13:58:52.133641+00:00",
-      "title": "Anthropic exigirá verificação de identidade para certos recursos",
-      "summary": "A partir de 8 de julho, a Anthropic implementará verificação de identidade para acessar certos recursos do Claude. A mudança afeta desenvolvedores que usam a plataforma, impactando fluxos de desenvolvimento e integração de APIs.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "Claude",
-        "Anthropic",
-        "Verificação de identidade",
-        "Acesso à API",
-        "Mudanças de política"
-      ]
-    },
-    {
-      "id": "f3e27823b398",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2",
-      "source": "The Pragmatic Engineer",
-      "published": "Tue, 09 Jun 2026 16:35:53 GMT",
-      "fetched_at": "2026-06-21T13:58:58.442225+00:00",
-      "title": "Mercado de trabalho em software 2026: IA Labs superam Big Tech",
-      "summary": "Análise exclusiva do mercado de tech jobs revela que laboratórios de IA são mais atraentes que grandes empresas, funções de mobile e frontend estão em declínio, e há uma reorganização nas estruturas de gestão. Insights essenciais para desenvolvedores entenderem as mudanças nas oportunidades de carreira.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "mercado de trabalho",
-        "carreiras",
-        "IA Labs",
-        "tendências 2026",
-        "frontend",
-        "mobile"
-      ]
-    },
-    {
-      "id": "8da23f704a40",
-      "url": "https://dev.to/betschwa/why-im-building-yet-another-uml-tool-in-2026-12l1",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 13:53:10 +0000",
-      "fetched_at": "2026-06-21T13:59:05.120196+00:00",
-      "title": "Nova ferramenta UML em 2026: o que mudou no mercado de diagramação",
-      "summary": "Um desenvolvedor com 20 anos de experiência em sistemas críticos explora por que está criando mais uma ferramenta UML, analisando as falhas das soluções existentes como PlantUML, Mermaid e draw.io. O artigo discute como a IA e novas abordagens podem preencher lacunas ignoradas pela categoria por uma década.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "UML",
-        "ferramentas de desenvolvimento",
-        "diagramação",
-        "SysML",
-        "produtividade de devs"
-      ]
-    },
-    {
-      "id": "c34b6e156686",
-      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
-      "source": "The GitHub Blog",
-      "published": "Wed, 17 Jun 2026 19:41:46 +0000",
-      "fetched_at": "2026-06-21T13:59:08.292516+00:00",
-      "title": "Copilot melhora uso de tokens com roteamento inteligente de modelos",
-      "summary": "GitHub Copilot otimiza o gerenciamento de contexto e implementa roteamento automático entre modelos para maximizar a utilidade de cada token consumido. Isso significa que desenvolvedores conseguem mais funcionalidades com o mesmo crédito, reduzindo custos operacionais da IA assistiva.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "GitHub Copilot",
-        "otimização de tokens",
-        "IA assistiva",
-        "eficiência de custos"
-      ]
-    },
-    {
-      "id": "e3998b22433b",
-      "url": "https://dev.to/gentleforge/the-cto-playbook-for-ai-agent-data-analysis-on-a-budget-36i5",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 11:20:39 +0000",
-      "fetched_at": "2026-06-21T11:21:15.770338+00:00",
-      "title": "Reduzindo custos de IA: estratégia de otimização de agentes",
-      "summary": "Um CTO compartilha como reduziu custos de $14k/mês em pipelines de IA ao mudar de modelo. O artigo oferece insights práticos sobre escolha de modelos, otimização de custos e trade-offs entre qualidade e performance que afetam decisões arquiteturais de desenvolvedores.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "otimização de custos",
-        "AI agents",
-        "GPT-4",
-        "arquitetura",
-        "data analysis"
-      ]
     }
   ],
-  "last_updated": "2026-06-22T03:41:11.030025+00:00",
+  "last_updated": "2026-06-22T05:07:41.467513+00:00",
   "total": 30
 }
