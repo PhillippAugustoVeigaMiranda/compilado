@@ -1,6 +1,78 @@
 {
   "articles": [
     {
+      "id": "46ff7e0ca3d5",
+      "url": "https://mcipetition.com/",
+      "source": "Hacker News: Front Page",
+      "published": "Sun, 21 Jun 2026 23:34:07 +0000",
+      "fetched_at": "2026-06-22T03:40:57.374968+00:00",
+      "title": "Meta enfrenta petição sobre coleta de dados de funcionários para treinamento de IA",
+      "summary": "Meta está sendo questionada por coletar dados de funcionários para treinar modelos de machine learning, levantando preocupações sobre privacidade e uso de dados pessoais. A questão impacta desenvolvedores que trabalham com IA e modelos de linguagem, especialmente quanto às práticas éticas de coleta de dados para treinamento.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "privacidade",
+        "ética em IA",
+        "machine learning",
+        "Meta"
+      ]
+    },
+    {
+      "id": "963a38bbce8b",
+      "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+      "source": "Hacker News: Front Page",
+      "published": "Sun, 21 Jun 2026 22:55:23 +0000",
+      "fetched_at": "2026-06-22T03:40:59.667897+00:00",
+      "title": "Fine-tuning de LLM local Qwen 3 para categorizar perguntas",
+      "summary": "Artigo prático sobre como fazer fine-tuning de um modelo de linguagem pequeno (0.6B) localmente para tarefas específicas de classificação. Mostra que é possível adaptar LLMs compactos sem infraestrutura cara, reduzindo dependência de APIs externas e abrindo possibilidades para soluções on-premise.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "LLM",
+        "fine-tuning",
+        "Qwen",
+        "IA local",
+        "categorização"
+      ]
+    },
+    {
+      "id": "4da4bc9032a0",
+      "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-21T23:35:47+00:00",
+      "fetched_at": "2026-06-22T03:41:01.462098+00:00",
+      "title": "sqlite-utils 4.0rc1 lança migrações e transações aninhadas",
+      "summary": "A nova versão do sqlite-utils, biblioteca Python para trabalhar com SQLite, adiciona suporte a migrações e transações aninhadas, simplificando operações complexas com banco de dados. A ferramenta continua sendo essencial para desenvolvedores que precisam gerenciar dados SQLite de forma mais produtiva através de abstrações de alto nível.",
+      "category": "Releases",
+      "relevance_score": 7,
+      "tags": [
+        "sqlite",
+        "Python",
+        "banco-de-dados",
+        "ferramentas-desenvolvimento",
+        "cli"
+      ]
+    },
+    {
+      "id": "96c3f898127f",
+      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-21T22:01:04+00:00",
+      "fetched_at": "2026-06-22T03:41:05.523806+00:00",
+      "title": "Cloudflare lança contas temporárias para deploy rápido de aplicações",
+      "summary": "Cloudflare agora permite deployar Workers sem criar conta, com projeto efêmero de 60 minutos via comando simples. Ideal para prototipagem rápida, testes e integração com agentes de IA que precisam provisionar recursos de forma automática.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "cloudflare",
+        "workers",
+        "deploy",
+        "ferramentas",
+        "infraestrutura",
+        "agentes-ia"
+      ]
+    },
+    {
       "id": "db5490f158fb",
       "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
       "source": "Simon Willison's Weblog",
@@ -460,79 +532,8 @@
         "arquitetura",
         "data analysis"
       ]
-    },
-    {
-      "id": "09c57cc0c7f2",
-      "url": "https://dev.to/pueding/amd-atom-atomesh-prefilldecode-disaggregation-on-rocm-2p0a",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 11:20:15 +0000",
-      "fetched_at": "2026-06-21T11:21:17.376230+00:00",
-      "title": "AMD ATOM + ATOMesh: Otimização de Inferência LLM com Separação Prefill/Decode",
-      "summary": "AMD lançou uma stack nativa de serving para LLMs que separa as fases de prefill e decode em pools de GPUs distintas, otimizando recursos de hardware. Isso muda como devs implementam servidores de IA, reduzindo latência e aumentando throughput em produção.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "LLM",
-        "ROCm",
-        "Inferência",
-        "GPU",
-        "Otimização",
-        "Arquitetura"
-      ]
-    },
-    {
-      "id": "b2cdb8a924a0",
-      "url": "https://dev.to/shahraan_hussain_b42640e7/anti-bot-evasion-2026-why-your-tls-handshake-is-getting-you-flagged-and-how-to-fix-it-4cmn",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 11:05:06 +0000",
-      "fetched_at": "2026-06-21T11:21:25.685007+00:00",
-      "title": "Detecção Anti-Bot em TLS: Como Navegadores Expõem Web Scrapers",
-      "summary": "Sistemas anti-bot modernos detectam scrapers durante o handshake TLS, antes mesmo da primeira requisição HTTP. Desenvolvedores que trabalham com web scraping e automação precisam atualizar suas estratégias de fingerprinting de navegador para evitar bloqueios causados por suporte a criptografia pós-quântica.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "web-scraping",
-        "segurança",
-        "TLS",
-        "anti-bot",
-        "detecção"
-      ]
-    },
-    {
-      "id": "af5b66d8418f",
-      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
-      "source": "The GitHub Blog",
-      "published": "Thu, 18 Jun 2026 16:00:00 +0000",
-      "fetched_at": "2026-06-21T11:21:27.256346+00:00",
-      "title": "Limites de Pull Requests: Como Reduzir Ruído em Repositórios",
-      "summary": "O GitHub implementa limites de pull requests para gerenciar melhor o volume de contribuições em repositórios. A funcionalidade ajuda mantenedores a controlar spam e contribuições irrelevantes, melhorando a qualidade do processo de review e economia de tempo dos desenvolvedores.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "GitHub",
-        "pull requests",
-        "workflow",
-        "open source"
-      ]
-    },
-    {
-      "id": "08b6418582ce",
-      "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
-      "source": "Hacker News: Front Page",
-      "published": "Sun, 21 Jun 2026 05:45:21 +0000",
-      "fetched_at": "2026-06-21T08:25:21.574046+00:00",
-      "title": "Os 100 mil porquês da IA: entendendo os fundamentos",
-      "summary": "Artigo exploratório que questiona os princípios fundamentais por trás dos sistemas de IA, ajudando desenvolvedores a compreender melhor como essas ferramentas funcionam internamente. Relevante para quem quer ir além do uso superficial de modelos de IA e entender suas limitações e capacidades reais.",
-      "category": "Modelos",
-      "relevance_score": 7,
-      "tags": [
-        "IA",
-        "fundamentos",
-        "modelos de linguagem",
-        "educação técnica"
-      ]
     }
   ],
-  "last_updated": "2026-06-21T21:21:53.778675+00:00",
+  "last_updated": "2026-06-22T03:41:11.030025+00:00",
   "total": 30
 }
