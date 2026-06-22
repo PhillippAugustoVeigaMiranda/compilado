@@ -1,6 +1,131 @@
 {
   "articles": [
     {
+      "id": "4e501b558e7a",
+      "url": "https://urflow.bearblog.dev/jobs-and-software-is-fucked/",
+      "source": "Hacker News: Front Page",
+      "published": "Mon, 22 Jun 2026 19:47:52 +0000",
+      "fetched_at": "2026-06-22T21:59:11.131437+00:00",
+      "title": "IA e o Futuro do Mercado de Trabalho em Software",
+      "summary": "Análise crítica sobre como a inteligência artificial está impactando o mercado de empregos para desenvolvedores de software. O artigo discute as mudanças estruturais na indústria e o que esperar nas perspectivas de carreira e demanda por profissionais.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "IA",
+        "mercado de trabalho",
+        "carreira em desenvolvimento",
+        "impacto da IA"
+      ]
+    },
+    {
+      "id": "96c3f898127f",
+      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-21T22:01:04+00:00",
+      "fetched_at": "2026-06-22T21:59:15.515086+00:00",
+      "title": "Cloudflare lança contas temporárias para agentes de IA",
+      "summary": "Cloudflare permite agora deployar projetos Workers sem criar conta, com comando único e duração de 60 minutos. A feature facilita prototipagem rápida, testes de agentes de IA e desenvolvimento experimental sem overhead de autenticação. Útil também para demos e integração com ferramentas de IA como assistentes de código.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "cloudflare",
+        "deployment",
+        "agentes-ia",
+        "devops",
+        "infraestrutura"
+      ]
+    },
+    {
+      "id": "db5490f158fb",
+      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-19T22:45:49+00:00",
+      "fetched_at": "2026-06-22T21:59:17.419746+00:00",
+      "title": "MCP como gateway de autenticação para APIs em agentes IA",
+      "summary": "Sean Lynch analisa o Model Context Protocol (MCP) destacando seu valor principal: isolar fluxos de autenticação fora do contexto do agente IA. Essa abordagem simplifica a integração segura de APIs em ferramentas de IA, reduzindo complexidade e riscos de segurança para desenvolvedores.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "model-context-protocol",
+        "MCP",
+        "autenticação",
+        "agentes IA",
+        "arquitetura"
+      ]
+    },
+    {
+      "id": "cb9157add9c5",
+      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-18T23:58:38+00:00",
+      "fetched_at": "2026-06-22T21:59:21.061400+00:00",
+      "title": "Datasette Apps: aplicações HTML customizadas dentro do Datasette",
+      "summary": "Novo plugin permite hospedar aplicações HTML+JavaScript em sandbox dentro do Datasette, com suporte a queries SQL de leitura e escrita. Útil para devs que trabalham com dados e precisam criar interfaces web customizadas sem infraestrutura adicional.",
+      "category": "Ferramentas",
+      "relevance_score": 6,
+      "tags": [
+        "datasette",
+        "ferramentas-dev",
+        "sql",
+        "javascript",
+        "dados"
+      ]
+    },
+    {
+      "id": "9849bbffdab5",
+      "url": "https://dev.to/shriisoot/i-built-a-fully-local-ai-assistant-at-16-no-cloud-no-api-keys-runs-on-your-gpu-am4",
+      "source": "DEV Community",
+      "published": "Mon, 22 Jun 2026 21:44:27 +0000",
+      "fetched_at": "2026-06-22T21:59:24.323891+00:00",
+      "title": "Assistente IA local em GPU: alternativa open-source sem cloud",
+      "summary": "Desenvolvedor constrói assistente IA completamente local que roda em GPU, sem envio de dados para cloud. Relevante para devs que buscam privacidade, controle total e alternativas às APIs comerciais de IA.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "IA local",
+        "GPU",
+        "privacidade",
+        "open-source",
+        "LLM",
+        "desenvolvimento"
+      ]
+    },
+    {
+      "id": "c83bb803c94d",
+      "url": "https://dev.to/soytuber/securing-ai-codex-operational-bugs-claude-output-integrity-copilot-context-3g08",
+      "source": "DEV Community",
+      "published": "Mon, 22 Jun 2026 21:36:33 +0000",
+      "fetched_at": "2026-06-22T21:59:26.216156+00:00",
+      "title": "Segurança em IA: Bugs do Codex, Integridade do Claude e Contexto do Copilot",
+      "summary": "Artigo analisa vulnerabilidades críticas em ferramentas de IA para desenvolvimento, incluindo bugs operacionais no Codex que consomem armazenamento local e riscos de integridade em código gerado. Essencial para devs que usam assistentes de IA entender os limites de segurança dessas ferramentas.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "segurança",
+        "codex",
+        "copilot",
+        "claude",
+        "ferramentas-ia"
+      ]
+    },
+    {
+      "id": "7339e5de8ac4",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "source": "The GitHub Blog",
+      "published": "Fri, 19 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-22T21:59:29.277388+00:00",
+      "title": "Como o GitHub construiu um agente de análise de dados com IA",
+      "summary": "O GitHub desenvolveu o Qubot, um agente analítico alimentado por Copilot que permite consultas em linguagem natural sobre dados. O caso mostra como ferramentas de IA estão transformando a forma como desenvolvedores interagem com dados complexos e automatizam tarefas analíticas.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "GitHub Copilot",
+        "Agentes de IA",
+        "Análise de dados",
+        "LLM"
+      ]
+    },
+    {
       "id": "f7ae0ced5823",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
       "source": "The Pragmatic Engineer",
@@ -406,132 +531,8 @@
         "privacidade",
         "Expo"
       ]
-    },
-    {
-      "id": "cd943d90c5b0",
-      "url": "https://dev.to/jaideepparashar/why-i-think-most-ai-agents-are-overengineered-249o",
-      "source": "DEV Community",
-      "published": "Mon, 22 Jun 2026 04:48:31 +0000",
-      "fetched_at": "2026-06-22T05:07:30.146143+00:00",
-      "title": "Por que a maioria dos agentes de IA é superdimensionada",
-      "summary": "Artigo crítico que questiona a tendência de usar agentes de IA para problemas que poderiam ter soluções mais simples. Relevante para devs que buscam entender quando realmente precisam de arquiteturas complexas de IA versus abordagens mais diretas e eficientes.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "agentes de IA",
-        "arquitetura de software",
-        "boas práticas",
-        "engenharia de IA",
-        "otimização de desenvolvimento"
-      ]
-    },
-    {
-      "id": "61a418ee73eb",
-      "url": "https://dev.to/rishini_dharan_t/understanding-server-sent-events-3mkd",
-      "source": "DEV Community",
-      "published": "Mon, 22 Jun 2026 04:26:16 +0000",
-      "fetched_at": "2026-06-22T05:07:32.127459+00:00",
-      "title": "Server-Sent Events: Streaming em LLMs e Aplicações",
-      "summary": "Artigo explica como Server-Sent Events (SSE) possibilita respostas em streaming em LLMs como ChatGPT, evitando esperas longas. Essencial para devs que integram IA em suas aplicações e querem oferecer melhor UX com processamento assíncrono.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "server-sent-events",
-        "streaming",
-        "LLM",
-        "arquitetura-backend"
-      ]
-    },
-    {
-      "id": "af5b66d8418f",
-      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
-      "source": "The GitHub Blog",
-      "published": "Thu, 18 Jun 2026 16:00:00 +0000",
-      "fetched_at": "2026-06-22T05:07:38.735586+00:00",
-      "title": "GitHub limita pull requests para reduzir ruído em repositórios",
-      "summary": "O GitHub implementa limites de pull requests para ajudar mantenedores a gerenciar o volume de contribuições. A feature é especialmente útil para projetos open source que recebem muitos PRs e pode impactar como desenvolvedores colaboram em repositórios.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "GitHub",
-        "pull requests",
-        "gestão de repositório",
-        "open source",
-        "workflow"
-      ]
-    },
-    {
-      "id": "663d872622a3",
-      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "source": "OpenAI News",
-      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
-      "fetched_at": "2026-06-22T05:07:41.467476+00:00",
-      "title": "Samsung implanta ChatGPT Enterprise e Codex para todos os funcionários",
-      "summary": "A Samsung adotou em larga escala o ChatGPT Enterprise e Codex da OpenAI, sinalizando uma tendência corporativa de integração de IA em fluxos de desenvolvimento. Esse movimento mostra como grandes empresas estão apostando em assistentes de código para aumentar produtividade de desenvolvedores.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "ChatGPT",
-        "Codex",
-        "IA Empresarial",
-        "Assistente de Código",
-        "Tendência de Mercado"
-      ]
-    },
-    {
-      "id": "46ff7e0ca3d5",
-      "url": "https://mcipetition.com/",
-      "source": "Hacker News: Front Page",
-      "published": "Sun, 21 Jun 2026 23:34:07 +0000",
-      "fetched_at": "2026-06-22T03:40:57.374968+00:00",
-      "title": "Meta enfrenta petição sobre coleta de dados de funcionários para treinamento de IA",
-      "summary": "Meta está sendo questionada por coletar dados de funcionários para treinar modelos de machine learning, levantando preocupações sobre privacidade e uso de dados pessoais. A questão impacta desenvolvedores que trabalham com IA e modelos de linguagem, especialmente quanto às práticas éticas de coleta de dados para treinamento.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "privacidade",
-        "ética em IA",
-        "machine learning",
-        "Meta"
-      ]
-    },
-    {
-      "id": "963a38bbce8b",
-      "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
-      "source": "Hacker News: Front Page",
-      "published": "Sun, 21 Jun 2026 22:55:23 +0000",
-      "fetched_at": "2026-06-22T03:40:59.667897+00:00",
-      "title": "Fine-tuning de LLM local Qwen 3 para categorizar perguntas",
-      "summary": "Artigo prático sobre como fazer fine-tuning de um modelo de linguagem pequeno (0.6B) localmente para tarefas específicas de classificação. Mostra que é possível adaptar LLMs compactos sem infraestrutura cara, reduzindo dependência de APIs externas e abrindo possibilidades para soluções on-premise.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "LLM",
-        "fine-tuning",
-        "Qwen",
-        "IA local",
-        "categorização"
-      ]
-    },
-    {
-      "id": "4da4bc9032a0",
-      "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-21T23:35:47+00:00",
-      "fetched_at": "2026-06-22T03:41:01.462098+00:00",
-      "title": "sqlite-utils 4.0rc1 lança migrações e transações aninhadas",
-      "summary": "A nova versão do sqlite-utils, biblioteca Python para trabalhar com SQLite, adiciona suporte a migrações e transações aninhadas, simplificando operações complexas com banco de dados. A ferramenta continua sendo essencial para desenvolvedores que precisam gerenciar dados SQLite de forma mais produtiva através de abstrações de alto nível.",
-      "category": "Releases",
-      "relevance_score": 7,
-      "tags": [
-        "sqlite",
-        "Python",
-        "banco-de-dados",
-        "ferramentas-desenvolvimento",
-        "cli"
-      ]
     }
   ],
-  "last_updated": "2026-06-22T19:36:35.605730+00:00",
+  "last_updated": "2026-06-22T21:59:29.277426+00:00",
   "total": 30
 }
