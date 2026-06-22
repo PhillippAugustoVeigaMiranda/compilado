@@ -1,6 +1,94 @@
 {
   "articles": [
     {
+      "id": "dcd343383c51",
+      "url": "https://dev.to/diyaburman/spec-debt-doesnt-disappear-when-you-fix-it-it-migrates-d25",
+      "source": "DEV Community",
+      "published": "Mon, 22 Jun 2026 13:30:00 +0000",
+      "fetched_at": "2026-06-22T13:40:43.459783+00:00",
+      "title": "Débito técnico em specs: quando a IA o move, não o elimina",
+      "summary": "Artigo analisa como ferramentas de IA (como autocomplete avançado) não eliminam débito técnico em especificações, apenas o deslocam para outras áreas do desenvolvimento. Relevante para entender os limites reais das ferramentas de IA que devs usam no dia a dia.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "débito técnico",
+        "IA em desenvolvimento",
+        "impacto real de ferramentas"
+      ]
+    },
+    {
+      "id": "cc39c7f7e717",
+      "url": "https://dev.to/hideyukimori/i-built-a-tiny-php-framework-for-ai-readable-business-apis-48eo",
+      "source": "DEV Community",
+      "published": "Mon, 22 Jun 2026 13:25:37 +0000",
+      "fetched_at": "2026-06-22T13:40:47.090571+00:00",
+      "title": "NENE2: Framework PHP para APIs legíveis por IA",
+      "summary": "Um novo framework PHP minimalista focado em criar APIs otimizadas para consumo por agentes de IA, com suporte a contratos OpenAPI e catálogos MCP. Muda a forma como desenvolvedores PHP criam integrações entre sistemas legados e ferramentas de IA.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "PHP",
+        "APIs",
+        "IA",
+        "Framework",
+        "OpenAPI",
+        "MCP",
+        "Integração"
+      ]
+    },
+    {
+      "id": "51ed7c9b7278",
+      "url": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+      "source": "The GitHub Blog",
+      "published": "Tue, 16 Jun 2026 20:58:54 +0000",
+      "fetched_at": "2026-06-22T13:40:50.752771+00:00",
+      "title": "Git Worktrees: recurso essencial para gerenciar múltiplos branches",
+      "summary": "Artigo explora git worktrees, feature do Git que permite trabalhar com vários branches simultaneamente sem trocar de contexto. Ferramenta útil para aumentar produtividade em fluxos de desenvolvimento complexos, especialmente relevante para devs que usam IA para gerar código em paralelo.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "git",
+        "workflow",
+        "produtividade",
+        "ferramentas-desenvolvimento"
+      ]
+    },
+    {
+      "id": "01f51600141b",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
+      "source": "The GitHub Blog",
+      "published": "Mon, 15 Jun 2026 20:15:31 +0000",
+      "fetched_at": "2026-06-22T13:40:54.189122+00:00",
+      "title": "GitHub Copilot CLI: Guia de Comandos Slash para Iniciantes",
+      "summary": "O artigo apresenta como usar comandos slash no Copilot CLI para controlar um agente de IA no terminal, expandindo as capacidades de automação de tarefas de linha de comando. Isso permite que desenvolvedores brasileiros acelerem workflows repetitivos e aumentem produtividade diretamente no ambiente de desenvolvimento.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "GitHub Copilot",
+        "CLI",
+        "IA generativa",
+        "produtividade"
+      ]
+    },
+    {
+      "id": "ad2ec02b5ba7",
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 11:00:00 GMT",
+      "fetched_at": "2026-06-22T13:40:55.833039+00:00",
+      "title": "GPT-5.5 Instant melhora respostas de saúde no ChatGPT",
+      "summary": "OpenAI lança melhorias no GPT-5.5 Instant para respostas de saúde com melhor raciocínio e contexto. Desenvolvedores que integram APIs de IA em apps de saúde ganham modelo mais confiável e avaliado por médicos.",
+      "category": "Releases",
+      "relevance_score": 6,
+      "tags": [
+        "GPT-5.5",
+        "ChatGPT",
+        "API",
+        "saúde",
+        "modelos de IA"
+      ]
+    },
+    {
       "id": "2b00c0817808",
       "url": "https://github.com/openai/codex/issues/28224",
       "source": "Hacker News: Front Page",
@@ -444,96 +532,8 @@
         "testes",
         "frontend"
       ]
-    },
-    {
-      "id": "f137faa6d025",
-      "url": "https://dev.to/anthonymax/new-bifrost-edge-visibility-and-control-for-enterprise-teams-and-beyond-5g5l",
-      "source": "DEV Community",
-      "published": "Sun, 21 Jun 2026 20:49:11 +0000",
-      "fetched_at": "2026-06-21T21:09:56.907736+00:00",
-      "title": "Bifrost Edge: Controle de Agentes IA em Ambientes Empresariais",
-      "summary": "Novo produto que resolve o problema de governança e segurança de servidores MCP (Model Context Protocol) em empresas, permitindo visibilidade e controle centralizado de agentes IA. Essencial para devs que usam Claude e ferramentas de IA em ambientes corporativos onde segurança e compliance são críticos.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "MCP",
-        "Claude",
-        "Segurança",
-        "Governança IA",
-        "Desenvolvimento Empresarial"
-      ]
-    },
-    {
-      "id": "6974e81c714c",
-      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
-      "source": "The Pragmatic Engineer",
-      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
-      "fetched_at": "2026-06-21T17:44:56.960181+00:00",
-      "title": "CI/CD com IA: Como a inteligência artificial transforma o deploy",
-      "summary": "Robert Erez, da Octopus Deploy, discute como IA está sendo integrada em pipelines CI/CD modernos, junto com Kubernetes e GitOps. Essencial para devs que querem entender as práticas emergentes em entrega contínua e automação de software.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "CI/CD",
-        "IA em DevOps",
-        "Kubernetes",
-        "GitOps",
-        "Entrega contínua"
-      ]
-    },
-    {
-      "id": "799eb45228cf",
-      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-      "source": "The Pragmatic Engineer",
-      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
-      "fetched_at": "2026-06-21T17:44:59.148598+00:00",
-      "title": "Meta reestrutura organização de engenharia focada em IA",
-      "summary": "A Meta está realizando mudanças significativas em sua estrutura de engenharia impulsionada por prioridades em IA. O artigo analisa como essas transformações afetam o mercado de trabalho para desenvolvedores e as práticas de desenvolvimento na empresa.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "meta",
-        "ia",
-        "mercado de trabalho",
-        "reorganização",
-        "carreira"
-      ]
-    },
-    {
-      "id": "1b448300af8f",
-      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
-      "source": "The Pragmatic Engineer",
-      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
-      "fetched_at": "2026-06-21T17:45:00.820825+00:00",
-      "title": "Novo modelo Fable da Anthropic com restrições pode beneficiar concorrentes",
-      "summary": "O novo modelo Fable da Anthropic apresenta limitações que desagradam usuários e pode fortalecer alternativas como Codex. O artigo também destaca uma tendência emergente de smart model routing, relevante para desenvolvedores que escolhem qual modelo usar em suas aplicações.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "Anthropic",
-        "modelos de IA",
-        "routing inteligente",
-        "ferramentas de IA"
-      ]
-    },
-    {
-      "id": "89376b20bf54",
-      "url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
-      "source": "Hacker News: Front Page",
-      "published": "Sun, 21 Jun 2026 16:14:54 +0000",
-      "fetched_at": "2026-06-21T17:24:30.836123+00:00",
-      "title": "IA quebrou o processo de contratação: como consertar",
-      "summary": "Artigo analisa como ferramentas de IA estão transformando (e prejudicando) processos de seleção e contratação. Relevante para devs entenderem como IA impacta o mercado de trabalho e oportunidades na área de tecnologia.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "mercado de trabalho",
-        "recrutamento",
-        "IA em RH",
-        "carreira dev"
-      ]
     }
   ],
-  "last_updated": "2026-06-22T09:44:50.324207+00:00",
+  "last_updated": "2026-06-22T13:40:55.833070+00:00",
   "total": 30
 }
