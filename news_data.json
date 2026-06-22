@@ -1,6 +1,112 @@
 {
   "articles": [
     {
+      "id": "b2eac272066d",
+      "url": "https://dev.to/arshtechpro/penpot-for-developers-the-open-source-design-tool-that-speaks-your-language-47p",
+      "source": "DEV Community",
+      "published": "Mon, 22 Jun 2026 21:58:38 +0000",
+      "fetched_at": "2026-06-22T22:09:14.194279+00:00",
+      "title": "Penpot: Ferramenta de Design Open-Source que Gera Código para Devs",
+      "summary": "Penpot é uma plataforma de design open-source que expressa designs diretamente em código (SVG, CSS, HTML, JSON), eliminando a tradução manual entre designer e desenvolvedor. O inspect mode gera código pronto para uso, reduzindo retrabalho e mantendo sincronização entre design e implementação.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "design-to-code",
+        "open-source",
+        "ferramentas-dev",
+        "automação",
+        "fluxo-designer-dev"
+      ]
+    },
+    {
+      "id": "af5b66d8418f",
+      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
+      "source": "The GitHub Blog",
+      "published": "Thu, 18 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-22T22:09:19.262644+00:00",
+      "title": "Limites de Pull Requests no GitHub reduzem ruído em repositórios",
+      "summary": "O GitHub implementa limites de pull requests para gerenciar melhor o volume de contribuições em repositórios. A funcionalidade ajuda mantenedores a controlar spam e contribuições indesejadas, melhorando a qualidade do código e a experiência de colaboração em projetos open source.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "GitHub",
+        "pull requests",
+        "workflow",
+        "open source",
+        "produtividade"
+      ]
+    },
+    {
+      "id": "5d9de7a5a94a",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "source": "OpenAI News",
+      "published": "Mon, 22 Jun 2026 10:00:00 GMT",
+      "fetched_at": "2026-06-22T22:09:21.119555+00:00",
+      "title": "OpenAI lança Daybreak: ferramentas de IA para segurança de código",
+      "summary": "OpenAI apresenta novas ferramentas de segurança incluindo Codex Security e GPT-5.5-Cyber, que automatizam a detecção, validação e correção de vulnerabilidades em escala. Isso muda significativamente o fluxo de trabalho de desenvolvedores, integrando análise de segurança diretamente no ciclo de desenvolvimento.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "segurança",
+        "vulnerability scanning",
+        "GPT-5.5",
+        "automação",
+        "DevSecOps"
+      ]
+    },
+    {
+      "id": "f601b26b225b",
+      "url": "https://openai.com/index/patch-the-planet",
+      "source": "OpenAI News",
+      "published": "Mon, 22 Jun 2026 10:00:00 GMT",
+      "fetched_at": "2026-06-22T22:09:24.376874+00:00",
+      "title": "OpenAI lança Patch the Planet para auxiliar mantenedores open source",
+      "summary": "OpenAI apresenta iniciativa que usa IA para ajudar desenvolvedores open source a identificar, validar e corrigir vulnerabilidades de segurança. A ferramenta combina análise automatizada com revisão de especialistas, reduzindo o trabalho manual de manutenção de projetos críticos.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "open source",
+        "segurança",
+        "IA para desenvolvimento",
+        "vulnerabilidades"
+      ]
+    },
+    {
+      "id": "5edb7201b0cb",
+      "url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "source": "OpenAI News",
+      "published": "Mon, 22 Jun 2026 00:00:00 GMT",
+      "fetched_at": "2026-06-22T22:09:26.211203+00:00",
+      "title": "Usando Codex para projetos longos e preservação de contexto",
+      "summary": "O artigo explora como utilizar o Codex da OpenAI para manter contexto em tarefas complexas e de longa duração, permitindo que o trabalho de codificação continue além de um único prompt. Essa abordagem muda a forma como desenvolvedores podem estruturar projetos maiores e iterativos com assistência de IA.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "Codex",
+        "context management",
+        "desenvolvimento de projetos",
+        "IA generativa"
+      ]
+    },
+    {
+      "id": "663d872622a3",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "source": "OpenAI News",
+      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
+      "fetched_at": "2026-06-22T22:09:27.841299+00:00",
+      "title": "Samsung implanta ChatGPT e Codex para seus desenvolvedores",
+      "summary": "A Samsung Electronics implementou ChatGPT Enterprise e Codex para seus funcionários globalmente, um dos maiores rollouts empresariais da OpenAI. Isso demonstra a adoção em massa de ferramentas de IA por grandes corporações e fornece insights sobre como empresas estão integrando IA no fluxo de trabalho de desenvolvimento.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "ChatGPT",
+        "Codex",
+        "Enterprise AI",
+        "desenvolvimento de software",
+        "adoção corporativa"
+      ]
+    },
+    {
       "id": "4e501b558e7a",
       "url": "https://urflow.bearblog.dev/jobs-and-software-is-fucked/",
       "source": "Hacker News: Front Page",
@@ -424,115 +530,8 @@
         "saúde",
         "modelos de IA"
       ]
-    },
-    {
-      "id": "2b00c0817808",
-      "url": "https://github.com/openai/codex/issues/28224",
-      "source": "Hacker News: Front Page",
-      "published": "Mon, 22 Jun 2026 07:30:17 +0000",
-      "fetched_at": "2026-06-22T09:44:35.490281+00:00",
-      "title": "Bug crítico no Codex pode consumir TBs em SSDs locais",
-      "summary": "Um bug de logging no Codex da OpenAI pode preencher completamente os discos locais dos desenvolvedores com dados desnecessários. Isso afeta diretamente quem usa a ferramenta de IA para codificação, exigindo atenção imediata para evitar perda de espaço em disco e possíveis travamentos do ambiente de desenvolvimento.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "Codex",
-        "OpenAI",
-        "bug",
-        "performance",
-        "desenvolvimento"
-      ]
-    },
-    {
-      "id": "f3e27823b398",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2",
-      "source": "The Pragmatic Engineer",
-      "published": "Tue, 09 Jun 2026 16:35:53 GMT",
-      "fetched_at": "2026-06-22T09:44:39.882401+00:00",
-      "title": "Mercado de engenharia de software 2026: IA labs superam Big Tech",
-      "summary": "Análise exclusiva do mercado de tech jobs mostra que labs de IA são mais atraentes que grandes empresas, roles de mobile e frontend estão em declínio, e há reorganização nas estruturas de gestão. Dados importantes para entender como a IA está reformulando oportunidades e demandas para desenvolvedores.",
-      "category": "Mercado",
-      "relevance_score": 9,
-      "tags": [
-        "mercado de trabalho",
-        "tendências 2026",
-        "IA labs",
-        "carreira dev",
-        "big tech"
-      ]
-    },
-    {
-      "id": "e2cbe87a83da",
-      "url": "https://dev.to/roman_klymenko_39f1198f16/how-to-automate-image-compression-with-an-api-a-nodejs-php-guide-24m3",
-      "source": "DEV Community",
-      "published": "Mon, 22 Jun 2026 09:37:05 +0000",
-      "fetched_at": "2026-06-22T09:44:41.492129+00:00",
-      "title": "Automatizar Compressão de Imagens com API: Guia Node.js & PHP",
-      "summary": "Guia prático para integrar otimização automática de imagens no backend usando a API Pixozip, com exemplos em Node.js e PHP. Mostra como resolver um problema real de performance web sem processamento manual, escalável para uploads de usuários.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "image-optimization",
-        "Node.js",
-        "PHP",
-        "APIs",
-        "performance",
-        "backend"
-      ]
-    },
-    {
-      "id": "4349b7c6b506",
-      "url": "https://dev.to/arshtechpro/build-real-time-apps-and-services-with-grpc-and-swift-3iao",
-      "source": "DEV Community",
-      "published": "Mon, 22 Jun 2026 09:35:52 +0000",
-      "fetched_at": "2026-06-22T09:44:43.173237+00:00",
-      "title": "gRPC Swift 2: Geração de código para APIs type-safe",
-      "summary": "gRPC Swift 2 torna mais idiomático desenvolver serviços backend em Apple platforms e Linux, eliminando código manual de networking. Desenvolvedores ganham geração automática de cliente/servidor a partir de um contrato único, reduzindo bugs e sincronização de documentação.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "gRPC",
-        "Swift",
-        "backend",
-        "code generation",
-        "async-await"
-      ]
-    },
-    {
-      "id": "c34b6e156686",
-      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
-      "source": "The GitHub Blog",
-      "published": "Wed, 17 Jun 2026 19:41:46 +0000",
-      "fetched_at": "2026-06-22T09:44:50.324176+00:00",
-      "title": "GitHub Copilot otimiza uso de tokens com roteamento inteligente",
-      "summary": "O GitHub Copilot melhorou o gerenciamento de contexto e roteamento de modelos para aproveitar melhor cada token, reduzindo custos de créditos para desenvolvedores. A otimização permite que mais da sessão seja dedicada a trabalho útil, aumentando a eficiência do uso da ferramenta de IA.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "GitHub Copilot",
-        "otimização de tokens",
-        "eficiência de custos"
-      ]
-    },
-    {
-      "id": "14aed481ab1b",
-      "url": "https://dev.to/vikrantnegi/six-lines-zero-api-calls-running-llms-on-device-in-react-native-3ahl",
-      "source": "DEV Community",
-      "published": "Mon, 22 Jun 2026 04:49:24 +0000",
-      "fetched_at": "2026-06-22T05:07:28.204530+00:00",
-      "title": "Executar LLMs localmente em React Native com apenas 6 linhas",
-      "summary": "Artigo mostra como rodar modelos de IA diretamente no dispositivo em React Native, eliminando chamadas à API, custos por token e dependência de conexão. Muda o jogo para devs que precisam de privacidade, offline-first e controle de custos em suas aplicações.",
-      "category": "Tutoriais",
-      "relevance_score": 9,
-      "tags": [
-        "React Native",
-        "LLM on-device",
-        "IA offline",
-        "privacidade",
-        "Expo"
-      ]
     }
   ],
-  "last_updated": "2026-06-22T21:59:29.277426+00:00",
+  "last_updated": "2026-06-22T22:09:27.841332+00:00",
   "total": 30
 }
