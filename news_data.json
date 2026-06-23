@@ -1,6 +1,93 @@
 {
   "articles": [
     {
+      "id": "f5551e9db0cf",
+      "url": "https://dev.to/chenxiao5580cmd/use-a-flat-priced-auto-routing-llm-api-in-aider-or-cline-one-npx-command-3k5l",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 04:03:09 +0000",
+      "fetched_at": "2026-06-23T04:05:36.967203+00:00",
+      "title": "Proxy local para integrar APIs de LLM em assistentes de código",
+      "summary": "Um projeto open-source que permite usar diferentes LLMs em ferramentas como Aider e Cline através de um proxy local que padroniza a autenticação. Útil para devs que querem testar alternativas aos modelos OpenAI sem reescrever integrações.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "LLM",
+        "Aider",
+        "Cline",
+        "proxy",
+        "open-source",
+        "assistentes de código"
+      ]
+    },
+    {
+      "id": "c9803ff3768f",
+      "url": "https://dev.to/davekurian/jetbrains-ides-get-claude-agent-preview-and-enhanced-github-copilot-features-12gl",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 04:01:49 +0000",
+      "fetched_at": "2026-06-23T04:05:40.853698+00:00",
+      "title": "JetBrains IDEs recebem preview de agentes Claude e novos recursos do GitHub Copilot",
+      "summary": "A atualização de junho de 2026 traz integração de agentes de IA, suporte a Claude como provedor de agentes e controle de créditos por turno nas IDEs JetBrains. Esses recursos permitem que desenvolvedores automatizem tarefas complexas e escalem produtividade com IA diretamente no fluxo de trabalho.",
+      "category": "Releases",
+      "relevance_score": 9,
+      "tags": [
+        "JetBrains",
+        "GitHub Copilot",
+        "Claude",
+        "Agentes de IA",
+        "IDEs",
+        "Produtividade"
+      ]
+    },
+    {
+      "id": "c34b6e156686",
+      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+      "source": "The GitHub Blog",
+      "published": "Wed, 17 Jun 2026 19:41:46 +0000",
+      "fetched_at": "2026-06-23T04:05:47.036153+00:00",
+      "title": "Copilot melhora eficiência de tokens com roteamento inteligente",
+      "summary": "GitHub Copilot otimiza o uso de tokens em cada sessão, permitindo que desenvolvedores façam mais com menos créditos gastos. A ferramenta agora implementa melhor manipulação de contexto e roteamento dinâmico entre modelos, impactando diretamente no custo-benefício do uso de IA assistente.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "GitHub Copilot",
+        "otimização de tokens",
+        "context handling"
+      ]
+    },
+    {
+      "id": "51ed7c9b7278",
+      "url": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+      "source": "The GitHub Blog",
+      "published": "Tue, 16 Jun 2026 20:58:54 +0000",
+      "fetched_at": "2026-06-23T04:05:48.665215+00:00",
+      "title": "Git Worktrees: O que são e por que usar",
+      "summary": "Aprenda sobre git worktrees, um recurso do Git disponível desde 2015 que está ganhando popularidade entre desenvolvedores. A ferramenta permite trabalhar em múltiplos branches simultaneamente sem precisar fazer checkout repetido, melhorando a produtividade do fluxo de desenvolvimento.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "git",
+        "produtividade",
+        "fluxo de desenvolvimento"
+      ]
+    },
+    {
+      "id": "a55ebd412e31",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 17:00:00 GMT",
+      "fetched_at": "2026-06-23T04:05:51.589283+00:00",
+      "title": "OpenAI lança controles de gastos e análise de uso para ChatGPT Enterprise",
+      "summary": "A OpenAI introduziu novos controles de gastos e analytics de uso para ChatGPT Enterprise, permitindo que organizações gerenciem custos de APIs e escalem soluções com IA de forma mais previsível. Essas ferramentas são essenciais para devs que integram ChatGPT em produção e precisam controlar orçamentos de IA.",
+      "category": "Releases",
+      "relevance_score": 8,
+      "tags": [
+        "ChatGPT Enterprise",
+        "gerenciamento de custos",
+        "analytics",
+        "API"
+      ]
+    },
+    {
       "id": "7c8e837a7855",
       "url": "https://unsloth.ai/docs/models/glm-5.2",
       "source": "Hacker News: Front Page",
@@ -443,97 +530,8 @@
         "otimização",
         "ferramentas IA"
       ]
-    },
-    {
-      "id": "6974e81c714c",
-      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
-      "source": "The Pragmatic Engineer",
-      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
-      "fetched_at": "2026-06-22T16:46:53.721130+00:00",
-      "title": "CI/CD Moderno: Kubernetes, GitOps e IA na Entrega de Software",
-      "summary": "Discussão sobre como IA está sendo integrada em pipelines CI/CD e práticas de entrega progressiva. O episódio explora ferramentas e estratégias que estão transformando o workflow de deployment para desenvolvedores modernos.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "CI/CD",
-        "IA em DevOps",
-        "Kubernetes",
-        "GitOps",
-        "Entrega Progressiva"
-      ]
-    },
-    {
-      "id": "799eb45228cf",
-      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-      "source": "The Pragmatic Engineer",
-      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
-      "fetched_at": "2026-06-22T16:46:55.549096+00:00",
-      "title": "Meta reestrutura organização de engenharia focada em IA",
-      "summary": "A Meta está realizando mudanças significativas em sua estrutura de engenharia impulsionadas por iniciativas de IA. O artigo analisa como essas transformações afetam a carreira de engenheiros e as prioridades tecnológicas da empresa, refletindo tendências do mercado de desenvolvimento.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "meta",
-        "ia",
-        "mercado-de-trabalho",
-        "engenharia",
-        "reestruturação"
-      ]
-    },
-    {
-      "id": "1b448300af8f",
-      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
-      "source": "The Pragmatic Engineer",
-      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
-      "fetched_at": "2026-06-22T16:47:01.062314+00:00",
-      "title": "Novo modelo Fable da Anthropic pode fortalecer concorrentes",
-      "summary": "O novo modelo Fable da Anthropic apresenta limitações que desagradam usuários, potencialmente beneficiando rivais como o Codex. O artigo também aborda a tendência de smart model routing, uma estratégia relevante para otimizar a escolha de modelos em aplicações de desenvolvimento.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "Anthropic",
-        "modelos de IA",
-        "smart routing",
-        "mercado de IA",
-        "ferramentas de desenvolvimento"
-      ]
-    },
-    {
-      "id": "f8f4f9e107ba",
-      "url": "https://dev.to/kandeepa_sundaram/you-dont-have-a-git-problem-you-have-a-context-problem-1co2",
-      "source": "DEV Community",
-      "published": "Mon, 22 Jun 2026 16:36:36 +0000",
-      "fetched_at": "2026-06-22T16:47:02.978624+00:00",
-      "title": "Gerenciamento de Identidade Git: O Problema Real por Trás dos Commits",
-      "summary": "Artigo aborda a gestão de múltiplas identidades Git como um problema crítico que afeta desenvolvedores modernos. Relevante para quem trabalha com múltiplos repositórios (empresa, clientes, open-source) e precisa evitar erros de segurança e compliance.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "git",
-        "segurança",
-        "boas práticas",
-        "desenvolvimento"
-      ]
-    },
-    {
-      "id": "f7d7bdc9ec02",
-      "url": "https://dev.to/itzzsvr_tech74/linus-torvalds-is-right-ai-is-a-compiler-not-a-coder-and-why-vibe-coding-wont-survive-41eb",
-      "source": "DEV Community",
-      "published": "Mon, 22 Jun 2026 16:33:07 +0000",
-      "fetched_at": "2026-06-22T16:47:05.167628+00:00",
-      "title": "Linus Torvalds questiona 'vibe coding': IA tem limites reais",
-      "summary": "O criador do Linux defende que IA oferece ganho de produtividade real (10x), mas sintaxe é fácil — lógica é o desafio. O artigo desmonta o hype de 'IA escreve 99% do código' e alerta devs brasileiros sobre as limitações genuínas das ferramentas atuais.",
-      "category": "Mercado",
-      "relevance_score": 9,
-      "tags": [
-        "IA",
-        "produtividade",
-        "realidade do mercado",
-        "ferramentas de dev",
-        "Linus Torvalds"
-      ]
     }
   ],
-  "last_updated": "2026-06-23T02:46:03.157723+00:00",
+  "last_updated": "2026-06-23T04:05:51.589311+00:00",
   "total": 30
 }
