@@ -1,6 +1,78 @@
 {
   "articles": [
     {
+      "id": "95da18097fb1",
+      "url": "https://blog.owulveryck.info/2026/06/22/who-does-what-team-topologies-for-the-agentic-platform.html",
+      "source": "Hacker News: Front Page",
+      "published": "Tue, 23 Jun 2026 04:40:08 +0000",
+      "fetched_at": "2026-06-23T10:58:50.311278+00:00",
+      "title": "Topologias de Equipe para Plataformas com Agentes de IA",
+      "summary": "Artigo explora como organizar equipes de desenvolvimento em projetos que usam plataformas agentic de IA. Discute mudanças nas estruturas organizacionais e responsabilidades de desenvolvedores ao integrar agentes autônomos no ciclo de desenvolvimento.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "agentes de IA",
+        "organização de equipes",
+        "desenvolvimento",
+        "plataformas agentic"
+      ]
+    },
+    {
+      "id": "7c1c30fed1c9",
+      "url": "https://dev.to/soulentheo/coding-clis-in-mid-2026-the-engineers-map-and-what-changed-in-30-days-23p4",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 10:52:27 +0000",
+      "fetched_at": "2026-06-23T10:58:58.834638+00:00",
+      "title": "CLIs de IA para Coding em 2026: guia prático para engenheiros",
+      "summary": "Análise atualizada de ferramentas CLI com IA que mudaram nos últimos 30 dias, reorganizada pela forma de trabalho do desenvolvedor. O artigo mapeia qual ferramenta usar conforme seu tipo de tarefa no terminal, ajudando a escolher a melhor opção para seu workflow.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "CLI",
+        "IA para coding",
+        "ferramentas de desenvolvimento",
+        "comparação de tools",
+        "produtividade"
+      ]
+    },
+    {
+      "id": "3a5058c5e4f0",
+      "url": "https://dev.to/rarenode/stop-guessing-real-data-comparing-claude-35-sonnet-and-opus-4n0d",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 10:50:48 +0000",
+      "fetched_at": "2026-06-23T10:59:00.868413+00:00",
+      "title": "Comparação Real: Claude 3.5 Sonnet vs Opus - Custo vs Performance",
+      "summary": "Análise prática comparando dois modelos Claude em termos de custo e desempenho, essencial para devs que precisam escolher a melhor opção para seus projetos sem estourar orçamento. O artigo traz benchmarks reais e dados que ajudam a tomar decisões informadas sobre qual modelo usar em produção.",
+      "category": "Modelos",
+      "relevance_score": 8,
+      "tags": [
+        "Claude",
+        "LLM",
+        "custo-benefício",
+        "benchmark",
+        "otimização de API"
+      ]
+    },
+    {
+      "id": "b0d639497692",
+      "url": "https://dev.to/harsh2644/the-8020-rule-of-ai-code-why-the-last-20-takes-80-of-your-time-3pcg",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 10:49:47 +0000",
+      "fetched_at": "2026-06-23T10:59:02.845556+00:00",
+      "title": "A Regra 80/20 da IA: Por que os últimos 20% levam 80% do tempo",
+      "summary": "Artigo que analisa as limitações práticas das ferramentas de IA para codificação, destacando como elas resolvem casos simples rapidamente mas deixam tratamento de erros e edge cases para o desenvolvedor. Essencial para entender o impacto real da IA no fluxo de trabalho diário e expectativas de produtividade.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "IA generativa",
+        "desenvolvimento",
+        "produtividade",
+        "limitações de IA",
+        "pair programming",
+        "qualidade de código"
+      ]
+    },
+    {
       "id": "573eb3a002f0",
       "url": "https://news.ycombinator.com/item?id=48641160",
       "source": "Hacker News: Front Page",
@@ -461,78 +533,8 @@
         "LLM",
         "desenvolvimento"
       ]
-    },
-    {
-      "id": "c83bb803c94d",
-      "url": "https://dev.to/soytuber/securing-ai-codex-operational-bugs-claude-output-integrity-copilot-context-3g08",
-      "source": "DEV Community",
-      "published": "Mon, 22 Jun 2026 21:36:33 +0000",
-      "fetched_at": "2026-06-22T21:59:26.216156+00:00",
-      "title": "Segurança em IA: Bugs do Codex, Integridade do Claude e Contexto do Copilot",
-      "summary": "Artigo analisa vulnerabilidades críticas em ferramentas de IA para desenvolvimento, incluindo bugs operacionais no Codex que consomem armazenamento local e riscos de integridade em código gerado. Essencial para devs que usam assistentes de IA entender os limites de segurança dessas ferramentas.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "segurança",
-        "codex",
-        "copilot",
-        "claude",
-        "ferramentas-ia"
-      ]
-    },
-    {
-      "id": "7339e5de8ac4",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
-      "source": "The GitHub Blog",
-      "published": "Fri, 19 Jun 2026 16:00:00 +0000",
-      "fetched_at": "2026-06-22T21:59:29.277388+00:00",
-      "title": "Como o GitHub construiu um agente de análise de dados com IA",
-      "summary": "O GitHub desenvolveu o Qubot, um agente analítico alimentado por Copilot que permite consultas em linguagem natural sobre dados. O caso mostra como ferramentas de IA estão transformando a forma como desenvolvedores interagem com dados complexos e automatizam tarefas analíticas.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "GitHub Copilot",
-        "Agentes de IA",
-        "Análise de dados",
-        "LLM"
-      ]
-    },
-    {
-      "id": "f7ae0ced5823",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
-      "source": "The Pragmatic Engineer",
-      "published": "Thu, 18 Jun 2026 17:11:03 GMT",
-      "fetched_at": "2026-06-22T19:36:24.209055+00:00",
-      "title": "EUA bane novo modelo Anthropic Fable; impactos para devs",
-      "summary": "Restrições regulatórias dos EUA afetam disponibilidade de modelos de IA avançados para desenvolvedores. A decisão impacta o acesso a ferramentas de desenvolvimento e pode influenciar o mercado de IA no Brasil.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "Anthropic",
-        "regulação",
-        "modelos de IA",
-        "impacto mercado"
-      ]
-    },
-    {
-      "id": "74ed074c832a",
-      "url": "https://dev.to/enjoy_kumawat/i-build-mcp-servers-heres-the-security-hole-nobody-talks-about-41b6",
-      "source": "DEV Community",
-      "published": "Mon, 22 Jun 2026 19:08:55 +0000",
-      "fetched_at": "2026-06-22T19:36:27.948898+00:00",
-      "title": "MCP Servers: A Brecha de Segurança que Ninguém Discute",
-      "summary": "Artigo expõe vulnerabilidades críticas no Model Context Protocol (MCP), mostrando como servidores MCP podem se tornar backdoors em ferramentas de desenvolvimento. Essencial para devs que integram IA em seus workflows entenderem os riscos de segurança antes de adotar essa tecnologia.",
-      "category": "Ferramentas",
-      "relevance_score": 9,
-      "tags": [
-        "MCP",
-        "segurança",
-        "IA",
-        "Model Context Protocol",
-        "arquitetura de agentes"
-      ]
     }
   ],
-  "last_updated": "2026-06-23T07:43:45.785308+00:00",
+  "last_updated": "2026-06-23T10:59:02.845587+00:00",
   "total": 30
 }
