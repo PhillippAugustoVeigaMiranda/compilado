@@ -1,6 +1,95 @@
 {
   "articles": [
     {
+      "id": "573eb3a002f0",
+      "url": "https://news.ycombinator.com/item?id=48641160",
+      "source": "Hacker News: Front Page",
+      "published": "Tue, 23 Jun 2026 06:33:52 +0000",
+      "fetched_at": "2026-06-23T07:43:21.401593+00:00",
+      "title": "Desenvolvedor banido do Claude Code sem explicação clara",
+      "summary": "Um desenvolvedor relata ter sido banido da plataforma Claude Code duas vezes sem motivo aparente, levantando questões sobre políticas de acesso e suporte ao cliente da Anthropic. O caso ilustra riscos de dependência em ferramentas de IA comerciais e a importância de clareza nas políticas de uso.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "suporte ao desenvolvedor",
+        "políticas de uso",
+        "IA generativa"
+      ]
+    },
+    {
+      "id": "6974e81c714c",
+      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
+      "source": "The Pragmatic Engineer",
+      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
+      "fetched_at": "2026-06-23T07:43:33.111724+00:00",
+      "title": "CI/CD com IA: GitOps e Entrega Progressiva no Kubernetes",
+      "summary": "Discussão sobre como IA está transformando pipelines de CI/CD, Kubernetes e práticas de GitOps. O episódio explora como automação inteligente está mudando o fluxo de trabalho dos desenvolvedores em entrega contínua.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "CI/CD",
+        "IA em DevOps",
+        "Kubernetes",
+        "GitOps",
+        "Octopus Deploy",
+        "Entrega Contínua"
+      ]
+    },
+    {
+      "id": "799eb45228cf",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "source": "The Pragmatic Engineer",
+      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
+      "fetched_at": "2026-06-23T07:43:38.320080+00:00",
+      "title": "Meta reestrutura engenharia focando em IA: o que muda para devs",
+      "summary": "A Meta está reorganizando sua engenharia com foco em IA, impactando a estrutura de times e oportunidades no mercado. Entenda como essa transformação afeta desenvolvedores brasileiros e o ecossistema de trabalho tech.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "meta",
+        "ia",
+        "mercado de trabalho",
+        "engenharia",
+        "tendências"
+      ]
+    },
+    {
+      "id": "1b448300af8f",
+      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
+      "fetched_at": "2026-06-23T07:43:40.300540+00:00",
+      "title": "Novo modelo Fable da Anthropic pode beneficiar concorrentes",
+      "summary": "O novo modelo Fable da Anthropic apresenta restrições que desagradam usuários, potencialmente aumentando a adoção de alternativas como o Codex. O artigo também aborda a tendência emergente de smart model routing, uma estratégia relevante para devs escolherem qual modelo usar em cada caso.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "Anthropic",
+        "modelos de IA",
+        "competição",
+        "model routing"
+      ]
+    },
+    {
+      "id": "88ef883781df",
+      "url": "https://dev.to/lizziepika/agents-write-code-but-they-dont-remember-4ob0",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 07:26:59 +0000",
+      "fetched_at": "2026-06-23T07:43:45.785274+00:00",
+      "title": "Agentes de IA escrevem código, mas não lembram do contexto",
+      "summary": "O artigo analisa como agentes de IA estão comprimindo o ciclo de desenvolvimento de software, reduzindo o tempo de implementação de semanas para horas. Porém, tarefas de requisitos, arquitetura e verificação continuam lentas porque exigem julgamento humano. Isso muda fundamentalmente como desenvolvedores devem estruturar seu fluxo de trabalho.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "agentes-IA",
+        "ciclo-desenvolvimento",
+        "impacto-mercado",
+        "fluxo-trabalho"
+      ]
+    },
+    {
       "id": "f5551e9db0cf",
       "url": "https://dev.to/chenxiao5580cmd/use-a-flat-priced-auto-routing-llm-api-in-aider-or-cline-one-npx-command-3k5l",
       "source": "DEV Community",
@@ -442,96 +531,8 @@
         "Model Context Protocol",
         "arquitetura de agentes"
       ]
-    },
-    {
-      "id": "fec3d2350e10",
-      "url": "https://dev.to/jjoyneriv/vibe-coded-infrastructure-how-to-ship-fast-without-torching-production-3l83",
-      "source": "DEV Community",
-      "published": "Mon, 22 Jun 2026 19:05:48 +0000",
-      "fetched_at": "2026-06-22T19:36:29.690872+00:00",
-      "title": "IA na Infraestrutura: Como usar 'vibe coding' sem destruir produção",
-      "summary": "Artigo sobre usar modelos de IA para gerar código Terraform e infraestrutura rapidamente, mas com segurança. Mostra as práticas reais de um engenheiro que usa IA em produção para acelerar deploys sem riscos.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "IA generativa",
-        "Terraform",
-        "infraestrutura",
-        "boas práticas",
-        "produção"
-      ]
-    },
-    {
-      "id": "3151015004c9",
-      "url": "https://dev.to/palo_alto_ai/a-terminal-theme-tuned-for-prose-not-syntax-highlighting-3782",
-      "source": "DEV Community",
-      "published": "Mon, 22 Jun 2026 19:05:47 +0000",
-      "fetched_at": "2026-06-22T19:36:31.833925+00:00",
-      "title": "Terminal theme otimizado para leitura de prosa com IA",
-      "summary": "Um novo tema de terminal (klein-blue) desenhado especificamente para ferramentas como Claude Code que geram muita saída em texto. Em vez de focar em syntax highlighting, o tema prioriza legibilidade de prosa em ambiente de desenvolvimento, mudando como devs interagem com outputs de IA.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "terminal",
-        "ferramentas-desenvolvimento",
-        "claude-code",
-        "ux-developer",
-        "ergonomia"
-      ]
-    },
-    {
-      "id": "cd97069d78fa",
-      "url": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
-      "source": "The GitHub Blog",
-      "published": "Mon, 22 Jun 2026 17:20:31 +0000",
-      "fetched_at": "2026-06-22T19:36:35.605696+00:00",
-      "title": "GitHub avança em acessibilidade no ecossistema open source",
-      "summary": "O GitHub compartilha progresso em iniciativas de acessibilidade e inclusão no open source, impactando como desenvolvedores colaboram em projetos. A iniciativa afeta práticas de desenvolvimento e oportunidades para devs com diferentes necessidades.",
-      "category": "Mercado",
-      "relevance_score": 6,
-      "tags": [
-        "open source",
-        "acessibilidade",
-        "GitHub",
-        "inclusão"
-      ]
-    },
-    {
-      "id": "d509f232d163",
-      "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
-      "source": "Hacker News: Front Page",
-      "published": "Mon, 22 Jun 2026 14:22:46 +0000",
-      "fetched_at": "2026-06-22T16:46:43.569057+00:00",
-      "title": "Claude Code: 'Extended Thinking' é resumo, não pensamento autêntico",
-      "summary": "Análise crítica sobre as limitações do recurso de 'extended thinking' do Claude Code, questionando se realmente representa raciocínio autêntico ou apenas sumarização. Importante para devs que usam essa ferramenta entender suas reais capacidades e limitações.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "Claude",
-        "IA generativa",
-        "Limitações de IA",
-        "Desenvolvimento"
-      ]
-    },
-    {
-      "id": "6403de463dad",
-      "url": "https://hustvl.github.io/Moebius/",
-      "source": "Hacker News: Front Page",
-      "published": "Mon, 22 Jun 2026 13:53:02 +0000",
-      "fetched_at": "2026-06-22T16:46:50.386191+00:00",
-      "title": "Moebius: modelo de inpainting com 0.2B parâmetros e performance de 10B",
-      "summary": "Novo modelo de IA para inpainting de imagens que oferece performance de modelos 50x maiores com apenas 0.2 bilhões de parâmetros. Isso significa ferramentas de edição de imagens muito mais eficientes e acessíveis para integração em aplicações, reduzindo custos computacionais e latência.",
-      "category": "Modelos",
-      "relevance_score": 8,
-      "tags": [
-        "inpainting",
-        "modelos comprimidos",
-        "visão computacional",
-        "otimização",
-        "ferramentas IA"
-      ]
     }
   ],
-  "last_updated": "2026-06-23T04:05:51.589311+00:00",
+  "last_updated": "2026-06-23T07:43:45.785308+00:00",
   "total": 30
 }
