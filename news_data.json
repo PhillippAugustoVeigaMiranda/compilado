@@ -1,6 +1,79 @@
 {
   "articles": [
     {
+      "id": "6974e81c714c",
+      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
+      "source": "The Pragmatic Engineer",
+      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
+      "fetched_at": "2026-06-23T21:47:03.087733+00:00",
+      "title": "CI/CD moderno: Kubernetes, GitOps e IA transformando delivery",
+      "summary": "Discussão sobre como IA está sendo integrada em pipelines CI/CD, junto com práticas modernas como GitOps e progressive delivery. Essencial para devs que buscam otimizar seus fluxos de entrega e acompanhar tendências de automação.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "CI/CD",
+        "IA em DevOps",
+        "Kubernetes",
+        "GitOps",
+        "Progressive Delivery"
+      ]
+    },
+    {
+      "id": "799eb45228cf",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "source": "The Pragmatic Engineer",
+      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
+      "fetched_at": "2026-06-23T21:47:04.997534+00:00",
+      "title": "Por que Meta está destruindo sua organização de engenharia?",
+      "summary": "A liderança da Meta está fazendo demissões em massa focadas em IA em sua engenharia, impactando o mercado de trabalho de desenvolvedores. O artigo analisa como gigantes tech estão reorganizando suas equipes em torno de IA, refletindo tendências do mercado que afetam carreiras e oportunidades para devs.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "Meta",
+        "IA",
+        "mercado de trabalho",
+        "reorganização tech",
+        "carreira dev"
+      ]
+    },
+    {
+      "id": "33279c80f279",
+      "url": "https://dev.to/docker/supercharge-your-ai-agent-with-terraform-introducing-the-terraform-ops-kit-for-docker-sandbox-31di",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 21:40:10 +0000",
+      "fetched_at": "2026-06-23T21:47:06.822263+00:00",
+      "title": "Terraform Ops Kit: Agentes IA podem planejar infraestrutura na cloud",
+      "summary": "Um novo kit permite que agentes IA (Claude, Gemini, GitHub Copilot) planejem, validem e estimem custos de infraestrutura real usando Terraform. Isso expande significativamente as capacidades de automação de DevOps para desenvolvedores brasileiros que trabalham com IaC e cloud.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "Terraform",
+        "Agentes IA",
+        "Infrastructure-as-Code",
+        "DevOps",
+        "Docker",
+        "Cloud"
+      ]
+    },
+    {
+      "id": "2fc8850d8fe3",
+      "url": "https://dev.to/randomsquirrel802/test-automation-in-2026-the-hard-part-is-no-longer-writing-the-first-test-eci",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 21:23:31 +0000",
+      "fetched_at": "2026-06-23T21:47:09.193945+00:00",
+      "title": "Automação de Testes em 2026: IA resolve escrita, desafio real é manutenção",
+      "summary": "Enquanto IA torna trivial gerar testes automaticamente, o verdadeiro problema para desenvolvedores continua sendo manutenção, confiabilidade e adoção de suites de teste. O artigo mapeia os desafios práticos que times enfrentam além da geração inicial de código.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "test-automation",
+        "IA-generativa",
+        "qualidade-código",
+        "desenvolvimento",
+        "produtividade"
+      ]
+    },
+    {
       "id": "3f64f80c95dc",
       "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
       "source": "Hacker News: Front Page",
@@ -466,80 +539,8 @@
         "Mercado de trabalho",
         "Microsoft"
       ]
-    },
-    {
-      "id": "95da18097fb1",
-      "url": "https://blog.owulveryck.info/2026/06/22/who-does-what-team-topologies-for-the-agentic-platform.html",
-      "source": "Hacker News: Front Page",
-      "published": "Tue, 23 Jun 2026 04:40:08 +0000",
-      "fetched_at": "2026-06-23T10:58:50.311278+00:00",
-      "title": "Topologias de Equipe para Plataformas com Agentes de IA",
-      "summary": "Artigo explora como organizar equipes de desenvolvimento em projetos que usam plataformas agentic de IA. Discute mudanças nas estruturas organizacionais e responsabilidades de desenvolvedores ao integrar agentes autônomos no ciclo de desenvolvimento.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "agentes de IA",
-        "organização de equipes",
-        "desenvolvimento",
-        "plataformas agentic"
-      ]
-    },
-    {
-      "id": "7c1c30fed1c9",
-      "url": "https://dev.to/soulentheo/coding-clis-in-mid-2026-the-engineers-map-and-what-changed-in-30-days-23p4",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 10:52:27 +0000",
-      "fetched_at": "2026-06-23T10:58:58.834638+00:00",
-      "title": "CLIs de IA para Coding em 2026: guia prático para engenheiros",
-      "summary": "Análise atualizada de ferramentas CLI com IA que mudaram nos últimos 30 dias, reorganizada pela forma de trabalho do desenvolvedor. O artigo mapeia qual ferramenta usar conforme seu tipo de tarefa no terminal, ajudando a escolher a melhor opção para seu workflow.",
-      "category": "Ferramentas",
-      "relevance_score": 9,
-      "tags": [
-        "CLI",
-        "IA para coding",
-        "ferramentas de desenvolvimento",
-        "comparação de tools",
-        "produtividade"
-      ]
-    },
-    {
-      "id": "3a5058c5e4f0",
-      "url": "https://dev.to/rarenode/stop-guessing-real-data-comparing-claude-35-sonnet-and-opus-4n0d",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 10:50:48 +0000",
-      "fetched_at": "2026-06-23T10:59:00.868413+00:00",
-      "title": "Comparação Real: Claude 3.5 Sonnet vs Opus - Custo vs Performance",
-      "summary": "Análise prática comparando dois modelos Claude em termos de custo e desempenho, essencial para devs que precisam escolher a melhor opção para seus projetos sem estourar orçamento. O artigo traz benchmarks reais e dados que ajudam a tomar decisões informadas sobre qual modelo usar em produção.",
-      "category": "Modelos",
-      "relevance_score": 8,
-      "tags": [
-        "Claude",
-        "LLM",
-        "custo-benefício",
-        "benchmark",
-        "otimização de API"
-      ]
-    },
-    {
-      "id": "b0d639497692",
-      "url": "https://dev.to/harsh2644/the-8020-rule-of-ai-code-why-the-last-20-takes-80-of-your-time-3pcg",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 10:49:47 +0000",
-      "fetched_at": "2026-06-23T10:59:02.845556+00:00",
-      "title": "A Regra 80/20 da IA: Por que os últimos 20% levam 80% do tempo",
-      "summary": "Artigo que analisa as limitações práticas das ferramentas de IA para codificação, destacando como elas resolvem casos simples rapidamente mas deixam tratamento de erros e edge cases para o desenvolvedor. Essencial para entender o impacto real da IA no fluxo de trabalho diário e expectativas de produtividade.",
-      "category": "Ferramentas",
-      "relevance_score": 9,
-      "tags": [
-        "IA generativa",
-        "desenvolvimento",
-        "produtividade",
-        "limitações de IA",
-        "pair programming",
-        "qualidade de código"
-      ]
     }
   ],
-  "last_updated": "2026-06-23T21:28:54.387453+00:00",
+  "last_updated": "2026-06-23T21:47:10.854006+00:00",
   "total": 30
 }
