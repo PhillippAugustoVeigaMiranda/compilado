@@ -1,6 +1,78 @@
 {
   "articles": [
     {
+      "id": "4efb5feb367e",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "source": "Hacker News: Front Page",
+      "published": "Tue, 23 Jun 2026 17:09:18 +0000",
+      "fetched_at": "2026-06-23T17:48:17.131826+00:00",
+      "title": "Claude Tag: Nova ferramenta da Anthropic para desenvolvimento",
+      "summary": "A Anthropic apresenta Claude Tag, uma nova funcionalidade que expande as capacidades da API Claude para desenvolvedores. A ferramenta promete melhorar a integração de IA em aplicações, oferecendo mais controle e flexibilidade na utilização do modelo.",
+      "category": "Releases",
+      "relevance_score": 8,
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "API",
+        "Ferramentas de IA",
+        "Desenvolvimento"
+      ]
+    },
+    {
+      "id": "21e247aa05f0",
+      "url": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-22T23:59:53+00:00",
+      "fetched_at": "2026-06-23T17:48:21.360621+00:00",
+      "title": "Prompt Injection como Confusão de Papéis em Modelos de IA",
+      "summary": "Pesquisa sobre como modelos de IA confundem instruções do sistema com entrada de usuários, criando vulnerabilidades de segurança. Essencial para desenvolvedores que integram LLMs em produção entenderem riscos e implementar proteções adequadas.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "prompt injection",
+        "segurança",
+        "LLM",
+        "vulnerabilidades",
+        "desenvolvimento"
+      ]
+    },
+    {
+      "id": "6904f00e2d59",
+      "url": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-22T23:43:51+00:00",
+      "fetched_at": "2026-06-23T17:48:23.128490+00:00",
+      "title": "Executar modelo de inpainting Moebius no navegador com Claude Code",
+      "summary": "Desenvolvedor conseguiu portar o modelo de inpainting Moebius 0.2B para rodar no navegador usando WebGPU, eliminando a necessidade de PyTorch e CUDA. Isso abre possibilidades para desenvolvedores criarem aplicações de IA de processamento de imagem direto no frontend sem dependências pesadas.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "WebGPU",
+        "inpainting",
+        "modelos leves",
+        "browser",
+        "frontend"
+      ]
+    },
+    {
+      "id": "12c6be52b3b1",
+      "url": "https://dev.to/walnutserv/how-to-fetch-youtube-transcripts-for-ai-summarization-and-rag-4137",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 17:35:26 +0000",
+      "fetched_at": "2026-06-23T17:48:31.064883+00:00",
+      "title": "Como extrair transcrições do YouTube para IA e RAG",
+      "summary": "Guia prático para integrar transcrições do YouTube em aplicações de IA, eliminando a necessidade de web scraping frágil. Mostra como implementar resumização de vídeos, RAG semântico e ferramentas de acessibilidade usando APIs REST.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "YouTube API",
+        "RAG",
+        "processamento de vídeo",
+        "IA generativa",
+        "desenvolvimento prático"
+      ]
+    },
+    {
       "id": "003fdfce3ee6",
       "url": "https://github.com/ilbertt/bun-sqlgen",
       "source": "Hacker News: Front Page",
@@ -467,76 +539,8 @@
         "open-source",
         "assistentes de código"
       ]
-    },
-    {
-      "id": "c9803ff3768f",
-      "url": "https://dev.to/davekurian/jetbrains-ides-get-claude-agent-preview-and-enhanced-github-copilot-features-12gl",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 04:01:49 +0000",
-      "fetched_at": "2026-06-23T04:05:40.853698+00:00",
-      "title": "JetBrains IDEs recebem preview de agentes Claude e novos recursos do GitHub Copilot",
-      "summary": "A atualização de junho de 2026 traz integração de agentes de IA, suporte a Claude como provedor de agentes e controle de créditos por turno nas IDEs JetBrains. Esses recursos permitem que desenvolvedores automatizem tarefas complexas e escalem produtividade com IA diretamente no fluxo de trabalho.",
-      "category": "Releases",
-      "relevance_score": 9,
-      "tags": [
-        "JetBrains",
-        "GitHub Copilot",
-        "Claude",
-        "Agentes de IA",
-        "IDEs",
-        "Produtividade"
-      ]
-    },
-    {
-      "id": "c34b6e156686",
-      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
-      "source": "The GitHub Blog",
-      "published": "Wed, 17 Jun 2026 19:41:46 +0000",
-      "fetched_at": "2026-06-23T04:05:47.036153+00:00",
-      "title": "Copilot melhora eficiência de tokens com roteamento inteligente",
-      "summary": "GitHub Copilot otimiza o uso de tokens em cada sessão, permitindo que desenvolvedores façam mais com menos créditos gastos. A ferramenta agora implementa melhor manipulação de contexto e roteamento dinâmico entre modelos, impactando diretamente no custo-benefício do uso de IA assistente.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "GitHub Copilot",
-        "otimização de tokens",
-        "context handling"
-      ]
-    },
-    {
-      "id": "51ed7c9b7278",
-      "url": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
-      "source": "The GitHub Blog",
-      "published": "Tue, 16 Jun 2026 20:58:54 +0000",
-      "fetched_at": "2026-06-23T04:05:48.665215+00:00",
-      "title": "Git Worktrees: O que são e por que usar",
-      "summary": "Aprenda sobre git worktrees, um recurso do Git disponível desde 2015 que está ganhando popularidade entre desenvolvedores. A ferramenta permite trabalhar em múltiplos branches simultaneamente sem precisar fazer checkout repetido, melhorando a produtividade do fluxo de desenvolvimento.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "git",
-        "produtividade",
-        "fluxo de desenvolvimento"
-      ]
-    },
-    {
-      "id": "a55ebd412e31",
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "source": "OpenAI News",
-      "published": "Thu, 18 Jun 2026 17:00:00 GMT",
-      "fetched_at": "2026-06-23T04:05:51.589283+00:00",
-      "title": "OpenAI lança controles de gastos e análise de uso para ChatGPT Enterprise",
-      "summary": "A OpenAI introduziu novos controles de gastos e analytics de uso para ChatGPT Enterprise, permitindo que organizações gerenciem custos de APIs e escalem soluções com IA de forma mais previsível. Essas ferramentas são essenciais para devs que integram ChatGPT em produção e precisam controlar orçamentos de IA.",
-      "category": "Releases",
-      "relevance_score": 8,
-      "tags": [
-        "ChatGPT Enterprise",
-        "gerenciamento de custos",
-        "analytics",
-        "API"
-      ]
     }
   ],
-  "last_updated": "2026-06-23T15:15:49.992226+00:00",
+  "last_updated": "2026-06-23T17:48:31.064912+00:00",
   "total": 30
 }
