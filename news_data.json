@@ -1,6 +1,97 @@
 {
   "articles": [
     {
+      "id": "003fdfce3ee6",
+      "url": "https://github.com/ilbertt/bun-sqlgen",
+      "source": "Hacker News: Front Page",
+      "published": "Tue, 23 Jun 2026 14:20:24 +0000",
+      "fetched_at": "2026-06-23T15:15:35.255611+00:00",
+      "title": "Bun-sqlgen: SQL type-safe sem ORM para Bun",
+      "summary": "Nova ferramenta que gera tipos TypeScript automaticamente a partir de queries SQL raw, eliminando a necessidade de ORMs. Oferece segurança de tipos e melhor performance para desenvolvedores que preferem SQL direto com Bun.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "Bun",
+        "TypeScript",
+        "SQL",
+        "Type-safety",
+        "Desenvolvimento Backend"
+      ]
+    },
+    {
+      "id": "4d4d3d4ecdcf",
+      "url": "https://dev.to/prithvi_bharadwaj_d1c875e/running-claude-code-and-codex-together-instead-of-choosing-one-3pa8",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 15:04:40 +0000",
+      "fetched_at": "2026-06-23T15:15:40.664048+00:00",
+      "title": "Claude e Codex em Pipeline: Por Que Usar Juntos em Vez de Escolher",
+      "summary": "Artigo analisa como combinar Claude Code e Codex em um único pipeline em vez de escolher entre eles, explorando diferenças de design, custos de tokens e implementação prática com MCP. Relevante para devs que buscam otimizar ferramentas de IA na codificação.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "Claude",
+        "Codex",
+        "IA generativa",
+        "pipeline",
+        "MCP",
+        "otimização de custos"
+      ]
+    },
+    {
+      "id": "4f29b16e525b",
+      "url": "https://dev.to/brennhill/when-your-agent-does-something-bad-can-you-tell-which-agent-did-it-37a2",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 15:02:22 +0000",
+      "fetched_at": "2026-06-23T15:15:46.037796+00:00",
+      "title": "Como identificar qual agente de IA causou um problema em produção",
+      "summary": "O artigo aborda um desafio crítico para devs: rastrear qual agente de IA foi responsável por uma ação indesejada em produção. A solução passa por melhorar a identificação de agentes nos logs, não apenas aumentar volume de logging. Essencial para devs que implementam sistemas com múltiplos agentes de IA.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "agentes de IA",
+        "debugging",
+        "observabilidade",
+        "logging",
+        "produção"
+      ]
+    },
+    {
+      "id": "b5f6aab903c2",
+      "url": "https://dev.to/brennhill/after-an-agent-deleted-a-production-database-i-mapped-what-actually-stops-these-failures-5bfl",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 15:02:21 +0000",
+      "fetched_at": "2026-06-23T15:15:47.999308+00:00",
+      "title": "Agentes de IA em Produção: Mapeando Falhas Críticas e Riscos",
+      "summary": "Artigo essencial sobre os riscos reais de deploying agentes de IA em produção, analisando casos onde modelos deletaram bancos de dados e arquivos críticos. Desenvolvedores precisam entender os limites atuais dessas ferramentas antes de integrá-las em sistemas que afetam dados sensíveis.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "agentes-ia",
+        "segurança",
+        "produção",
+        "ai-risks",
+        "confiabilidade"
+      ]
+    },
+    {
+      "id": "d9f15899c626",
+      "url": "https://dev.to/brennhill/build-time-is-where-agent-security-is-won-or-lost-5944",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 15:02:19 +0000",
+      "fetched_at": "2026-06-23T15:15:49.992196+00:00",
+      "title": "Segurança de agentes IA: controles em tempo de build são críticos",
+      "summary": "Um agente de IA deletou um banco de produção em 2025 porque tinha acesso a credenciais perigosas. O artigo mostra que a verdadeira segurança de agentes não vem de prompts ou guardrails, mas de decisões de arquitetura tomadas antes da execução: ferramentas disponíveis, credenciais, rotas de rede e listas de negação.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "segurança",
+        "agentes-IA",
+        "arquitetura",
+        "controle-acesso",
+        "produção"
+      ]
+    },
+    {
       "id": "3caeb61da082",
       "url": "https://status.claude.com/incidents/jbhf20wjmzrf",
       "source": "Hacker News: Front Page",
@@ -444,98 +535,8 @@
         "analytics",
         "API"
       ]
-    },
-    {
-      "id": "7c8e837a7855",
-      "url": "https://unsloth.ai/docs/models/glm-5.2",
-      "source": "Hacker News: Front Page",
-      "published": "Mon, 22 Jun 2026 21:21:01 +0000",
-      "fetched_at": "2026-06-23T02:45:49.815476+00:00",
-      "title": "Executar GLM-5.2 em hardware local com Unsloth",
-      "summary": "Guia prático para rodar o modelo GLM-5.2 localmente usando Unsloth, permitindo que desenvolvedores executem modelos de IA avançados sem depender de APIs em nuvem. Relevante para quem busca privacidade, controle total e redução de custos em projetos com IA.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "GLM-5.2",
-        "Unsloth",
-        "modelos locais",
-        "hardware",
-        "IA open-source"
-      ]
-    },
-    {
-      "id": "21e247aa05f0",
-      "url": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-22T23:59:53+00:00",
-      "fetched_at": "2026-06-23T02:45:51.672107+00:00",
-      "title": "Prompt Injection como Confusão de Papéis: Segurança em Modelos de IA",
-      "summary": "Pesquisa sobre como modelos de linguagem confundem instruções do sistema com input de usuários, criando vulnerabilidades críticas. Essencial para devs que integram IA em produção entenderem os riscos de prompt injection e implementar defesas adequadas.",
-      "category": "Ferramentas",
-      "relevance_score": 9,
-      "tags": [
-        "prompt injection",
-        "segurança",
-        "LLM",
-        "arquitetura de sistemas",
-        "vulnerabilidades"
-      ]
-    },
-    {
-      "id": "6904f00e2d59",
-      "url": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-22T23:43:51+00:00",
-      "fetched_at": "2026-06-23T02:45:54.758602+00:00",
-      "title": "Executar modelo de inpainting Moebius no navegador com WebGPU",
-      "summary": "Um desenvolvedor conseguiu portar o modelo de inpainting Moebius (0.2B) para rodar diretamente no navegador usando WebGPU, eliminando a necessidade de PyTorch e CUDA. Isso abre possibilidades para integrar processamento de imagens com IA em aplicações web sem dependências pesadas de servidor.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "WebGPU",
-        "inpainting",
-        "browser",
-        "modelos leves",
-        "processamento de imagens"
-      ]
-    },
-    {
-      "id": "f3e27823b398",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2",
-      "source": "The Pragmatic Engineer",
-      "published": "Tue, 09 Jun 2026 16:35:53 GMT",
-      "fetched_at": "2026-06-23T02:46:00.091525+00:00",
-      "title": "Mercado de engenharia de software em 2026: dados exclusivos sobre demanda",
-      "summary": "Análise profunda do mercado de tech jobs revela que labs de IA são mais atraentes que Big Tech, roles de mobile e frontend estão em declínio, e há um movimento de achatamento na gestão. Dados essenciais para devs brasileiros entenderem para onde o mercado está se movendo.",
-      "category": "Mercado",
-      "relevance_score": 9,
-      "tags": [
-        "mercado de trabalho",
-        "tendências 2026",
-        "carreira dev",
-        "labs de IA",
-        "declínio mobile"
-      ]
-    },
-    {
-      "id": "9975ff6708f9",
-      "url": "https://dev.to/windhood-jza/routing-hermes-agent-through-a-local-headroom-proxy-for-context-compression-78f",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 02:33:55 +0000",
-      "fetched_at": "2026-06-23T02:46:01.716338+00:00",
-      "title": "Compressão de Contexto em Agents LLM com Proxy Local",
-      "summary": "Tutorial sobre otimização de custos ao usar Hermes Agent com compressão de contexto via proxy local Headroom. Técnica prática que reduz consumo de tokens em até 30% sem alterar fluxo de autenticação OAuth, relevante para devs que buscam economizar em APIs de IA.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "LLM",
-        "otimização de custos",
-        "context compression",
-        "Hermes Agent",
-        "proxy local"
-      ]
     }
   ],
-  "last_updated": "2026-06-23T14:38:56.000818+00:00",
+  "last_updated": "2026-06-23T15:15:49.992226+00:00",
   "total": 30
 }
