@@ -1,6 +1,115 @@
 {
   "articles": [
     {
+      "id": "3caeb61da082",
+      "url": "https://status.claude.com/incidents/jbhf20wjmzrf",
+      "source": "Hacker News: Front Page",
+      "published": "Tue, 23 Jun 2026 14:19:47 +0000",
+      "fetched_at": "2026-06-23T14:38:34.981950+00:00",
+      "title": "Claude apresenta taxa elevada de erros em múltiplos modelos",
+      "summary": "A Anthropic reportou um incidente com aumento significativo na taxa de erros do Claude afetando múltiplos modelos. Desenvolvedores que utilizam a API Claude para seus projetos podem ter enfrentado degradação nos serviços e precisam considerar alternativas ou aguardar a resolução do problema.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "Claude",
+        "API",
+        "Incident",
+        "Confiabilidade",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "896c32c8cf64",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "source": "Hacker News: Front Page",
+      "published": "Tue, 23 Jun 2026 11:35:05 +0000",
+      "fetched_at": "2026-06-23T14:38:37.059553+00:00",
+      "title": "Unlimited OCR: Nova ferramenta de parsing com IA em uma shot",
+      "summary": "A Baidu lançou o Unlimited OCR, uma ferramenta de visão computacional que usa IA para fazer parsing de documentos complexos em uma única passada. Desenvolvedores podem usar essa tecnologia para automatizar extração de dados de imagens e documentos, reduzindo a complexidade de pipelines de processamento.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "OCR",
+        "Visão Computacional",
+        "IA",
+        "Automação",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "96c3f898127f",
+      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-21T22:01:04+00:00",
+      "fetched_at": "2026-06-23T14:38:43.622594+00:00",
+      "title": "Cloudflare lança contas temporárias para deploy rápido de aplicações",
+      "summary": "Cloudflare agora permite fazer deploy de Workers sem criar conta, gerando projetos efêmeros que vivem por 60 minutos. Isso acelera prototipagem, testes e é especialmente útil para agentes de IA que precisam provisionar infraestrutura rapidamente.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "cloudflare",
+        "workers",
+        "deploy",
+        "infraestrutura",
+        "agentes IA",
+        "desenvolvimento"
+      ]
+    },
+    {
+      "id": "1c3e0a2117ac",
+      "url": "https://dev.to/marcosomma/maybe-it-is-not-yet-time-to-bring-every-ai-demo-to-production-o74",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 14:26:29 +0000",
+      "fetched_at": "2026-06-23T14:38:51.702598+00:00",
+      "title": "Cuidado ao levar demos de IA para produção sem fallbacks reais",
+      "summary": "Artigo alerta desenvolvedores sobre os riscos de usar fallback providers (como trocar entre OpenAI e Claude) em produção, já que cada modelo interpreta prompts, serializa schemas e trata erros de forma diferente. Essencial para quem está implementando IA em sistemas críticos.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "IA em produção",
+        "fallback providers",
+        "engenharia de prompts",
+        "resiliência",
+        "boas práticas"
+      ]
+    },
+    {
+      "id": "8bffa14a7498",
+      "url": "https://dev.to/kfuras/glama-clones-your-repo-smithery-proxies-your-http-mcpso-wants-a-markdown-line-18f5",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 14:25:05 +0000",
+      "fetched_at": "2026-06-23T14:38:54.154144+00:00",
+      "title": "Diferenças entre catálogos MCP: Glama, Smithery e mcp.so",
+      "summary": "Análise técnica das três principais plataformas para listar servidores MCP, mostrando como cada uma funciona diferente na hora de indexar e validar seus projetos. Desenvolvedores precisam entender essas diferenças para publicar corretamente suas ferramentas de IA.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "MCP",
+        "ferramentas-IA",
+        "catálogos",
+        "integração",
+        "publicação"
+      ]
+    },
+    {
+      "id": "3e0dba1a84f1",
+      "url": "https://dev.to/msteja/why-ai-agents-cant-draw-svg-and-what-to-do-instead-1ci",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 14:21:33 +0000",
+      "fetched_at": "2026-06-23T14:38:56.000784+00:00",
+      "title": "Por que agentes de IA não conseguem desenhar SVG corretamente",
+      "summary": "Artigo explica as limitações fundamentais dos modelos de linguagem na geração de gráficos vetoriais, como diagramas e visualizações. Desenvolvedor deve conhecer essas restrições ao integrar IA em ferramentas de visualização e entender alternativas práticas para contornar o problema.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "agentes de IA",
+        "SVG",
+        "limitações técnicas",
+        "visualização",
+        "desenvolvimento"
+      ]
+    },
+    {
       "id": "f7ae0ced5823",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
       "source": "The Pragmatic Engineer",
@@ -425,114 +534,8 @@
         "Hermes Agent",
         "proxy local"
       ]
-    },
-    {
-      "id": "b2eac272066d",
-      "url": "https://dev.to/arshtechpro/penpot-for-developers-the-open-source-design-tool-that-speaks-your-language-47p",
-      "source": "DEV Community",
-      "published": "Mon, 22 Jun 2026 21:58:38 +0000",
-      "fetched_at": "2026-06-22T22:09:14.194279+00:00",
-      "title": "Penpot: Ferramenta de Design Open-Source que Gera Código para Devs",
-      "summary": "Penpot é uma plataforma de design open-source que expressa designs diretamente em código (SVG, CSS, HTML, JSON), eliminando a tradução manual entre designer e desenvolvedor. O inspect mode gera código pronto para uso, reduzindo retrabalho e mantendo sincronização entre design e implementação.",
-      "category": "Ferramentas",
-      "relevance_score": 9,
-      "tags": [
-        "design-to-code",
-        "open-source",
-        "ferramentas-dev",
-        "automação",
-        "fluxo-designer-dev"
-      ]
-    },
-    {
-      "id": "af5b66d8418f",
-      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
-      "source": "The GitHub Blog",
-      "published": "Thu, 18 Jun 2026 16:00:00 +0000",
-      "fetched_at": "2026-06-22T22:09:19.262644+00:00",
-      "title": "Limites de Pull Requests no GitHub reduzem ruído em repositórios",
-      "summary": "O GitHub implementa limites de pull requests para gerenciar melhor o volume de contribuições em repositórios. A funcionalidade ajuda mantenedores a controlar spam e contribuições indesejadas, melhorando a qualidade do código e a experiência de colaboração em projetos open source.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "GitHub",
-        "pull requests",
-        "workflow",
-        "open source",
-        "produtividade"
-      ]
-    },
-    {
-      "id": "5d9de7a5a94a",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "source": "OpenAI News",
-      "published": "Mon, 22 Jun 2026 10:00:00 GMT",
-      "fetched_at": "2026-06-22T22:09:21.119555+00:00",
-      "title": "OpenAI lança Daybreak: ferramentas de IA para segurança de código",
-      "summary": "OpenAI apresenta novas ferramentas de segurança incluindo Codex Security e GPT-5.5-Cyber, que automatizam a detecção, validação e correção de vulnerabilidades em escala. Isso muda significativamente o fluxo de trabalho de desenvolvedores, integrando análise de segurança diretamente no ciclo de desenvolvimento.",
-      "category": "Ferramentas",
-      "relevance_score": 9,
-      "tags": [
-        "segurança",
-        "vulnerability scanning",
-        "GPT-5.5",
-        "automação",
-        "DevSecOps"
-      ]
-    },
-    {
-      "id": "f601b26b225b",
-      "url": "https://openai.com/index/patch-the-planet",
-      "source": "OpenAI News",
-      "published": "Mon, 22 Jun 2026 10:00:00 GMT",
-      "fetched_at": "2026-06-22T22:09:24.376874+00:00",
-      "title": "OpenAI lança Patch the Planet para auxiliar mantenedores open source",
-      "summary": "OpenAI apresenta iniciativa que usa IA para ajudar desenvolvedores open source a identificar, validar e corrigir vulnerabilidades de segurança. A ferramenta combina análise automatizada com revisão de especialistas, reduzindo o trabalho manual de manutenção de projetos críticos.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "open source",
-        "segurança",
-        "IA para desenvolvimento",
-        "vulnerabilidades"
-      ]
-    },
-    {
-      "id": "5edb7201b0cb",
-      "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "source": "OpenAI News",
-      "published": "Mon, 22 Jun 2026 00:00:00 GMT",
-      "fetched_at": "2026-06-22T22:09:26.211203+00:00",
-      "title": "Usando Codex para projetos longos e preservação de contexto",
-      "summary": "O artigo explora como utilizar o Codex da OpenAI para manter contexto em tarefas complexas e de longa duração, permitindo que o trabalho de codificação continue além de um único prompt. Essa abordagem muda a forma como desenvolvedores podem estruturar projetos maiores e iterativos com assistência de IA.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "Codex",
-        "context management",
-        "desenvolvimento de projetos",
-        "IA generativa"
-      ]
-    },
-    {
-      "id": "663d872622a3",
-      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "source": "OpenAI News",
-      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
-      "fetched_at": "2026-06-22T22:09:27.841299+00:00",
-      "title": "Samsung implanta ChatGPT e Codex para seus desenvolvedores",
-      "summary": "A Samsung Electronics implementou ChatGPT Enterprise e Codex para seus funcionários globalmente, um dos maiores rollouts empresariais da OpenAI. Isso demonstra a adoção em massa de ferramentas de IA por grandes corporações e fornece insights sobre como empresas estão integrando IA no fluxo de trabalho de desenvolvimento.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "ChatGPT",
-        "Codex",
-        "Enterprise AI",
-        "desenvolvimento de software",
-        "adoção corporativa"
-      ]
     }
   ],
-  "last_updated": "2026-06-23T11:24:10.341859+00:00",
+  "last_updated": "2026-06-23T14:38:56.000818+00:00",
   "total": 30
 }
