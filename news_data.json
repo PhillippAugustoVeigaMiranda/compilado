@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "25f350418f64",
+      "url": "https://dev.to/rdiegoss/building-a-multi-agent-document-search-copilot-part-1-muddy-results-and-one-strategy-per-query-54og",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 17:56:20 +0000",
+      "fetched_at": "2026-06-23T18:05:14.552700+00:00",
+      "title": "Construindo um copilot multi-agente para busca em documentos",
+      "summary": "Artigo técnico sobre os desafios de implementar um sistema de busca e ranking de documentos com IA, mostrando problemas reais que desenvolvedores enfrentam ao arquitetar soluções de copilots. Relevante para devs que trabalham com RAG, retrieval e processamento de documentos com IA.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "multi-agent",
+        "RAG",
+        "copilot",
+        "document-search",
+        "arquitetura"
+      ]
+    },
+    {
+      "id": "db87e7edc944",
+      "url": "https://dev.to/ntctech/gpu-scarcity-isnt-the-problem-anymore-gpu-allocation-governance-is-c2e",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 17:50:28 +0000",
+      "fetched_at": "2026-06-23T18:05:16.444580+00:00",
+      "title": "Governança de Alocação de GPU: O Novo Desafio da Infraestrutura de IA",
+      "summary": "A escassez de GPUs deixou de ser o problema principal; agora empresas enfrentam o desafio de arbitrar quem usa os recursos disponíveis. Para desenvolvedores, isso significa novas ferramentas e estratégias de gerenciamento de infraestrutura serão essenciais para competir por recursos de IA em ambientes corporativos.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "GPU",
+        "infraestrutura",
+        "governança",
+        "IA",
+        "recursos"
+      ]
+    },
+    {
+      "id": "6b78510f7362",
+      "url": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/",
+      "source": "The GitHub Blog",
+      "published": "Tue, 23 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-23T18:05:23.234381+00:00",
+      "title": "Automatizei meu trabalho e me tornei um líder melhor",
+      "summary": "Um líder sênior compartilha como 40 automações transformaram seu dia a dia e aumentaram sua produtividade. O artigo oferece insights sobre como devs podem usar automação para focar em tarefas estratégicas e melhorar sua carreira tech.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "automação",
+        "produtividade",
+        "GitHub",
+        "liderança técnica",
+        "carreira"
+      ]
+    },
+    {
       "id": "4efb5feb367e",
       "url": "https://www.anthropic.com/news/introducing-claude-tag",
       "source": "Hacker News: Front Page",
@@ -486,61 +540,8 @@
         "engenharia",
         "tendências"
       ]
-    },
-    {
-      "id": "1b448300af8f",
-      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
-      "source": "The Pragmatic Engineer",
-      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
-      "fetched_at": "2026-06-23T07:43:40.300540+00:00",
-      "title": "Novo modelo Fable da Anthropic pode beneficiar concorrentes",
-      "summary": "O novo modelo Fable da Anthropic apresenta restrições que desagradam usuários, potencialmente aumentando a adoção de alternativas como o Codex. O artigo também aborda a tendência emergente de smart model routing, uma estratégia relevante para devs escolherem qual modelo usar em cada caso.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "Anthropic",
-        "modelos de IA",
-        "competição",
-        "model routing"
-      ]
-    },
-    {
-      "id": "88ef883781df",
-      "url": "https://dev.to/lizziepika/agents-write-code-but-they-dont-remember-4ob0",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 07:26:59 +0000",
-      "fetched_at": "2026-06-23T07:43:45.785274+00:00",
-      "title": "Agentes de IA escrevem código, mas não lembram do contexto",
-      "summary": "O artigo analisa como agentes de IA estão comprimindo o ciclo de desenvolvimento de software, reduzindo o tempo de implementação de semanas para horas. Porém, tarefas de requisitos, arquitetura e verificação continuam lentas porque exigem julgamento humano. Isso muda fundamentalmente como desenvolvedores devem estruturar seu fluxo de trabalho.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "agentes-IA",
-        "ciclo-desenvolvimento",
-        "impacto-mercado",
-        "fluxo-trabalho"
-      ]
-    },
-    {
-      "id": "f5551e9db0cf",
-      "url": "https://dev.to/chenxiao5580cmd/use-a-flat-priced-auto-routing-llm-api-in-aider-or-cline-one-npx-command-3k5l",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 04:03:09 +0000",
-      "fetched_at": "2026-06-23T04:05:36.967203+00:00",
-      "title": "Proxy local para integrar APIs de LLM em assistentes de código",
-      "summary": "Um projeto open-source que permite usar diferentes LLMs em ferramentas como Aider e Cline através de um proxy local que padroniza a autenticação. Útil para devs que querem testar alternativas aos modelos OpenAI sem reescrever integrações.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "LLM",
-        "Aider",
-        "Cline",
-        "proxy",
-        "open-source",
-        "assistentes de código"
-      ]
     }
   ],
-  "last_updated": "2026-06-23T17:48:31.064912+00:00",
+  "last_updated": "2026-06-23T18:05:23.234412+00:00",
   "total": 30
 }
