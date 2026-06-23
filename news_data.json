@@ -1,6 +1,59 @@
 {
   "articles": [
     {
+      "id": "3f64f80c95dc",
+      "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+      "source": "Hacker News: Front Page",
+      "published": "Tue, 23 Jun 2026 18:56:19 +0000",
+      "fetched_at": "2026-06-23T21:28:40.259866+00:00",
+      "title": "Ferramentas de IA para recrutamento perpetuam viés racial",
+      "summary": "Estudo de Stanford revela que sistemas de IA usados em contratação apresentam viés racial significativo, rejeitando sistematicamente candidatos negros (26%) e asiáticos (15%). Para desenvolvedores brasileiros, isso é crítico: mostra os riscos éticos das IA que vocês podem estar desenvolvendo ou usando, e impacta diretamente o mercado de trabalho tech.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "IA responsável",
+        "viés algorítmico",
+        "recrutamento",
+        "ética em IA",
+        "mercado de trabalho"
+      ]
+    },
+    {
+      "id": "8abb6c44f2b7",
+      "url": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-23T18:58:54+00:00",
+      "fetched_at": "2026-06-23T21:28:42.199645+00:00",
+      "title": "OPFS + Pyodide: Executar Python no navegador com acesso a arquivos",
+      "summary": "Ferramenta que combina Pyodide (Python em WebAssembly) com OPFS (sistema de arquivos do navegador) para executar aplicações Python totalmente no cliente, permitindo manipular arquivos SQLite persistentes. Abre possibilidades para desenvolvedores criarem aplicações web sem backend tradicional.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "pyodide",
+        "webassembly",
+        "python-no-navegador",
+        "ferramentas-dev",
+        "full-stack-javascript"
+      ]
+    },
+    {
+      "id": "1b448300af8f",
+      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
+      "fetched_at": "2026-06-23T21:28:47.670684+00:00",
+      "title": "Novo modelo Fable da Anthropic pode beneficiar concorrentes",
+      "summary": "O novo modelo Fable da Anthropic apresenta limitações que podem afastar usuários para alternativas como Codex. A tendência emergente de smart model routing oferece novas possibilidades para otimizar uso de diferentes modelos de IA em produção.",
+      "category": "Modelos",
+      "relevance_score": 8,
+      "tags": [
+        "Anthropic",
+        "modelos de IA",
+        "comparação de ferramentas",
+        "mercado"
+      ]
+    },
+    {
       "id": "25f350418f64",
       "url": "https://dev.to/rdiegoss/building-a-multi-agent-document-search-copilot-part-1-muddy-results-and-one-strategy-per-query-54og",
       "source": "DEV Community",
@@ -485,63 +538,8 @@
         "pair programming",
         "qualidade de código"
       ]
-    },
-    {
-      "id": "573eb3a002f0",
-      "url": "https://news.ycombinator.com/item?id=48641160",
-      "source": "Hacker News: Front Page",
-      "published": "Tue, 23 Jun 2026 06:33:52 +0000",
-      "fetched_at": "2026-06-23T07:43:21.401593+00:00",
-      "title": "Desenvolvedor banido do Claude Code sem explicação clara",
-      "summary": "Um desenvolvedor relata ter sido banido da plataforma Claude Code duas vezes sem motivo aparente, levantando questões sobre políticas de acesso e suporte ao cliente da Anthropic. O caso ilustra riscos de dependência em ferramentas de IA comerciais e a importância de clareza nas políticas de uso.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "Claude",
-        "Anthropic",
-        "suporte ao desenvolvedor",
-        "políticas de uso",
-        "IA generativa"
-      ]
-    },
-    {
-      "id": "6974e81c714c",
-      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
-      "source": "The Pragmatic Engineer",
-      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
-      "fetched_at": "2026-06-23T07:43:33.111724+00:00",
-      "title": "CI/CD com IA: GitOps e Entrega Progressiva no Kubernetes",
-      "summary": "Discussão sobre como IA está transformando pipelines de CI/CD, Kubernetes e práticas de GitOps. O episódio explora como automação inteligente está mudando o fluxo de trabalho dos desenvolvedores em entrega contínua.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "CI/CD",
-        "IA em DevOps",
-        "Kubernetes",
-        "GitOps",
-        "Octopus Deploy",
-        "Entrega Contínua"
-      ]
-    },
-    {
-      "id": "799eb45228cf",
-      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-      "source": "The Pragmatic Engineer",
-      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
-      "fetched_at": "2026-06-23T07:43:38.320080+00:00",
-      "title": "Meta reestrutura engenharia focando em IA: o que muda para devs",
-      "summary": "A Meta está reorganizando sua engenharia com foco em IA, impactando a estrutura de times e oportunidades no mercado. Entenda como essa transformação afeta desenvolvedores brasileiros e o ecossistema de trabalho tech.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "meta",
-        "ia",
-        "mercado de trabalho",
-        "engenharia",
-        "tendências"
-      ]
     }
   ],
-  "last_updated": "2026-06-23T18:05:23.234412+00:00",
+  "last_updated": "2026-06-23T21:28:54.387453+00:00",
   "total": 30
 }
