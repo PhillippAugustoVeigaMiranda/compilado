@@ -1,6 +1,94 @@
 {
   "articles": [
     {
+      "id": "f7ae0ced5823",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 18 Jun 2026 17:11:03 GMT",
+      "fetched_at": "2026-06-23T11:23:50.838253+00:00",
+      "title": "EUA bane novo modelo Anthropic Fable: impactos para devs",
+      "summary": "Restrições dos EUA ao modelo Fable da Anthropic afetam a disponibilidade de ferramentas de IA para desenvolvedores brasileiros. O artigo também aborda mudanças na cultura de engenharia da Meta e aquisição do Cursor pelo SpaceX, sinalizando consolidação no mercado de ferramentas de IA.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "Anthropic",
+        "regulação",
+        "modelos de IA",
+        "mercado de trabalho",
+        "ferramentas dev"
+      ]
+    },
+    {
+      "id": "4ecd359d103f",
+      "url": "https://dev.to/soulentheo/ai-coding-for-builders-not-just-engineers-the-desktop-cloud-agent-map-mid-2026-55g7",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 11:20:57 +0000",
+      "fetched_at": "2026-06-23T11:23:57.641455+00:00",
+      "title": "IA para builders: mapa de ferramentas Desktop/Cloud/Agent em 2026",
+      "summary": "Artigo mapeia ferramentas de IA para codificação além do terminal, focando em designers e product people que querem usar IA sem linha de comando. Apresenta taxonomia de três superfícies de trabalho (Desktop, Cloud, Agent) relevante para devs que buscam integrar IA no seu fluxo atual.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "AI Coding",
+        "Ferramentas de IA",
+        "Desenvolvimento Low-Code",
+        "Produtividade"
+      ]
+    },
+    {
+      "id": "7dde52d6554f",
+      "url": "https://dev.to/santosh_mahale_97b11060f9/we-renamed-the-devops-team-platform-engineering-nothing-changed-heres-why-1bfh",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 11:16:58 +0000",
+      "fetched_at": "2026-06-23T11:23:59.749227+00:00",
+      "title": "Por que renomear DevOps para Platform Engineering não muda nada",
+      "summary": "Artigo analisa como muitas empresas apenas renomeiam times de DevOps sem implementar mudanças reais em processos e cultura. Relevante para devs entenderem o que diferencia Platform Engineering genuíno de mudanças cosméticas que afetam sua produtividade.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "platform-engineering",
+        "devops",
+        "cultura-organizacional",
+        "produtividade-dev"
+      ]
+    },
+    {
+      "id": "05b5dbbe5d91",
+      "url": "https://dev.to/gyu07/every-api-will-be-rebuilt-for-agents-2hj4",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 11:15:18 +0000",
+      "fetched_at": "2026-06-23T11:24:02.047287+00:00",
+      "title": "APIs precisarão ser reconstruídas para agentes de IA",
+      "summary": "O artigo argumenta que as APIs atuais, embora bem documentadas para desenvolvedores humanos, não funcionam adequadamente com agentes de IA. A mudança do consumidor principal (de humano para agente) exigirá redesenho fundamental das APIs, impactando como desenvolvedores estruturam e documentam suas interfaces.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "APIs",
+        "Agentes de IA",
+        "MCP",
+        "Arquitetura de Software",
+        "Futuro do Desenvolvimento"
+      ]
+    },
+    {
+      "id": "ea0c45b8c6e1",
+      "url": "https://dev.to/lovelacecoding/bye-az-204-hello-ai-200-what-you-need-to-know-about-the-new-azure-developer-certification-2lo",
+      "source": "DEV Community",
+      "published": "Tue, 23 Jun 2026 11:10:15 +0000",
+      "fetched_at": "2026-06-23T11:24:10.341826+00:00",
+      "title": "Microsoft substitui certificação AZ-204 pela AI-200 focada em IA",
+      "summary": "A Microsoft anunciou a aposentadoria da certificação AZ-204 em julho de 2026, substituindo-a pela AI-200 que muda o foco para desenvolvimento de soluções de IA na nuvem Azure. Desenvolvedores precisam se preparar para essa transição que reflete a mudança do mercado em direção às tecnologias de inteligência artificial.",
+      "category": "Mercado",
+      "relevance_score": 9,
+      "tags": [
+        "Azure",
+        "Certificação",
+        "IA",
+        "Mercado de trabalho",
+        "Microsoft"
+      ]
+    },
+    {
       "id": "95da18097fb1",
       "url": "https://blog.owulveryck.info/2026/06/22/who-does-what-team-topologies-for-the-agentic-platform.html",
       "source": "Hacker News: Front Page",
@@ -443,98 +531,8 @@
         "desenvolvimento de software",
         "adoção corporativa"
       ]
-    },
-    {
-      "id": "4e501b558e7a",
-      "url": "https://urflow.bearblog.dev/jobs-and-software-is-fucked/",
-      "source": "Hacker News: Front Page",
-      "published": "Mon, 22 Jun 2026 19:47:52 +0000",
-      "fetched_at": "2026-06-22T21:59:11.131437+00:00",
-      "title": "IA e o Futuro do Mercado de Trabalho em Software",
-      "summary": "Análise crítica sobre como a inteligência artificial está impactando o mercado de empregos para desenvolvedores de software. O artigo discute as mudanças estruturais na indústria e o que esperar nas perspectivas de carreira e demanda por profissionais.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "IA",
-        "mercado de trabalho",
-        "carreira em desenvolvimento",
-        "impacto da IA"
-      ]
-    },
-    {
-      "id": "96c3f898127f",
-      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-21T22:01:04+00:00",
-      "fetched_at": "2026-06-22T21:59:15.515086+00:00",
-      "title": "Cloudflare lança contas temporárias para agentes de IA",
-      "summary": "Cloudflare permite agora deployar projetos Workers sem criar conta, com comando único e duração de 60 minutos. A feature facilita prototipagem rápida, testes de agentes de IA e desenvolvimento experimental sem overhead de autenticação. Útil também para demos e integração com ferramentas de IA como assistentes de código.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "cloudflare",
-        "deployment",
-        "agentes-ia",
-        "devops",
-        "infraestrutura"
-      ]
-    },
-    {
-      "id": "db5490f158fb",
-      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-19T22:45:49+00:00",
-      "fetched_at": "2026-06-22T21:59:17.419746+00:00",
-      "title": "MCP como gateway de autenticação para APIs em agentes IA",
-      "summary": "Sean Lynch analisa o Model Context Protocol (MCP) destacando seu valor principal: isolar fluxos de autenticação fora do contexto do agente IA. Essa abordagem simplifica a integração segura de APIs em ferramentas de IA, reduzindo complexidade e riscos de segurança para desenvolvedores.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "model-context-protocol",
-        "MCP",
-        "autenticação",
-        "agentes IA",
-        "arquitetura"
-      ]
-    },
-    {
-      "id": "cb9157add9c5",
-      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-18T23:58:38+00:00",
-      "fetched_at": "2026-06-22T21:59:21.061400+00:00",
-      "title": "Datasette Apps: aplicações HTML customizadas dentro do Datasette",
-      "summary": "Novo plugin permite hospedar aplicações HTML+JavaScript em sandbox dentro do Datasette, com suporte a queries SQL de leitura e escrita. Útil para devs que trabalham com dados e precisam criar interfaces web customizadas sem infraestrutura adicional.",
-      "category": "Ferramentas",
-      "relevance_score": 6,
-      "tags": [
-        "datasette",
-        "ferramentas-dev",
-        "sql",
-        "javascript",
-        "dados"
-      ]
-    },
-    {
-      "id": "9849bbffdab5",
-      "url": "https://dev.to/shriisoot/i-built-a-fully-local-ai-assistant-at-16-no-cloud-no-api-keys-runs-on-your-gpu-am4",
-      "source": "DEV Community",
-      "published": "Mon, 22 Jun 2026 21:44:27 +0000",
-      "fetched_at": "2026-06-22T21:59:24.323891+00:00",
-      "title": "Assistente IA local em GPU: alternativa open-source sem cloud",
-      "summary": "Desenvolvedor constrói assistente IA completamente local que roda em GPU, sem envio de dados para cloud. Relevante para devs que buscam privacidade, controle total e alternativas às APIs comerciais de IA.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "IA local",
-        "GPU",
-        "privacidade",
-        "open-source",
-        "LLM",
-        "desenvolvimento"
-      ]
     }
   ],
-  "last_updated": "2026-06-23T10:59:02.845587+00:00",
+  "last_updated": "2026-06-23T11:24:10.341859+00:00",
   "total": 30
 }
