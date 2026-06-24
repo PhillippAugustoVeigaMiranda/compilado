@@ -1,6 +1,95 @@
 {
   "articles": [
     {
+      "id": "dfcdd89cb10c",
+      "url": "https://dev.to/steveemmerich/static-api-keys-are-the-wrong-primitive-for-agent-authentication-3del",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 14:34:55 +0000",
+      "fetched_at": "2026-06-24T14:45:43.872909+00:00",
+      "title": "Por que API keys não funcionam bem para autenticação de agentes IA",
+      "summary": "O artigo explica por que chaves de API estáticas são inadequadas para autenticar agentes autônomos de IA, apresentando o protocolo SAL como alternativa. Para desenvolvedores que trabalham com agentes IA, entender essas limitações é crucial para implementar segurança e governança adequadas.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "agentes IA",
+        "autenticação",
+        "API keys",
+        "segurança",
+        "SAL protocol"
+      ]
+    },
+    {
+      "id": "06e1082fcdc0",
+      "url": "https://dev.to/newtorob/five-ways-your-ai-coding-agent-wastes-tokens-and-how-to-fix-each-one-2m28",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 14:32:54 +0000",
+      "fetched_at": "2026-06-24T14:45:45.812121+00:00",
+      "title": "5 formas que agentes de IA desperdiçam tokens (e como corrigir)",
+      "summary": "Artigo prático sobre otimização de consumo de tokens em agentes de IA para programação. Explica como reduzir custos e evitar travamentos por limite de contexto, problema comum ao usar Claude e outras APIs de codificação.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "agentes IA",
+        "otimização tokens",
+        "APIs coding",
+        "Claude",
+        "economia custos"
+      ]
+    },
+    {
+      "id": "8d1f0872e78f",
+      "url": "https://dev.to/pratikpathak/the-ide-is-dead-how-i-configured-claude-code-for-ultra-fast-terminal-development-38dd",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 14:32:21 +0000",
+      "fetched_at": "2026-06-24T14:45:47.827827+00:00",
+      "title": "Claude Code: IDE baseado em terminal muda fluxo de desenvolvimento",
+      "summary": "Anthropic lançou Claude Code, um agente de IA que funciona direto no terminal, eliminando a necessidade de IDEs tradicionais. A ferramenta promete acelerar o desenvolvimento ao integrar execução de comandos, testes e commits nativamente, sem interfaces gráficas pesadas.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "Claude",
+        "IA nativa",
+        "terminal",
+        "desenvolvimento",
+        "produtividade"
+      ]
+    },
+    {
+      "id": "6b78510f7362",
+      "url": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/",
+      "source": "The GitHub Blog",
+      "published": "Tue, 23 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-24T14:45:53.156110+00:00",
+      "title": "Automação de tarefas com IA: como líderes técnicos ganham produtividade",
+      "summary": "Um líder sênior compartilha como usou 40 automações para otimizar seu dia a dia, deixando mais tempo para mentoria e decisões estratégicas. O artigo mostra na prática como IA está transformando não apenas o desenvolvimento, mas também a gestão técnica e a carreira de engenheiros que querem crescer como líderes.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "automação",
+        "IA",
+        "produtividade",
+        "liderança técnica",
+        "GitHub"
+      ]
+    },
+    {
+      "id": "af5b66d8418f",
+      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
+      "source": "The GitHub Blog",
+      "published": "Thu, 18 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-24T14:45:56.503130+00:00",
+      "title": "Limites de Pull Requests: Como GitHub reduz ruído em repositórios",
+      "summary": "GitHub implementa limites de pull requests para gerenciar melhor o volume de contribuições em repositórios. A funcionalidade ajuda mantenedores a lidar com spam e noise, melhorando a experiência de desenvolvimento colaborativo.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "GitHub",
+        "pull requests",
+        "fluxo de trabalho",
+        "open source"
+      ]
+    },
+    {
       "id": "3856b334a321",
       "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake/",
       "source": "Hacker News: Front Page",
@@ -446,97 +535,8 @@
         "Docker",
         "Cloud"
       ]
-    },
-    {
-      "id": "2fc8850d8fe3",
-      "url": "https://dev.to/randomsquirrel802/test-automation-in-2026-the-hard-part-is-no-longer-writing-the-first-test-eci",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 21:23:31 +0000",
-      "fetched_at": "2026-06-23T21:47:09.193945+00:00",
-      "title": "Automação de Testes em 2026: IA resolve escrita, desafio real é manutenção",
-      "summary": "Enquanto IA torna trivial gerar testes automaticamente, o verdadeiro problema para desenvolvedores continua sendo manutenção, confiabilidade e adoção de suites de teste. O artigo mapeia os desafios práticos que times enfrentam além da geração inicial de código.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "test-automation",
-        "IA-generativa",
-        "qualidade-código",
-        "desenvolvimento",
-        "produtividade"
-      ]
-    },
-    {
-      "id": "3f64f80c95dc",
-      "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-      "source": "Hacker News: Front Page",
-      "published": "Tue, 23 Jun 2026 18:56:19 +0000",
-      "fetched_at": "2026-06-23T21:28:40.259866+00:00",
-      "title": "Ferramentas de IA para recrutamento perpetuam viés racial",
-      "summary": "Estudo de Stanford revela que sistemas de IA usados em contratação apresentam viés racial significativo, rejeitando sistematicamente candidatos negros (26%) e asiáticos (15%). Para desenvolvedores brasileiros, isso é crítico: mostra os riscos éticos das IA que vocês podem estar desenvolvendo ou usando, e impacta diretamente o mercado de trabalho tech.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "IA responsável",
-        "viés algorítmico",
-        "recrutamento",
-        "ética em IA",
-        "mercado de trabalho"
-      ]
-    },
-    {
-      "id": "8abb6c44f2b7",
-      "url": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-23T18:58:54+00:00",
-      "fetched_at": "2026-06-23T21:28:42.199645+00:00",
-      "title": "OPFS + Pyodide: Executar Python no navegador com acesso a arquivos",
-      "summary": "Ferramenta que combina Pyodide (Python em WebAssembly) com OPFS (sistema de arquivos do navegador) para executar aplicações Python totalmente no cliente, permitindo manipular arquivos SQLite persistentes. Abre possibilidades para desenvolvedores criarem aplicações web sem backend tradicional.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "pyodide",
-        "webassembly",
-        "python-no-navegador",
-        "ferramentas-dev",
-        "full-stack-javascript"
-      ]
-    },
-    {
-      "id": "1b448300af8f",
-      "url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost",
-      "source": "The Pragmatic Engineer",
-      "published": "Thu, 11 Jun 2026 16:26:58 GMT",
-      "fetched_at": "2026-06-23T21:28:47.670684+00:00",
-      "title": "Novo modelo Fable da Anthropic pode beneficiar concorrentes",
-      "summary": "O novo modelo Fable da Anthropic apresenta limitações que podem afastar usuários para alternativas como Codex. A tendência emergente de smart model routing oferece novas possibilidades para otimizar uso de diferentes modelos de IA em produção.",
-      "category": "Modelos",
-      "relevance_score": 8,
-      "tags": [
-        "Anthropic",
-        "modelos de IA",
-        "comparação de ferramentas",
-        "mercado"
-      ]
-    },
-    {
-      "id": "25f350418f64",
-      "url": "https://dev.to/rdiegoss/building-a-multi-agent-document-search-copilot-part-1-muddy-results-and-one-strategy-per-query-54og",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 17:56:20 +0000",
-      "fetched_at": "2026-06-23T18:05:14.552700+00:00",
-      "title": "Construindo um copilot multi-agente para busca em documentos",
-      "summary": "Artigo técnico sobre os desafios de implementar um sistema de busca e ranking de documentos com IA, mostrando problemas reais que desenvolvedores enfrentam ao arquitetar soluções de copilots. Relevante para devs que trabalham com RAG, retrieval e processamento de documentos com IA.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "multi-agent",
-        "RAG",
-        "copilot",
-        "document-search",
-        "arquitetura"
-      ]
     }
   ],
-  "last_updated": "2026-06-24T14:18:55.615655+00:00",
+  "last_updated": "2026-06-24T14:45:56.503165+00:00",
   "total": 30
 }
