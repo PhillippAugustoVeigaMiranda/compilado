@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "123cccb30394",
+      "url": "https://github.com/y-times-y/y",
+      "source": "Hacker News: Front Page",
+      "published": "Wed, 24 Jun 2026 00:15:31 +0000",
+      "fetched_at": "2026-06-24T02:46:31.014600+00:00",
+      "title": "Y: Agente de Código Inteligente em Desktop com Electron",
+      "summary": "Nova ferramenta de desktop que combina IA com um ambiente de codificação adaptável, permitindo que desenvolvedores automatizem tarefas de programação através de um agente inteligente. Representa uma evolução nas ferramentas de desenvolvimento assistidas por IA, oferecendo alternativa local aos serviços web tradicionais.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "coding-agent",
+        "desktop-app",
+        "automação",
+        "desenvolvimento-local",
+        "IA-generativa"
+      ]
+    },
+    {
+      "id": "db7769f8d3f8",
+      "url": "https://dev.to/annalilith/why-every-developer-should-learn-browser-automation-in-2026-238k",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 02:37:24 +0000",
+      "fetched_at": "2026-06-24T02:46:38.602330+00:00",
+      "title": "Por que aprender automação de browsers em 2026",
+      "summary": "A automação de browsers é uma habilidade essencial que desenvolvedores brasileiros precisam dominar para aumentar produtividade e competitividade. O artigo explora técnicas práticas com Selenium e outras ferramentas que transformam tarefas repetitivas em processos automatizados, impactando diretamente o mercado de trabalho de devs.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "automação",
+        "selenium",
+        "produtividade",
+        "browser-automation",
+        "skills"
+      ]
+    },
+    {
+      "id": "8f12a5b65fb5",
+      "url": "https://dev.to/annalilith/building-an-ai-powered-storefront-with-python-a-complete-guide-569c",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 02:37:18 +0000",
+      "fetched_at": "2026-06-24T02:46:44.018568+00:00",
+      "title": "Construindo uma Loja Digital com IA em Python: Guia Completo",
+      "summary": "Artigo prático mostrando como usar Python, Ollama e APIs para criar uma loja digital autônoma com geração de conteúdo por IA. Demonstra ferramentas open-source que desenvolvedores brasileiros podem usar para monetizar projetos com tecnologias modernas e custo reduzido.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "Python",
+        "Ollama",
+        "IA Local",
+        "Development",
+        "Ferramentas Open-Source"
+      ]
+    },
+    {
       "id": "6974e81c714c",
       "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
       "source": "The Pragmatic Engineer",
@@ -486,61 +540,8 @@
         "Desenvolvimento Low-Code",
         "Produtividade"
       ]
-    },
-    {
-      "id": "7dde52d6554f",
-      "url": "https://dev.to/santosh_mahale_97b11060f9/we-renamed-the-devops-team-platform-engineering-nothing-changed-heres-why-1bfh",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 11:16:58 +0000",
-      "fetched_at": "2026-06-23T11:23:59.749227+00:00",
-      "title": "Por que renomear DevOps para Platform Engineering não muda nada",
-      "summary": "Artigo analisa como muitas empresas apenas renomeiam times de DevOps sem implementar mudanças reais em processos e cultura. Relevante para devs entenderem o que diferencia Platform Engineering genuíno de mudanças cosméticas que afetam sua produtividade.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "platform-engineering",
-        "devops",
-        "cultura-organizacional",
-        "produtividade-dev"
-      ]
-    },
-    {
-      "id": "05b5dbbe5d91",
-      "url": "https://dev.to/gyu07/every-api-will-be-rebuilt-for-agents-2hj4",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 11:15:18 +0000",
-      "fetched_at": "2026-06-23T11:24:02.047287+00:00",
-      "title": "APIs precisarão ser reconstruídas para agentes de IA",
-      "summary": "O artigo argumenta que as APIs atuais, embora bem documentadas para desenvolvedores humanos, não funcionam adequadamente com agentes de IA. A mudança do consumidor principal (de humano para agente) exigirá redesenho fundamental das APIs, impactando como desenvolvedores estruturam e documentam suas interfaces.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "APIs",
-        "Agentes de IA",
-        "MCP",
-        "Arquitetura de Software",
-        "Futuro do Desenvolvimento"
-      ]
-    },
-    {
-      "id": "ea0c45b8c6e1",
-      "url": "https://dev.to/lovelacecoding/bye-az-204-hello-ai-200-what-you-need-to-know-about-the-new-azure-developer-certification-2lo",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 11:10:15 +0000",
-      "fetched_at": "2026-06-23T11:24:10.341826+00:00",
-      "title": "Microsoft substitui certificação AZ-204 pela AI-200 focada em IA",
-      "summary": "A Microsoft anunciou a aposentadoria da certificação AZ-204 em julho de 2026, substituindo-a pela AI-200 que muda o foco para desenvolvimento de soluções de IA na nuvem Azure. Desenvolvedores precisam se preparar para essa transição que reflete a mudança do mercado em direção às tecnologias de inteligência artificial.",
-      "category": "Mercado",
-      "relevance_score": 9,
-      "tags": [
-        "Azure",
-        "Certificação",
-        "IA",
-        "Mercado de trabalho",
-        "Microsoft"
-      ]
     }
   ],
-  "last_updated": "2026-06-23T21:47:10.854006+00:00",
+  "last_updated": "2026-06-24T02:46:49.221173+00:00",
   "total": 30
 }
