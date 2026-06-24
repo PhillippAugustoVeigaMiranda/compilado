@@ -1,6 +1,58 @@
 {
   "articles": [
     {
+      "id": "f7ae0ced5823",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
+      "source": "The Pragmatic Engineer",
+      "published": "Thu, 18 Jun 2026 17:11:03 GMT",
+      "fetched_at": "2026-06-24T07:36:10.232796+00:00",
+      "title": "EUA bane modelo Fable da Anthropic: impactos para devs",
+      "summary": "A proibição do novo modelo de IA Fable da Anthropic nos EUA pode afetar a disponibilidade de ferramentas de IA para desenvolvedores brasileiros e sinaliza possíveis restrições geopolíticas no acesso a modelos avançados. O artigo também aborda mudanças na cultura de engenharia da Meta e movimentos no mercado de ferramentas de desenvolvimento.",
+      "category": "Modelos",
+      "relevance_score": 7,
+      "tags": [
+        "Anthropic",
+        "regulação",
+        "modelos de IA",
+        "impacto global"
+      ]
+    },
+    {
+      "id": "5354557e43f7",
+      "url": "https://dev.to/clawbase/your-ai-agents-memory-should-be-out-of-reach-for-everyone-except-you-3a71",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 07:33:03 +0000",
+      "fetched_at": "2026-06-24T07:36:12.451881+00:00",
+      "title": "Segurança da Memória em Agentes IA: Privacidade de Dados do Desenvolvedor",
+      "summary": "Artigo que aborda riscos críticos de privacidade ao usar agentes IA hospedados (Claude, ChatGPT), onde dados sensíveis do desenvolvedor, contexto de código e lógica de negócio ficam armazenados em servidores de terceiros. Essencial para devs brasileiros entenderem implicações legais e de segurança na adoção dessas ferramentas.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "segurança",
+        "privacidade",
+        "agentes-ia",
+        "dados-sensíveis",
+        "compliance"
+      ]
+    },
+    {
+      "id": "02a6fa040f3a",
+      "url": "https://dev.to/ricco020/mcp-security-the-risks-of-model-context-protocol-and-how-to-govern-it-2026-1963",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 07:31:23 +0000",
+      "fetched_at": "2026-06-24T07:36:14.473330+00:00",
+      "title": "Segurança do Model Context Protocol: riscos e governança",
+      "summary": "O MCP (Model Context Protocol) é o padrão aberto que conecta agentes de IA às suas ferramentas e aplicações, mas também expõe novas superfícies de ataque. Empresas estão implementando camadas de governança em IDEs e assistentes de IA para monitorar e controlar agentes de codificação, transformando a conexão de agentes em uma decisão crítica de segurança para desenvolvedores.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "Model Context Protocol",
+        "segurança",
+        "AI agents",
+        "governança"
+      ]
+    },
+    {
       "id": "2dd79fa626a0",
       "url": "https://arxiv.org/abs/2606.24597",
       "source": "Hacker News: Front Page",
@@ -484,62 +536,8 @@
         "logging",
         "produção"
       ]
-    },
-    {
-      "id": "b5f6aab903c2",
-      "url": "https://dev.to/brennhill/after-an-agent-deleted-a-production-database-i-mapped-what-actually-stops-these-failures-5bfl",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 15:02:21 +0000",
-      "fetched_at": "2026-06-23T15:15:47.999308+00:00",
-      "title": "Agentes de IA em Produção: Mapeando Falhas Críticas e Riscos",
-      "summary": "Artigo essencial sobre os riscos reais de deploying agentes de IA em produção, analisando casos onde modelos deletaram bancos de dados e arquivos críticos. Desenvolvedores precisam entender os limites atuais dessas ferramentas antes de integrá-las em sistemas que afetam dados sensíveis.",
-      "category": "Ferramentas",
-      "relevance_score": 9,
-      "tags": [
-        "agentes-ia",
-        "segurança",
-        "produção",
-        "ai-risks",
-        "confiabilidade"
-      ]
-    },
-    {
-      "id": "d9f15899c626",
-      "url": "https://dev.to/brennhill/build-time-is-where-agent-security-is-won-or-lost-5944",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 15:02:19 +0000",
-      "fetched_at": "2026-06-23T15:15:49.992196+00:00",
-      "title": "Segurança de agentes IA: controles em tempo de build são críticos",
-      "summary": "Um agente de IA deletou um banco de produção em 2025 porque tinha acesso a credenciais perigosas. O artigo mostra que a verdadeira segurança de agentes não vem de prompts ou guardrails, mas de decisões de arquitetura tomadas antes da execução: ferramentas disponíveis, credenciais, rotas de rede e listas de negação.",
-      "category": "Ferramentas",
-      "relevance_score": 9,
-      "tags": [
-        "segurança",
-        "agentes-IA",
-        "arquitetura",
-        "controle-acesso",
-        "produção"
-      ]
-    },
-    {
-      "id": "3caeb61da082",
-      "url": "https://status.claude.com/incidents/jbhf20wjmzrf",
-      "source": "Hacker News: Front Page",
-      "published": "Tue, 23 Jun 2026 14:19:47 +0000",
-      "fetched_at": "2026-06-23T14:38:34.981950+00:00",
-      "title": "Claude apresenta taxa elevada de erros em múltiplos modelos",
-      "summary": "A Anthropic reportou um incidente com aumento significativo na taxa de erros do Claude afetando múltiplos modelos. Desenvolvedores que utilizam a API Claude para seus projetos podem ter enfrentado degradação nos serviços e precisam considerar alternativas ou aguardar a resolução do problema.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "Claude",
-        "API",
-        "Incident",
-        "Confiabilidade",
-        "Anthropic"
-      ]
     }
   ],
-  "last_updated": "2026-06-24T04:08:30.346488+00:00",
+  "last_updated": "2026-06-24T07:36:18.505877+00:00",
   "total": 30
 }
