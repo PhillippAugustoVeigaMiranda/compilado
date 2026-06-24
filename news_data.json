@@ -1,6 +1,78 @@
 {
   "articles": [
     {
+      "id": "2abe3ea2e2b6",
+      "url": "https://dev.to/geminate_solutions_9b6035/how-to-take-a-lovable-app-to-production-the-senior-engineers-checklist-5cfn",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 10:49:26 +0000",
+      "fetched_at": "2026-06-24T10:57:24.760509+00:00",
+      "title": "Checklist de segurança para apps gerados com IA em produção",
+      "summary": "Guia prático com 9 correções essenciais para levar aplicações criadas com ferramentas de IA generativa (como Lovable) para produção com segurança. Aborda desde gestão de secrets até autenticação real, mostrando o que devs podem fazer sozinhos e o que exige um senior engineer.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "IA generativa",
+        "segurança",
+        "produção",
+        "Lovable",
+        "backend",
+        "autenticação"
+      ]
+    },
+    {
+      "id": "e9e2fed5b714",
+      "url": "https://dev.to/cappybara/which-is-better-agent-traversing-or-querying-memory-49j9",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 10:45:42 +0000",
+      "fetched_at": "2026-06-24T10:57:26.825521+00:00",
+      "title": "Traversal vs Query: Qual estratégia usar para memória de Agentes IA",
+      "summary": "Artigo técnico que compara duas abordagens para agentes IA acessarem memória: traversal (navegação em grafo) versus querying (consulta fuzzy). Relevante para devs que implementam sistemas com agentes IA, mostrando como estruturar memória causal melhora a eficiência e compreensão contextual.",
+      "category": "Tutoriais",
+      "relevance_score": 7,
+      "tags": [
+        "agentes IA",
+        "memória de agentes",
+        "graph traversal",
+        "arquitetura de IA"
+      ]
+    },
+    {
+      "id": "aaab3a820b45",
+      "url": "https://dev.to/merbayerp/everyone-uses-ai-but-no-one-trusts-it-the-paradox-of-the-age-dlg",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 10:45:28 +0000",
+      "fetched_at": "2026-06-24T10:57:28.856640+00:00",
+      "title": "IA Ubíqua, Mas Sem Confiança: O Paradoxo do Desenvolvimento",
+      "summary": "Artigo explora a lacuna de confiança em sistemas de IA em produção, mostrando casos reais onde modelos falharam silenciosamente. Desenvolvedores precisam implementar validação e monitoramento robustos ao integrar IA em suas aplicações.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "confiabilidade",
+        "IA em produção",
+        "debugging",
+        "segurança",
+        "cultura dev"
+      ]
+    },
+    {
+      "id": "7339e5de8ac4",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "source": "The GitHub Blog",
+      "published": "Fri, 19 Jun 2026 16:00:00 +0000",
+      "fetched_at": "2026-06-24T10:57:35.387207+00:00",
+      "title": "GitHub cria agente de análise de dados com Copilot",
+      "summary": "O GitHub desenvolveu o Qubot, um agente interno alimentado por IA que permite consultar dados em linguagem natural. A experiência revela padrões para construir assistentes de IA produtivos que transformam como desenvolvedores interagem com dados complexos.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "GitHub Copilot",
+        "Agentes de IA",
+        "Data Analytics",
+        "LLM",
+        "Desenvolvimento"
+      ]
+    },
+    {
       "id": "ec7b59ab7b67",
       "url": "https://arstechnica.com/gadgets/2026/06/how-to-burst-the-ai-bubble-strike-at-its-roots/",
       "source": "Hacker News: Front Page",
@@ -463,80 +535,8 @@
         "Ferramentas de IA",
         "Desenvolvimento"
       ]
-    },
-    {
-      "id": "21e247aa05f0",
-      "url": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-22T23:59:53+00:00",
-      "fetched_at": "2026-06-23T17:48:21.360621+00:00",
-      "title": "Prompt Injection como Confusão de Papéis em Modelos de IA",
-      "summary": "Pesquisa sobre como modelos de IA confundem instruções do sistema com entrada de usuários, criando vulnerabilidades de segurança. Essencial para desenvolvedores que integram LLMs em produção entenderem riscos e implementar proteções adequadas.",
-      "category": "Ferramentas",
-      "relevance_score": 9,
-      "tags": [
-        "prompt injection",
-        "segurança",
-        "LLM",
-        "vulnerabilidades",
-        "desenvolvimento"
-      ]
-    },
-    {
-      "id": "6904f00e2d59",
-      "url": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "published": "2026-06-22T23:43:51+00:00",
-      "fetched_at": "2026-06-23T17:48:23.128490+00:00",
-      "title": "Executar modelo de inpainting Moebius no navegador com Claude Code",
-      "summary": "Desenvolvedor conseguiu portar o modelo de inpainting Moebius 0.2B para rodar no navegador usando WebGPU, eliminando a necessidade de PyTorch e CUDA. Isso abre possibilidades para desenvolvedores criarem aplicações de IA de processamento de imagem direto no frontend sem dependências pesadas.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "WebGPU",
-        "inpainting",
-        "modelos leves",
-        "browser",
-        "frontend"
-      ]
-    },
-    {
-      "id": "12c6be52b3b1",
-      "url": "https://dev.to/walnutserv/how-to-fetch-youtube-transcripts-for-ai-summarization-and-rag-4137",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 17:35:26 +0000",
-      "fetched_at": "2026-06-23T17:48:31.064883+00:00",
-      "title": "Como extrair transcrições do YouTube para IA e RAG",
-      "summary": "Guia prático para integrar transcrições do YouTube em aplicações de IA, eliminando a necessidade de web scraping frágil. Mostra como implementar resumização de vídeos, RAG semântico e ferramentas de acessibilidade usando APIs REST.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "YouTube API",
-        "RAG",
-        "processamento de vídeo",
-        "IA generativa",
-        "desenvolvimento prático"
-      ]
-    },
-    {
-      "id": "003fdfce3ee6",
-      "url": "https://github.com/ilbertt/bun-sqlgen",
-      "source": "Hacker News: Front Page",
-      "published": "Tue, 23 Jun 2026 14:20:24 +0000",
-      "fetched_at": "2026-06-23T15:15:35.255611+00:00",
-      "title": "Bun-sqlgen: SQL type-safe sem ORM para Bun",
-      "summary": "Nova ferramenta que gera tipos TypeScript automaticamente a partir de queries SQL raw, eliminando a necessidade de ORMs. Oferece segurança de tipos e melhor performance para desenvolvedores que preferem SQL direto com Bun.",
-      "category": "Ferramentas",
-      "relevance_score": 7,
-      "tags": [
-        "Bun",
-        "TypeScript",
-        "SQL",
-        "Type-safety",
-        "Desenvolvimento Backend"
-      ]
     }
   ],
-  "last_updated": "2026-06-24T10:45:09.974169+00:00",
+  "last_updated": "2026-06-24T10:57:35.387239+00:00",
   "total": 30
 }
