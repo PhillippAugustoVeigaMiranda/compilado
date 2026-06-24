@@ -1,6 +1,112 @@
 {
   "articles": [
     {
+      "id": "4da4bc9032a0",
+      "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-21T23:35:47+00:00",
+      "fetched_at": "2026-06-24T18:02:07.175697+00:00",
+      "title": "sqlite-utils 4.0rc1: migrações e transações aninhadas",
+      "summary": "Nova versão da ferramenta Python sqlite-utils traz recursos avançados para manipulação de bancos SQLite. As melhorias em migrações e transações aninhadas facilitam o desenvolvimento de aplicações que dependem de dados locais ou embarcados.",
+      "category": "Releases",
+      "relevance_score": 6,
+      "tags": [
+        "sqlite",
+        "python",
+        "banco-de-dados",
+        "cli"
+      ]
+    },
+    {
+      "id": "6974e81c714c",
+      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
+      "source": "The Pragmatic Engineer",
+      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
+      "fetched_at": "2026-06-24T18:02:08.846722+00:00",
+      "title": "CI/CD com IA: GitOps e entrega progressiva no desenvolvimento moderno",
+      "summary": "Discussão sobre como IA está transformando pipelines de CI/CD, incluindo práticas de GitOps e entrega progressiva. O episódio explora ferramentas como Octopus Deploy e como automação inteligente está mudando o fluxo de trabalho dos desenvolvedores e suas responsabilidades.",
+      "category": "Ferramentas",
+      "relevance_score": 8,
+      "tags": [
+        "CI/CD",
+        "IA",
+        "GitOps",
+        "DevOps",
+        "Automação"
+      ]
+    },
+    {
+      "id": "799eb45228cf",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "source": "The Pragmatic Engineer",
+      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
+      "fetched_at": "2026-06-24T18:02:11.001968+00:00",
+      "title": "Meta reestrutura engenharia focada em IA: impactos no mercado",
+      "summary": "A Meta está realizando mudanças significativas em sua organização de engenharia impulsionadas por estratégia de IA, afetando como a empresa desenvolve ferramentas e contrata talentos. Esses movimentos indicam tendências importantes sobre como empresas tech estão reorganizando equipes de desenvolvimento em torno de projetos de IA.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "Meta",
+        "IA",
+        "mercado de trabalho",
+        "engenharia",
+        "tendências tech"
+      ]
+    },
+    {
+      "id": "cf0445d5c877",
+      "url": "https://dev.to/arya_koste_5845807df94776/choosing-a-vector-database-in-2026-pgvector-vs-pinecone-vs-qdrant-vs-weaviate-vs-milvus-422k",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 17:56:49 +0000",
+      "fetched_at": "2026-06-24T18:02:14.752341+00:00",
+      "title": "Comparativo de Bancos de Dados Vetoriais em 2026",
+      "summary": "Análise técnica detalhada sobre escolha entre pgvector, Pinecone, Qdrant, Weaviate e Milvus para aplicações RAG. O artigo aborda impactos reais em performance, custos de infraestrutura e migrações de banco de dados, ajudando devs brasileiros a tomar decisões informadas sobre qual ferramenta usar em produção.",
+      "category": "Ferramentas",
+      "relevance_score": 9,
+      "tags": [
+        "vector-database",
+        "RAG",
+        "pgvector",
+        "Pinecone",
+        "arquitetura"
+      ]
+    },
+    {
+      "id": "580b668f9897",
+      "url": "https://dev.to/omeridrissi/prongc-a-static-analysis-tool-that-helps-you-detect-c-shared-data-accesses-1eg7",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 17:52:56 +0000",
+      "fetched_at": "2026-06-24T18:02:18.000176+00:00",
+      "title": "prongC: Ferramenta de Análise Estática para Detectar Acessos a Dados Compartilhados em C",
+      "summary": "prongC é uma ferramenta de análise estática que automatiza a detecção de acessos a variáveis compartilhadas entre funções em codebases C, reduzindo a necessidade de revisão manual de código. A ferramenta ajuda desenvolvedores a identificar riscos de concorrência e reordenação segura de chamadas de função sem análise de programa completo.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "análise estática",
+        "C",
+        "ferramentas desenvolvimento",
+        "detecção de bugs",
+        "qualidade de código"
+      ]
+    },
+    {
+      "id": "cd97069d78fa",
+      "url": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
+      "source": "The GitHub Blog",
+      "published": "Mon, 22 Jun 2026 17:20:31 +0000",
+      "fetched_at": "2026-06-24T18:02:19.736481+00:00",
+      "title": "GitHub avança em acessibilidade no ecossistema open source",
+      "summary": "O GitHub compartilha progresso em iniciativas de acessibilidade para tornar o open source mais inclusivo. A notícia é relevante para desenvolvedores que contribuem ou mantêm projetos open source, mostrando como ferramentas estão evoluindo para melhor acessibilidade.",
+      "category": "Ferramentas",
+      "relevance_score": 6,
+      "tags": [
+        "open source",
+        "acessibilidade",
+        "GitHub",
+        "inclusão"
+      ]
+    },
+    {
       "id": "eafad1904fb1",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
       "source": "Hacker News: Front Page",
@@ -429,114 +535,8 @@
         "desenvolvimento de agentes",
         "world models"
       ]
-    },
-    {
-      "id": "3b011618a4b8",
-      "url": "https://github.com/End2End-Diffusion/diffusion-bench",
-      "source": "Hacker News: Front Page",
-      "published": "Wed, 24 Jun 2026 02:12:31 +0000",
-      "fetched_at": "2026-06-24T04:08:15.936580+00:00",
-      "title": "DiffusionBench: Avaliação de Modelos de Difusão Generativos",
-      "summary": "Novo framework de benchmark para avaliar modelos de difusão transformers, permitindo que desenvolvedores comparem performance e qualidade de geradores de imagem. Ferramenta útil para quem trabalha com visão computacional e modelos generativos em produção.",
-      "category": "Ferramentas",
-      "relevance_score": 6,
-      "tags": [
-        "diffusion models",
-        "benchmark",
-        "generative AI",
-        "visão computacional"
-      ]
-    },
-    {
-      "id": "4f9896202d5d",
-      "url": "https://dev.to/davekurian/lucide-10-launches-with-over-1600-icons-and-brand-icons-removed-for-leaner-builds-1p28",
-      "source": "DEV Community",
-      "published": "Wed, 24 Jun 2026 04:04:49 +0000",
-      "fetched_at": "2026-06-24T04:08:21.230559+00:00",
-      "title": "Lucide 1.0: 1.600 ícones SVG, redução de 32% no bundle e remoção de marcas",
-      "summary": "A biblioteca de ícones Lucide lançou versão 1.0 com significativa redução de tamanho de bundle para React, Vue, Svelte e Solid. A remoção de ícones de marcas comerciais elimina riscos legais e padroniza o design system, impactando direto na performance de aplicações web.",
-      "category": "Releases",
-      "relevance_score": 8,
-      "tags": [
-        "bibliotecas",
-        "ícones SVG",
-        "performance",
-        "React",
-        "ferramentas frontend"
-      ]
-    },
-    {
-      "id": "e8aea8dccc44",
-      "url": "https://dev.to/swift-logic-io218/how-i-stopped-overpaying-for-ai-models-and-you-can-too-eha",
-      "source": "DEV Community",
-      "published": "Wed, 24 Jun 2026 04:03:32 +0000",
-      "fetched_at": "2026-06-24T04:08:23.395605+00:00",
-      "title": "Como parar de overpagar por modelos de IA",
-      "summary": "Desenvolvedor solo compartilha sua jornada de redução de custos comparando modelos open source via API versus self-hosting. Essencial para devs indie que querem otimizar o burn rate de infraestrutura de IA.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "custos",
-        "modelos open source",
-        "self-hosting",
-        "APIs",
-        "infraestrutura IA"
-      ]
-    },
-    {
-      "id": "b49cb5b312c7",
-      "url": "https://dev.to/devyjones/stop-guessing-whats-public-automating-attack-surface-discovery-3edg",
-      "source": "DEV Community",
-      "published": "Wed, 24 Jun 2026 04:00:19 +0000",
-      "fetched_at": "2026-06-24T04:08:25.048311+00:00",
-      "title": "Automatizar descoberta de superfície de ataque com ScanSearch",
-      "summary": "Artigo sobre como usar ferramentas de busca na internet para auditar automaticamente servidores esquecidos e expostos da sua infraestrutura. Relevante para devs que precisam melhorar segurança e gerenciamento de ativos sem depender apenas de rastreadores internos.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "segurança",
-        "infraestrutura",
-        "automação",
-        "DevOps",
-        "auditoria"
-      ]
-    },
-    {
-      "id": "0c4f37e3e8bc",
-      "url": "https://dev.to/mridul_nagpal_e33b6be1260/rag-in-production-the-failure-modes-nobody-warns-you-about-62i",
-      "source": "DEV Community",
-      "published": "Wed, 24 Jun 2026 03:55:15 +0000",
-      "fetched_at": "2026-06-24T04:08:28.629661+00:00",
-      "title": "RAG em produção: modos de falha que ninguém avisa",
-      "summary": "Artigo analisa os principais problemas enfrentados ao colocar sistemas RAG em produção com dados reais, focando em falhas de retrieval que afetam a qualidade das respostas. Essencial para devs que implementam IA generativa em aplicações empresariais.",
-      "category": "Tutoriais",
-      "relevance_score": 9,
-      "tags": [
-        "RAG",
-        "LLM",
-        "vector-database",
-        "produção",
-        "best-practices"
-      ]
-    },
-    {
-      "id": "41e4c4008a87",
-      "url": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/",
-      "source": "The GitHub Blog",
-      "published": "Tue, 23 Jun 2026 15:48:00 +0000",
-      "fetched_at": "2026-06-24T04:08:30.346455+00:00",
-      "title": "GitHub se une a coalizão para reformar Lei de IA da Califórnia",
-      "summary": "GitHub está defendendo mudanças na Lei de Transparência de IA da Califórnia para proteger projetos open source e evitar conflitos com licenças. Essa ação pode impactar como desenvolvedores brasileiros distribuem e utilizam código aberto com IA.",
-      "category": "Mercado",
-      "relevance_score": 7,
-      "tags": [
-        "open source",
-        "regulamentação IA",
-        "GitHub",
-        "licenças de software"
-      ]
     }
   ],
-  "last_updated": "2026-06-24T17:50:48.908705+00:00",
+  "last_updated": "2026-06-24T18:02:19.736513+00:00",
   "total": 30
 }
