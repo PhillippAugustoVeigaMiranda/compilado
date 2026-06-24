@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "ec7b59ab7b67",
+      "url": "https://arstechnica.com/gadgets/2026/06/how-to-burst-the-ai-bubble-strike-at-its-roots/",
+      "source": "Hacker News: Front Page",
+      "published": "Wed, 24 Jun 2026 09:57:10 +0000",
+      "fetched_at": "2026-06-24T10:44:56.308914+00:00",
+      "title": "Como estourar a bolha de IA: ataque às raízes",
+      "summary": "Artigo crítico que analisa os fundamentos da atual hype de IA, questionando a sustentabilidade do boom tecnológico. Relevante para devs entenderem o contexto do mercado e ciclos de adoção de ferramentas de IA.",
+      "category": "Mercado",
+      "relevance_score": 6,
+      "tags": [
+        "bubble",
+        "mercado",
+        "tendências",
+        "sustentabilidade",
+        "crítica"
+      ]
+    },
+    {
+      "id": "8c794d854b5f",
+      "url": "https://artificialanalysis.ai/models/grok-build-0-1-06-16",
+      "source": "Hacker News: Front Page",
+      "published": "Wed, 24 Jun 2026 08:41:07 +0000",
+      "fetched_at": "2026-06-24T10:44:58.147851+00:00",
+      "title": "Grok Build 0.1: análise de inteligência, performance e preço",
+      "summary": "Novo modelo Grok Build 0.1 é analisado em termos de capacidades, desempenho e custo. Relevante para devs que avaliam modelos de IA para integrar em suas aplicações e entender o cenário competitivo de LLMs disponíveis.",
+      "category": "Modelos",
+      "relevance_score": 7,
+      "tags": [
+        "Grok",
+        "LLM",
+        "análise de modelos",
+        "performance",
+        "preço"
+      ]
+    },
+    {
       "id": "f7ae0ced5823",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
       "source": "The Pragmatic Engineer",
@@ -499,45 +535,8 @@
         "Type-safety",
         "Desenvolvimento Backend"
       ]
-    },
-    {
-      "id": "4d4d3d4ecdcf",
-      "url": "https://dev.to/prithvi_bharadwaj_d1c875e/running-claude-code-and-codex-together-instead-of-choosing-one-3pa8",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 15:04:40 +0000",
-      "fetched_at": "2026-06-23T15:15:40.664048+00:00",
-      "title": "Claude e Codex em Pipeline: Por Que Usar Juntos em Vez de Escolher",
-      "summary": "Artigo analisa como combinar Claude Code e Codex em um único pipeline em vez de escolher entre eles, explorando diferenças de design, custos de tokens e implementação prática com MCP. Relevante para devs que buscam otimizar ferramentas de IA na codificação.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "Claude",
-        "Codex",
-        "IA generativa",
-        "pipeline",
-        "MCP",
-        "otimização de custos"
-      ]
-    },
-    {
-      "id": "4f29b16e525b",
-      "url": "https://dev.to/brennhill/when-your-agent-does-something-bad-can-you-tell-which-agent-did-it-37a2",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 15:02:22 +0000",
-      "fetched_at": "2026-06-23T15:15:46.037796+00:00",
-      "title": "Como identificar qual agente de IA causou um problema em produção",
-      "summary": "O artigo aborda um desafio crítico para devs: rastrear qual agente de IA foi responsável por uma ação indesejada em produção. A solução passa por melhorar a identificação de agentes nos logs, não apenas aumentar volume de logging. Essencial para devs que implementam sistemas com múltiplos agentes de IA.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "agentes de IA",
-        "debugging",
-        "observabilidade",
-        "logging",
-        "produção"
-      ]
     }
   ],
-  "last_updated": "2026-06-24T07:36:18.505877+00:00",
+  "last_updated": "2026-06-24T10:45:09.974169+00:00",
   "total": 30
 }
