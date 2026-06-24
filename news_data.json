@@ -1,6 +1,115 @@
 {
   "articles": [
     {
+      "id": "eafad1904fb1",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "source": "Hacker News: Front Page",
+      "published": "Wed, 24 Jun 2026 17:21:34 +0000",
+      "fetched_at": "2026-06-24T17:50:32.074530+00:00",
+      "title": "Gemini 3.5 Flash agora com capacidade de usar computador",
+      "summary": "O Google lançou suporte a 'computer use' no Gemini 3.5 Flash, permitindo que a IA interaja diretamente com interfaces de software. Isso abre possibilidades para automação de tarefas e desenvolvimento de agentes de IA mais autônomos, impactando como devs criarão ferramentas de automação e integração.",
+      "category": "Releases",
+      "relevance_score": 8,
+      "tags": [
+        "Gemini",
+        "computer-use",
+        "IA generativa",
+        "automação",
+        "agentes"
+      ]
+    },
+    {
+      "id": "bd62d039462d",
+      "url": "https://www.browserbase.com/blog/why-captchas-are-getting-harder",
+      "source": "Hacker News: Front Page",
+      "published": "Wed, 24 Jun 2026 16:02:32 +0000",
+      "fetched_at": "2026-06-24T17:50:34.752220+00:00",
+      "title": "CAPTCHAs falharam por 20 anos: IA torna verificações obsoletas",
+      "summary": "O artigo discute como CAPTCHAs tradicionais se tornaram ineficazes contra modelos de IA modernos, impactando a segurança de aplicações web. Desenvolvedores precisam repensar estratégias de autenticação e proteção contra bots, buscando alternativas mais robustas em um cenário onde IA quebra mecanismos de verificação clássicos.",
+      "category": "Mercado",
+      "relevance_score": 7,
+      "tags": [
+        "segurança",
+        "autenticação",
+        "IA",
+        "bots",
+        "desenvolvimento web"
+      ]
+    },
+    {
+      "id": "8abb6c44f2b7",
+      "url": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "published": "2026-06-23T18:58:54+00:00",
+      "fetched_at": "2026-06-24T17:50:38.239155+00:00",
+      "title": "OPFS + Pyodide: Executar Python no navegador com acesso ao sistema",
+      "summary": "Ferramenta que combina Pyodide (Python em WebAssembly) com OPFS (Origin Private File System) para executar aplicações Python inteiramente no navegador com acesso persistente a arquivos locais. Abre possibilidades para devs criarem aplicações full-stack sem servidor backend tradicional.",
+      "category": "Ferramentas",
+      "relevance_score": 7,
+      "tags": [
+        "pyodide",
+        "webassembly",
+        "python",
+        "browser",
+        "opfs",
+        "datasette"
+      ]
+    },
+    {
+      "id": "05525285f6f3",
+      "url": "https://newsletter.pragmaticengineer.com/p/tech-interviews-with-neetcode",
+      "source": "The Pragmatic Engineer",
+      "published": "Wed, 24 Jun 2026 17:32:34 GMT",
+      "fetched_at": "2026-06-24T17:50:43.012995+00:00",
+      "title": "Como IA está mudando carreiras: insights de ex-Googler",
+      "summary": "NeetCode discute sua trajetória em grandes tech companies e o impacto da IA no desenvolvimento de software. O artigo explora por que expertise profunda continua essencial mesmo com ferramentas de IA transformando o mercado.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "carreira",
+        "IA generativa",
+        "big tech",
+        "mercado de trabalho"
+      ]
+    },
+    {
+      "id": "0ec4b082ce25",
+      "url": "https://dev.to/greymothjp/i-built-128-things-with-ai-127-are-dead-so-i-started-shipping-into-real-oss-instead-1ce0",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 17:43:09 +0000",
+      "fetched_at": "2026-06-24T17:50:45.229834+00:00",
+      "title": "Construir com IA não é suficiente: lições sobre distribuição e impacto real",
+      "summary": "Um desenvolvedor compartilha que criou 128 projetos com IA em 4 meses, mas 127 fracassaram por falta de estratégia de distribuição. A solução foi contribuir para ferramentas OSS existentes, mostrando que para devs brasileiros, colaborar em projetos consolidados é mais efetivo que criar algo novo do zero.",
+      "category": "Mercado",
+      "relevance_score": 8,
+      "tags": [
+        "IA generativa",
+        "produtividade",
+        "open source",
+        "distribuição de software",
+        "carreira dev"
+      ]
+    },
+    {
+      "id": "966160e227b3",
+      "url": "https://dev.to/nur_ahmad_data/shipping-a-local-llm-api-with-fastapi-and-ollama-386l",
+      "source": "DEV Community",
+      "published": "Wed, 24 Jun 2026 17:42:44 +0000",
+      "fetched_at": "2026-06-24T17:50:48.908671+00:00",
+      "title": "Deploy de LLM Local com FastAPI e Ollama: Do Modelo à API",
+      "summary": "Tutorial prático sobre como transformar um modelo de linguagem local (3B de parâmetros) em uma API de produção usando FastAPI e Ollama, sem custos de infraestrutura. Mostra como developers podem criar soluções com IA rodando localmente, sem depender de APIs cloud caras.",
+      "category": "Tutoriais",
+      "relevance_score": 8,
+      "tags": [
+        "LLM local",
+        "FastAPI",
+        "Ollama",
+        "Text-to-SQL",
+        "API production",
+        "IA acessível"
+      ]
+    },
+    {
       "id": "dfcdd89cb10c",
       "url": "https://dev.to/steveemmerich/static-api-keys-are-the-wrong-primitive-for-agent-authentication-3del",
       "source": "DEV Community",
@@ -426,117 +535,8 @@
         "GitHub",
         "licenças de software"
       ]
-    },
-    {
-      "id": "123cccb30394",
-      "url": "https://github.com/y-times-y/y",
-      "source": "Hacker News: Front Page",
-      "published": "Wed, 24 Jun 2026 00:15:31 +0000",
-      "fetched_at": "2026-06-24T02:46:31.014600+00:00",
-      "title": "Y: Agente de Código Inteligente em Desktop com Electron",
-      "summary": "Nova ferramenta de desktop que combina IA com um ambiente de codificação adaptável, permitindo que desenvolvedores automatizem tarefas de programação através de um agente inteligente. Representa uma evolução nas ferramentas de desenvolvimento assistidas por IA, oferecendo alternativa local aos serviços web tradicionais.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "coding-agent",
-        "desktop-app",
-        "automação",
-        "desenvolvimento-local",
-        "IA-generativa"
-      ]
-    },
-    {
-      "id": "db7769f8d3f8",
-      "url": "https://dev.to/annalilith/why-every-developer-should-learn-browser-automation-in-2026-238k",
-      "source": "DEV Community",
-      "published": "Wed, 24 Jun 2026 02:37:24 +0000",
-      "fetched_at": "2026-06-24T02:46:38.602330+00:00",
-      "title": "Por que aprender automação de browsers em 2026",
-      "summary": "A automação de browsers é uma habilidade essencial que desenvolvedores brasileiros precisam dominar para aumentar produtividade e competitividade. O artigo explora técnicas práticas com Selenium e outras ferramentas que transformam tarefas repetitivas em processos automatizados, impactando diretamente o mercado de trabalho de devs.",
-      "category": "Tutoriais",
-      "relevance_score": 7,
-      "tags": [
-        "automação",
-        "selenium",
-        "produtividade",
-        "browser-automation",
-        "skills"
-      ]
-    },
-    {
-      "id": "8f12a5b65fb5",
-      "url": "https://dev.to/annalilith/building-an-ai-powered-storefront-with-python-a-complete-guide-569c",
-      "source": "DEV Community",
-      "published": "Wed, 24 Jun 2026 02:37:18 +0000",
-      "fetched_at": "2026-06-24T02:46:44.018568+00:00",
-      "title": "Construindo uma Loja Digital com IA em Python: Guia Completo",
-      "summary": "Artigo prático mostrando como usar Python, Ollama e APIs para criar uma loja digital autônoma com geração de conteúdo por IA. Demonstra ferramentas open-source que desenvolvedores brasileiros podem usar para monetizar projetos com tecnologias modernas e custo reduzido.",
-      "category": "Tutoriais",
-      "relevance_score": 8,
-      "tags": [
-        "Python",
-        "Ollama",
-        "IA Local",
-        "Development",
-        "Ferramentas Open-Source"
-      ]
-    },
-    {
-      "id": "6974e81c714c",
-      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
-      "source": "The Pragmatic Engineer",
-      "published": "Wed, 17 Jun 2026 16:41:01 GMT",
-      "fetched_at": "2026-06-23T21:47:03.087733+00:00",
-      "title": "CI/CD moderno: Kubernetes, GitOps e IA transformando delivery",
-      "summary": "Discussão sobre como IA está sendo integrada em pipelines CI/CD, junto com práticas modernas como GitOps e progressive delivery. Essencial para devs que buscam otimizar seus fluxos de entrega e acompanhar tendências de automação.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "CI/CD",
-        "IA em DevOps",
-        "Kubernetes",
-        "GitOps",
-        "Progressive Delivery"
-      ]
-    },
-    {
-      "id": "799eb45228cf",
-      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-      "source": "The Pragmatic Engineer",
-      "published": "Tue, 16 Jun 2026 16:27:43 GMT",
-      "fetched_at": "2026-06-23T21:47:04.997534+00:00",
-      "title": "Por que Meta está destruindo sua organização de engenharia?",
-      "summary": "A liderança da Meta está fazendo demissões em massa focadas em IA em sua engenharia, impactando o mercado de trabalho de desenvolvedores. O artigo analisa como gigantes tech estão reorganizando suas equipes em torno de IA, refletindo tendências do mercado que afetam carreiras e oportunidades para devs.",
-      "category": "Mercado",
-      "relevance_score": 8,
-      "tags": [
-        "Meta",
-        "IA",
-        "mercado de trabalho",
-        "reorganização tech",
-        "carreira dev"
-      ]
-    },
-    {
-      "id": "33279c80f279",
-      "url": "https://dev.to/docker/supercharge-your-ai-agent-with-terraform-introducing-the-terraform-ops-kit-for-docker-sandbox-31di",
-      "source": "DEV Community",
-      "published": "Tue, 23 Jun 2026 21:40:10 +0000",
-      "fetched_at": "2026-06-23T21:47:06.822263+00:00",
-      "title": "Terraform Ops Kit: Agentes IA podem planejar infraestrutura na cloud",
-      "summary": "Um novo kit permite que agentes IA (Claude, Gemini, GitHub Copilot) planejem, validem e estimem custos de infraestrutura real usando Terraform. Isso expande significativamente as capacidades de automação de DevOps para desenvolvedores brasileiros que trabalham com IaC e cloud.",
-      "category": "Ferramentas",
-      "relevance_score": 8,
-      "tags": [
-        "Terraform",
-        "Agentes IA",
-        "Infrastructure-as-Code",
-        "DevOps",
-        "Docker",
-        "Cloud"
-      ]
     }
   ],
-  "last_updated": "2026-06-24T14:45:56.503165+00:00",
+  "last_updated": "2026-06-24T17:50:48.908705+00:00",
   "total": 30
 }
